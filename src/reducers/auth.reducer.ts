@@ -4,6 +4,10 @@ import {
   SIGN_IN_SUCCESS,
   SIGN_UP,
   SIGN_UP_SUCCESS,
+  RESET_PASSWORD,
+  RESET_PASSWORD_SUCCESS,
+  RESTORE_PASSWORD,
+  RESTORE_PASSWORD_SUCCESS,
 } from '../actions';
 import { AuthState } from './type';
 
@@ -37,6 +41,27 @@ export const auth = (state: AuthState = initialState,
         isAuthenticating: true,
       };
     case SIGN_UP_SUCCESS:
+      return {
+        ...state,
+        isAuthenticating: false,
+        user: action.user,
+      };
+    case RESET_PASSWORD:
+      return {
+        ...state,
+        isAuthenticating: true,
+      };
+    case RESET_PASSWORD_SUCCESS:
+      return {
+        ...state,
+        isAuthenticating: false,
+      };
+    case RESTORE_PASSWORD:
+      return {
+        ...state,
+        isAuthenticating: true,
+      };
+    case RESTORE_PASSWORD_SUCCESS:
       return {
         ...state,
         isAuthenticating: false,

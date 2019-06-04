@@ -37,3 +37,8 @@ export {
   SocialAuth,
   SocialAuthProps,
 } from './socialAuth';
+export {
+  RestorePasswordFormData,
+  RestorePasswordFormProps,
+  RestorePasswordForm,
+} from './restorePassword';

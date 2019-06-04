@@ -1,26 +1,22 @@
-import {
-  SignInFormData,
-  SignUpFormData,
-  ForgotPasswordFormData,
-} from '../containers/auth';
-import {
-  API_VERBS,
-  ApiService,
-} from '../core/http/api.service';
+import { ForgotPasswordFormData, SignInFormData, SignUpFormData } from '../containers/auth';
+import { API_VERBS, ApiService } from '../core/http/api.service';
 import { AuthStorageService } from '@src/core/authStorage/authStorage.service';
 import { User } from '@src/core/model';
+import { RestorePasswordFormData } from '@src/components/auth';
 
 interface AuthApiEndpoints {
   signIn: string;
   signUp: string;
   resetPassword: string;
+  restorePassword: string;
   currentUser: string;
 }
 
 const endpoints: AuthApiEndpoints = {
   signIn: '/auth/login',
   signUp: '/auth/sign-up',
-  resetPassword: '/auth/reset-pass',
+  resetPassword: '/auth/request-pass',
+  restorePassword: '/auth/restore-pass',
   currentUser: '/users/current',
 };
 
@@ -60,10 +56,31 @@ export class AuthApi {
       .then(this.processToken);
   }
 
-  public resetPassword(formData: ForgotPasswordFormData): Promise<any> {
-    return new Promise((resolve: any) => {
-      setTimeout(() => resolve({ message: 'reset' }), 5000);
-    });
+  public resetPassword(formData: ForgotPasswordFormData): Promise<{ token: string }> {
+    return ApiService.fetchApi(
+      endpoints.resetPassword,
+      { email: formData.email },
+      API_VERBS.POST,
+      {},
+      false,
+    );
+  }
+
+  public restorePassword(formData: RestorePasswordFormData, token: string): Promise<AuthApiResponse> {
+    const payload = {
+      email: formData.email,
+      newPassword: formData.password,
+      confirmPassword: formData.confirmPassword,
+      token: token,
+    };
+    return ApiService.fetchApi(
+      endpoints.restorePassword,
+      payload,
+      API_VERBS.POST,
+      {},
+      false,
+    )
+      .then(this.processToken);
   }
 
   private processToken = (response: { token: string }): Promise<AuthApiResponse> => {

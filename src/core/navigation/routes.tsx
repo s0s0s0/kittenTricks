@@ -97,6 +97,7 @@ import {
   SignUpContainer,
   ForgotPasswordContainer as ForgotPassword,
   AuthLoadingContainer,
+  RestorePasswordContainer,
 } from '@src/containers/auth';
 import {
   MenuNavigatorParams,
@@ -482,6 +483,7 @@ const ApplicationAuthNavigator: ReactNavigationContainer = createStackNavigator(
   ['Sign In']: SignInContainer,
   ['Sign Up']: SignUpContainer,
   ['Forgot Password']: ForgotPassword,
+  ['Restore Password']: RestorePasswordContainer,
 }, {
   headerMode: 'none',
 });

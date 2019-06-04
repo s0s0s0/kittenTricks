@@ -9,8 +9,10 @@ import {
   Button,
   Text,
 } from '@kitten/ui';
-import { ForgotPasswordForm } from '@src/components/auth';
-import { ForgotPasswordFormData } from '../type';
+import {
+  RestorePasswordFormData,
+  RestorePasswordForm,
+} from '@src/components/auth';
 import {
   Loading,
   LoadingComponentProps,
@@ -20,27 +22,27 @@ import {
 
 interface ComponentProps {
   isAuthenticating: boolean;
-  onResetPress: (formData: ForgotPasswordFormData) => void;
+  onRestorePasswordPress: (formData: RestorePasswordFormData) => void;
 }
 
-export type ForgotPasswordProps = ThemedComponentProps & ComponentProps;
+export type RestorePasswordProps = ThemedComponentProps & ComponentProps;
 
 interface State {
-  formData: ForgotPasswordFormData | undefined;
+  formData: RestorePasswordFormData | undefined;
 }
 
-class ForgotPasswordComponent extends React.Component<ForgotPasswordProps, State> {
+class RestorePasswordComponent extends React.Component<RestorePasswordProps> {
 
   public state: State = {
     formData: undefined,
   };
 
-  private onFormDataChange = (formData: ForgotPasswordFormData) => {
-    this.setState({ formData });
+  private onForgotPasswordButtonPress = () => {
+    this.props.onRestorePasswordPress(this.state.formData);
   };
 
-  private onResetPasswordButtonPress = () => {
-    this.props.onResetPress(this.state.formData);
+  private onFormDataChange = (formData: RestorePasswordFormData) => {
+    this.setState({ formData });
   };
 
   private getPointerEvents = (): 'none' | 'auto' => {
@@ -61,19 +63,20 @@ class ForgotPasswordComponent extends React.Component<ForgotPasswordProps, State
     const { themedStyle } = this.props;
 
     return (
-      <View style={themedStyle.contentContainer}>
-        <ForgotPasswordForm
+      <React.Fragment>
+        <RestorePasswordForm
           style={themedStyle.formContainer}
           onDataChange={this.onFormDataChange}
         />
         <Button
+          style={themedStyle.restoreButton}
           textStyle={textStyle.button}
           size='giant'
           disabled={!this.state.formData}
-          onPress={this.onResetPasswordButtonPress}>
-          RESET PASSWORD
+          onPress={this.onForgotPasswordButtonPress}>
+          RESTORE PASSWORD
         </Button>
-      </View>
+      </React.Fragment>
     );
   };
 
@@ -85,16 +88,17 @@ class ForgotPasswordComponent extends React.Component<ForgotPasswordProps, State
       <ScrollableAvoidKeyboard
         pointerEvents={containerPointerEvents}
         style={themedStyle.container}>
+        {this.renderLoading()}
         <View style={themedStyle.headerContainer}>
           <Text
             style={themedStyle.helloLabel}
             category='h1'>
-            Forgot Password
+            Restore Password
           </Text>
           <Text
-            style={themedStyle.helloSubLabel}
+            style={themedStyle.restoreLabel}
             category='s1'>
-            Enter your email to reset password
+            Enter data to restore your password
           </Text>
         </View>
         {this.renderLoading()}
@@ -104,34 +108,36 @@ class ForgotPasswordComponent extends React.Component<ForgotPasswordProps, State
   }
 }
 
-export const ForgotPassword = withStyles(ForgotPasswordComponent, (theme: ThemeType) => ({
-  container: {
-    flex: 1,
-    backgroundColor: theme['background-color-default-1'],
-  },
-  formContainer: {
-    flex: 1,
-    justifyContent: 'space-between',
-    marginTop: 24,
-  },
-  headerContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    minHeight: 216,
-    backgroundColor: theme['color-primary-default'],
-  },
-  helloLabel: {
-    color: 'white',
-    ...textStyle.headline,
-  },
-  helloSubLabel: {
-    marginTop: 16,
-    color: 'white',
-    ...textStyle.subtitle,
-  },
-  contentContainer: {
-    flex: 1,
-    paddingHorizontal: 16,
-    paddingVertical: 24,
-  },
-}));
+export const RestorePassword = withStyles(RestorePasswordComponent, (theme: ThemeType) => {
+  return ({
+    container: {
+      flex: 1,
+      backgroundColor: theme['background-color-default-1'],
+    },
+    headerContainer: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      minHeight: 216,
+      backgroundColor: theme['color-primary-default'],
+    },
+    formContainer: {
+      flex: 1,
+      marginTop: 32,
+      paddingHorizontal: 16,
+    },
+    helloLabel: {
+      color: 'white',
+      ...textStyle.headline,
+    },
+    restoreLabel: {
+      marginTop: 16,
+      color: 'white',
+      ...textStyle.subtitle,
+    },
+    restoreButton: {
+      marginHorizontal: 16,
+      marginBottom: 24,
+    },
+  });
+});
+
