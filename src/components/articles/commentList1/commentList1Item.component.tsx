@@ -19,7 +19,7 @@ import {
   ActivityAuthoring,
   textStyle,
 } from '@src/components/common';
-import { MoreIcon } from '@src/assets/icons';
+import { MoreHorizontalIconFill } from '@src/assets/icons';
 import { Comment as CommentModel } from '@src/core/model';
 import { CommentList2 } from '../commentList2';
 import { ArticleActivityBar } from '../articleActivityBar.component';
@@ -72,7 +72,7 @@ class CommentList1ItemComponent extends React.Component<CommentList1ItemProps, S
   private renderMoreIcon = (): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return MoreIcon(themedStyle.moreIcon);
+    return MoreHorizontalIconFill(themedStyle.moreIcon);
   };
 
   private renderReplyList = (): RepliesElement => {
@@ -150,7 +150,7 @@ export const CommentList1Item = withStyles(CommentList1ItemComponent, (theme: Th
   moreIcon: {
     width: 18,
     height: 18,
-    tintColor: theme['text-color-hint'],
+    tintColor: theme['text-hint-color'],
   },
   repliesList: {
     alignSelf: 'stretch',

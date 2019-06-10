@@ -15,7 +15,7 @@ import {
   Chips,
   textStyle,
 } from '@src/components/common';
-import { ClockIcon } from '@src/assets/icons';
+import { ClockIconOutline } from '@src/assets/icons';
 
 interface ComponentProps {
   hint?: string;
@@ -30,7 +30,7 @@ class StyxComponent extends React.Component<StyxProps> {
 
   static defaultProps: Partial<StyxProps> = {
     hint: 'STYX',
-    icon: ClockIcon,
+    icon: ClockIconOutline,
   };
 
   public render(): React.ReactNode {
@@ -47,7 +47,7 @@ class StyxComponent extends React.Component<StyxProps> {
         </Text>
         <Chips
           style={themedStyle.chips}
-          icon={ClockIcon}>
+          icon={ClockIconOutline}>
           <Text
             style={themedStyle.chipsText}
             category='c2'>
@@ -65,7 +65,7 @@ export const Styx = withStyles(StyxComponent, (theme: ThemeType) => ({
     justifyContent: 'space-between',
     alignItems: 'center',
     borderRadius: 8,
-    backgroundColor: theme['background-color-default-2'],
+    backgroundColor: theme['background-basic-color-2'],
   },
   hintLabel: {
     marginHorizontal: 16,
@@ -75,7 +75,10 @@ export const Styx = withStyles(StyxComponent, (theme: ThemeType) => ({
   chips: {
     width: 80,
   },
-  chipsText: textStyle.caption2,
+  chipsText: {
+    color: 'white',
+    ...textStyle.caption2,
+  },
 }));
 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  ImageBackground,
   ScrollView,
   View,
 } from 'react-native';
@@ -19,10 +20,7 @@ import {
   PriceText,
 } from '@src/components/ecommerce';
 import { Apartment } from '@src/core/model';
-import {
-  ImageOverlay,
-  textStyle,
-} from '@src/components/common';
+import { textStyle } from '@src/components/common';
 
 interface ComponentProps {
   apartment: Apartment;
@@ -51,7 +49,7 @@ class RentApartmentComponent extends React.Component<RentApartmentProps> {
 
     return (
       <ScrollView style={themedStyle.container}>
-        <ImageOverlay
+        <ImageBackground
           style={themedStyle.backgroundImage}
           source={apartment.primaryPhoto.imageSource}
         />
@@ -132,7 +130,7 @@ class RentApartmentComponent extends React.Component<RentApartmentProps> {
 
 export const RentApartment = withStyles(RentApartmentComponent, (theme: ThemeType) => ({
   container: {
-    backgroundColor: theme['background-color-default-2'],
+    backgroundColor: theme['background-basic-color-2'],
   },
   backgroundImage: {
     flex: 1,
@@ -142,13 +140,13 @@ export const RentApartment = withStyles(RentApartmentComponent, (theme: ThemeTyp
     marginTop: -80,
     marginHorizontal: 16,
     borderRadius: 12,
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
   detailsContainer: {
     paddingHorizontal: 24,
     paddingVertical: 24,
     borderBottomWidth: 1,
-    borderBottomColor: theme['border-color-default-2'],
+    borderBottomColor: theme['border-basic-color-2'],
   },
   bookContainer: {
     flexDirection: 'row',

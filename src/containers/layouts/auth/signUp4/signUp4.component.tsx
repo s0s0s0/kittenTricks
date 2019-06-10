@@ -18,14 +18,13 @@ import {
 } from '@src/components/auth';
 import { ProfilePhoto } from '@src/components/social';
 import {
-  ScrollableAvoidKeyboard,
   ImageOverlay,
+  ScrollableAvoidKeyboard,
   textStyle,
 } from '@src/components/common';
 import {
-  evaIcons,
   IconSource,
-  PlusIcon,
+  PlusIconFill,
 } from '@src/assets/icons';
 import {
   imageSignUp4Bg,
@@ -54,7 +53,7 @@ class SignUp4Component extends React.Component<SignUp4Props, State> {
   };
 
   private backgroundImage: ImageSource = imageSignUp4Bg;
-  private profileImage: IconSource = evaIcons.personFill;
+  private profileImage: IconSource = require('../../../../assets/icons/eva/person.png');
 
   private onFormDataChange = (formData: SignUpForm2Data) => {
     this.setState({ formData });
@@ -87,7 +86,7 @@ class SignUp4Component extends React.Component<SignUp4Props, State> {
   private renderPhotoButtonIcon = (style: StyleType): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return PlusIcon({ ...style, ...themedStyle.photoButtonIcon });
+    return PlusIconFill({ ...style, ...themedStyle.photoButtonIcon });
   };
 
   private renderPhotoButton = (): React.ReactElement<ButtonProps> => {
@@ -171,8 +170,8 @@ export const SignUp4 = withStyles(SignUp4Component, (theme: ThemeType) => ({
     height: 92,
     borderRadius: 46,
     alignSelf: 'center',
-    backgroundColor: theme['background-color-default-1'],
-    tintColor: theme['text-color-hint'],
+    backgroundColor: theme['background-basic-color-1'],
+    tintColor: theme['text-hint-color'],
   },
   photoButton: {
     width: 32,

@@ -1,6 +1,7 @@
 import React from 'react';
 import { SafeAreaView } from 'react-navigation';
 import {
+  ThemeProvider,
   ThemedComponentProps,
   ThemeType,
   withStyles,
@@ -10,10 +11,11 @@ import {
   BottomNavigationTab,
 } from '@kitten/ui';
 import {
-  ColorPaletteIcon,
-  LayoutIcon,
+  ColorPaletteIconOutline,
+  LayoutIconOutline,
   StarIconOutline,
 } from '@src/assets/icons';
+import { themes } from '@src/core/themes';
 
 interface ComponentProps {
   selectedIndex: number;
@@ -33,23 +35,25 @@ class MenuComponent extends React.Component<Props> {
 
     return (
       <SafeAreaView style={themedStyle.safeAreaContainer}>
-        <BottomNavigation
-          appearance='noIndicator'
-          selectedIndex={selectedIndex}
-          onSelect={this.onTabSelect}>
-          <BottomNavigationTab
-            title='Layouts'
-            icon={LayoutIcon}
-          />
-          <BottomNavigationTab
-            title='Components'
-            icon={StarIconOutline}
-          />
-          <BottomNavigationTab
-            title='Themes'
-            icon={ColorPaletteIcon}
-          />
-        </BottomNavigation>
+        <ThemeProvider theme={{...this.props.theme, ...themes['App Theme']}}>
+          <BottomNavigation
+            appearance='noIndicator'
+            selectedIndex={selectedIndex}
+            onSelect={this.onTabSelect}>
+            <BottomNavigationTab
+              title='Layouts'
+              icon={LayoutIconOutline}
+            />
+            <BottomNavigationTab
+              title='Components'
+              icon={StarIconOutline}
+            />
+            <BottomNavigationTab
+              title='Themes'
+              icon={ColorPaletteIconOutline}
+            />
+          </BottomNavigation>
+        </ThemeProvider>
       </SafeAreaView>
     );
   }
@@ -57,6 +61,6 @@ class MenuComponent extends React.Component<Props> {
 
 export const Menu = withStyles(MenuComponent, (theme: ThemeType) => ({
   safeAreaContainer: {
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
 }));

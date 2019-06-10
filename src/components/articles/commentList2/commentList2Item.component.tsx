@@ -18,7 +18,7 @@ import {
   ListItemProps,
   Text,
 } from '@kitten/ui';
-import { MoreIcon } from '@src/assets/icons';
+import { MoreHorizontalIconFill } from '@src/assets/icons';
 import { Comment } from '@src/core/model';
 
 interface ComponentProps {
@@ -37,7 +37,7 @@ class CommentList2ItemComponent extends React.Component<CommentList2ItemProps> {
   private renderMoreIcon = (): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return MoreIcon(themedStyle.moreIcon);
+    return MoreHorizontalIconFill(themedStyle.moreIcon);
   };
 
   public render(): React.ReactNode {
@@ -75,7 +75,7 @@ export const CommentList2Item = withStyles(CommentList2ItemComponent, (theme: Th
     flexDirection: 'column',
     alignItems: 'flex-start',
     borderRadius: 10,
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
   authorContainer: {
     flexDirection: 'row',
@@ -87,7 +87,7 @@ export const CommentList2Item = withStyles(CommentList2ItemComponent, (theme: Th
   moreIcon: {
     width: 18,
     height: 18,
-    tintColor: theme['text-color-hint'],
+    tintColor: theme['text-hint-color'],
   },
   commentLabel: {
     marginTop: 14,

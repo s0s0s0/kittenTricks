@@ -4,6 +4,7 @@ import {
   TouchableOpacity,
   TouchableOpacityProps,
   ImageProps,
+  ImageBackground,
 } from 'react-native';
 import {
   ThemedComponentProps,
@@ -15,14 +16,11 @@ import {
   Text,
 } from '@kitten/ui';
 import {
-  ClockIcon,
-  FlashIcon,
+  ClockIconOutline,
+  FlashIconOutline,
 } from '@src/assets/icons';
 import { Exercise } from '@src/core/model';
-import {
-  ImageOverlay,
-  textStyle,
-} from '@src/components/common';
+import { textStyle } from '@src/components/common';
 
 interface ComponentProps {
   training: Exercise;
@@ -51,13 +49,13 @@ class TrainingCard3Component extends React.Component<TrainingCardProps> {
   private renderTimingIcon = (): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return ClockIcon(themedStyle.timingIcon);
+    return ClockIconOutline(themedStyle.timingIcon);
   };
 
   private renderEnergyIcon = (): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return FlashIcon(themedStyle.energyIcon);
+    return FlashIconOutline(themedStyle.energyIcon);
   };
 
   public render(): React.ReactNode {
@@ -68,7 +66,7 @@ class TrainingCard3Component extends React.Component<TrainingCardProps> {
         activeOpacity={0.95}
         onPress={this.onDetails}
         style={style}>
-        <ImageOverlay
+        <ImageBackground
           style={themedStyle.image}
           source={training.image.imageSource}
         />
@@ -120,7 +118,7 @@ export const TrainingCard3 = withStyles(TrainingCard3Component, (theme: ThemeTyp
   controlButtonText: {
     fontSize: 13,
     fontWeight: 'normal',
-    color: theme['text-color-hint'],
+    color: theme['text-hint-color'],
     ...textStyle.button,
   },
   timingButton: {

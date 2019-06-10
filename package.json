@@ -8,21 +8,21 @@
     "start": "expo start",
     "start:dev": "npm run env:set -- dev && npm start -- -c",
     "start:prod": "npm run env:set -- prod && npm start -- -c",
-    "start:ci": "npm run start:prod",
-    "env:set": "sh ./scripts/environment/set-env.sh",
+    "env:set": "./scripts/environment/set-env.sh",
     "build": "tsc -p ./tsconfig.json",
     "clean": "rimraf ./dist",
     "lint": "tslint -p ./tsconfig.json",
     "lint:fix": "npm run lint -- --fix",
+    "ci:install": "npm ci",
     "ci:lint": "npm run lint",
     "ci:build": "npm run env:set -- prod && npm run build"
   },
   "dependencies": {
-    "@eva-design/eva": "github:akveo/eva#package/eva",
-    "expo": "^32.0.0",
+    "@eva-design/eva": "1.0.0-beta.2",
+    "expo": "^33.0.4",
     "expo-analytics": "^1.0.8",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react": "^16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
     "react-native-keyboard-aware-scroll-view": "^0.8.0",
     "react-native-ui-kitten": "github:akveo/react-native-ui-kitten#next",
     "react-navigation": "^3.5.1",
@@ -32,9 +32,8 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/runtime": "^7.1.2",
-    "@types/expo": "^32.0.13",
-    "@types/react": "^16.8.17",
-    "@types/react-native": "^0.57.57",
+    "@types/react": "^16.8.19",
+    "@types/react-native": "^0.57.60",
     "@types/react-navigation": "^3.0.7",
     "@types/react-redux": "^7.0.9",
     "@types/redux": "^3.6.0",
@@ -46,6 +45,6 @@
     "react-native-typescript-transformer": "^1.2.10",
     "rimraf": "^2.6.2",
     "tslint": "^5.12.1",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.1"
   }
 }

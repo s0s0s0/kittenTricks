@@ -26,11 +26,11 @@ import {
   ViewPagerProps,
 } from '@kitten/ui';
 import {
-  CameraIcon,
-  ImageIcon,
-  FileTextIcon,
-  MapIcon,
-  PeopleIcon,
+  CameraIconFill,
+  ImageIconFill,
+  FileTextIconFill,
+  MapIconFill,
+  PeopleIconFill,
 } from '@src/assets/icons';
 import { textStyle } from '@src/components/common';
 
@@ -62,19 +62,19 @@ class Chat2FileSectionComponent extends React.Component<Chat2FileSectionComponen
     addActions: [
       {
         title: 'Photo or Video',
-        icon: ImageIcon(this.props.themedStyle.actionIcon),
+        icon: ImageIconFill(this.props.themedStyle.actionIcon),
       },
       {
         title: 'File',
-        icon: FileTextIcon(this.props.themedStyle.actionIcon),
+        icon: FileTextIconFill(this.props.themedStyle.actionIcon),
       },
       {
         title: 'Location',
-        icon: MapIcon(this.props.themedStyle.actionIcon),
+        icon: MapIconFill(this.props.themedStyle.actionIcon),
       },
       {
         title: 'Contact',
-        icon: PeopleIcon(this.props.themedStyle.actionIcon),
+        icon: PeopleIconFill(this.props.themedStyle.actionIcon),
       },
     ],
   };
@@ -118,7 +118,7 @@ class Chat2FileSectionComponent extends React.Component<Chat2FileSectionComponen
   private renderPhotoItemIcon = (style: StyleType): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return CameraIcon({ ...style, ...themedStyle.cameraIcon });
+    return CameraIconFill({ ...style, ...themedStyle.cameraIcon });
   };
 
   private renderPhotoItem = (): React.ReactElement<ViewProps> => {
@@ -229,7 +229,7 @@ class Chat2FileSectionComponent extends React.Component<Chat2FileSectionComponen
 
 export const Chat2FileSection = withStyles(Chat2FileSectionComponent, (theme: ThemeType) => ({
   container: {
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
   pagerContainer: {
     marginBottom: 16,
@@ -262,7 +262,7 @@ export const Chat2FileSection = withStyles(Chat2FileSectionComponent, (theme: Th
   actionIcon: {
     width: 20,
     height: 20,
-    tintColor: theme['text-color-hint'],
+    tintColor: theme['text-hint-color'],
   },
   actionItemContainer: {
     flexDirection: 'row',
@@ -271,7 +271,7 @@ export const Chat2FileSection = withStyles(Chat2FileSectionComponent, (theme: Th
     paddingVertical: 18,
     paddingHorizontal: 16,
     borderBottomWidth: 1,
-    borderBottomColor: theme['border-color-default-2'],
+    borderBottomColor: theme['border-basic-color-2'],
   },
   addActionLabel: textStyle.subtitle,
   cancelButton: {

@@ -25,12 +25,22 @@ export class ThemesContainer extends React.Component<ComponentProps> {
 
   private data: Theme[] = [];
 
+  private EXCLUDE_THEMES: ThemeEnum[] = [
+    ThemeEnum['App Theme'],
+  ];
+
   constructor(props) {
     super(props);
-    this.data = Object.keys(themes).map(this.toThemeObject);
+    this.data = Object.keys(themes)
+      .filter(this.shouldIncludeTheme)
+      .map(this.toThemeObject);
   }
 
-  private toThemeObject = (theme: string): Theme => {
+  private shouldIncludeTheme = (themeKey: ThemeEnum): boolean => {
+    return !this.EXCLUDE_THEMES.includes(themeKey);
+  };
+
+  private toThemeObject = (theme: ThemeEnum): Theme => {
     return { name: theme, theme: themes[theme] };
   };
 

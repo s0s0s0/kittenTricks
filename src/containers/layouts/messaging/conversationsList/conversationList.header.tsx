@@ -14,7 +14,7 @@ import {
   TopNavigation,
 } from '@kitten/ui';
 import {
-  BackArrowIcon,
+  ArrowIosBackFill,
   SearchIconOutline,
 } from '@src/assets/icons';
 
@@ -38,7 +38,7 @@ class ConversationListHeaderComponent extends React.Component<ConversationListHe
   private renderLeftControl = (): React.ReactElement<TopNavigationActionProps> => {
     return (
       <TopNavigationAction
-        icon={BackArrowIcon}
+        icon={ArrowIosBackFill}
         onPress={this.onBack}
       />
     );
@@ -71,7 +71,7 @@ class ConversationListHeaderComponent extends React.Component<ConversationListHe
 
 export const ConversationListHeader = withStyles(ConversationListHeaderComponent, (theme: ThemeType) => ({
   container: {
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
 }));
 

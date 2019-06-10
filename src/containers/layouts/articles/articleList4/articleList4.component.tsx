@@ -106,7 +106,7 @@ class ArticleList4Component extends React.Component<ArticleList4Props> {
 export const ArticleList4 = withStyles(ArticleList4Component, (theme: ThemeType) => ({
   container: {
     flex: 1,
-    backgroundColor: theme['background-color-default-2'],
+    backgroundColor: theme['background-basic-color-2'],
   },
   item: {
     flex: 1,
@@ -116,7 +116,6 @@ export const ArticleList4 = withStyles(ArticleList4Component, (theme: ThemeType)
     flexDirection: 'row-reverse',
   },
   readButton: {
-    height: 40,
     width: 200,
     marginTop: 32,
   },

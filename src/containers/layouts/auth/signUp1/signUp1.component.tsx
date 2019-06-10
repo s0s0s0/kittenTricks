@@ -24,8 +24,8 @@ import {
   textStyle,
 } from '@src/components/common';
 import {
-  ForwardIcon,
-  HeartIcon,
+  ArrowForwardIconOutline,
+  HeartIconFill,
 } from '@src/assets/icons';
 import {
   imageSignUp1Bg,
@@ -86,13 +86,13 @@ class SignUp1Component extends React.Component<SignUp1Props, State> {
   private renderEwaButtonIcon = (style: StyleType): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return HeartIcon({ ...style, ...themedStyle.ewaButtonIcon });
+    return HeartIconFill({ ...style, ...themedStyle.ewaButtonIcon });
   };
 
   private renderSignInButtonIcon = (style: StyleType): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return ForwardIcon({ ...style, ...themedStyle.signInButtonIcon });
+    return ArrowForwardIconOutline({ ...style, ...themedStyle.signInButtonIcon });
   };
 
   public render(): React.ReactNode {
@@ -173,7 +173,7 @@ class SignUp1Component extends React.Component<SignUp1Props, State> {
 export const SignUp1 = withStyles(SignUp1Component, (theme: ThemeType) => ({
   container: {
     flex: 1,
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
   headerContainer: {
     minHeight: 200,
@@ -231,7 +231,7 @@ export const SignUp1 = withStyles(SignUp1Component, (theme: ThemeType) => ({
     ...textStyle.paragraph,
   },
   socialAuthIcon: {
-    tintColor: theme['text-color-default'],
+    tintColor: theme['text-basic-color'],
   },
   orContainer: {
     flexDirection: 'row',
@@ -251,7 +251,7 @@ export const SignUp1 = withStyles(SignUp1Component, (theme: ThemeType) => ({
   divider: {
     flex: 1,
     height: 1,
-    backgroundColor: theme['background-color-default-3'],
+    backgroundColor: theme['background-basic-color-3'],
   },
 }));
 

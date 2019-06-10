@@ -6,7 +6,7 @@ import {
   ListItemProps,
   ListProps,
 } from '@kitten/ui';
-import { StarIcon } from '@src/assets/icons';
+import { StarIconFill } from '@src/assets/icons';
 import { BottomEndTooltip } from '../../tooltip/showcase';
 
 
@@ -28,6 +28,10 @@ export const AccessoryList = (): ListElement => {
     ].join(' '),
   });
 
+  const renderAccessory = (): React.ReactElement<any> => {
+    return BottomEndTooltip({ indicatorOffset: 12 });
+  };
+
   const renderItem = (info: ListRenderItemInfo<ListItemModel>): ListItemElement => {
     const { title, description } = info.item;
 
@@ -35,8 +39,8 @@ export const AccessoryList = (): ListElement => {
       <ListItem
         title={title}
         description={description}
-        icon={StarIcon}
-        accessory={BottomEndTooltip}
+        icon={StarIconFill}
+        accessory={renderAccessory}
       />
     );
   };

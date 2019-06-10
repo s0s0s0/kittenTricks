@@ -19,8 +19,8 @@ import {
   textStyle,
 } from '@src/components/common';
 import {
-  ArrowHeadDownIcon,
-  ArrowHeadUpIcon,
+  ArrowHeadDownIconFill,
+  ArrowHeadUpIconFill,
 } from '@src/assets/icons';
 import {
   Profile as ProfileModel,
@@ -105,13 +105,13 @@ class Profile4Component extends React.Component<Profile4Props> {
             style={themedStyle.profileParameter}
             hint='Height'
             value={`${profile.height} cm`}
-            icon={ArrowHeadUpIcon}
+            icon={ArrowHeadUpIconFill}
           />
           <ProfileParameterCard
             style={themedStyle.profileParameter}
             hint='Weight'
             value={`${profile.weight} kg`}
-            icon={ArrowHeadDownIcon}
+            icon={ArrowHeadDownIconFill}
           />
         </View>
       </View>
@@ -122,11 +122,11 @@ class Profile4Component extends React.Component<Profile4Props> {
 export const Profile4 = withStyles(Profile4Component, (theme: ThemeType) => ({
   container: {
     flex: 1,
-    backgroundColor: theme['background-color-default-2'],
+    backgroundColor: theme['background-basic-color-2'],
   },
   infoContainer: {
     paddingHorizontal: 24,
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
   parameterContainer: {
     flexDirection: 'row',
@@ -137,7 +137,6 @@ export const Profile4 = withStyles(Profile4Component, (theme: ThemeType) => ({
     marginTop: 24,
   },
   followButton: {
-    height: 40,
     marginTop: 16,
     fontSize: 14,
   },
@@ -152,6 +151,6 @@ export const Profile4 = withStyles(Profile4Component, (theme: ThemeType) => ({
   profileParameter: {
     flex: 1,
     marginHorizontal: 12,
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
 }));

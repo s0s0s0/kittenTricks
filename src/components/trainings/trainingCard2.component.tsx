@@ -4,6 +4,7 @@ import {
   View,
   TouchableOpacity,
   TouchableOpacityProps,
+  ImageBackground,
 } from 'react-native';
 import {
   ThemedComponentProps,
@@ -13,12 +14,11 @@ import {
 import { Text } from '@kitten/ui';
 import {
   Chips,
-  ImageOverlay,
   textStyle,
 } from '@src/components/common';
 import {
-  ClockIcon,
-  ForwardArrowIcon,
+  ClockIconOutline,
+  ArrowForwardIconOutline,
 } from '@src/assets/icons';
 import { Exercise } from '@src/core/model/exercise.model';
 
@@ -37,7 +37,7 @@ class TrainingCardComponent extends React.Component<TrainingCardProps> {
   };
 
   private renderDetailsIcon = (): React.ReactElement<ImageProps> => {
-    return ForwardArrowIcon(this.props.themedStyle.detailsIcon);
+    return ArrowForwardIconOutline(this.props.themedStyle.detailsIcon);
   };
 
   public render(): React.ReactNode {
@@ -48,9 +48,10 @@ class TrainingCardComponent extends React.Component<TrainingCardProps> {
         activeOpacity={0.95}
         onPress={this.onDetails}>
         <View style={[themedStyle.container, style]}>
-          <ImageOverlay
+          <ImageBackground
             style={[themedStyle.subContainer, themedStyle.leftSection]}
-            source={training.image.imageSource}/>
+            source={training.image.imageSource}
+          />
           <View style={[themedStyle.subContainer, themedStyle.rightSection]}>
             <Text
               style={themedStyle.titleLabel}
@@ -60,7 +61,7 @@ class TrainingCardComponent extends React.Component<TrainingCardProps> {
             <View style={themedStyle.controlsContainer}>
               <Chips
                 style={themedStyle.chips}
-                icon={ClockIcon}>
+                icon={ClockIconOutline}>
                 <Text
                   style={themedStyle.chipsText}
                   category='c1'>
@@ -89,7 +90,7 @@ export const TrainingCard2 = withStyles(TrainingCardComponent, (theme: ThemeType
   rightSection: {
     padding: 16,
     justifyContent: 'space-between',
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
   leftSection: {
     padding: 16,
@@ -110,6 +111,6 @@ export const TrainingCard2 = withStyles(TrainingCardComponent, (theme: ThemeType
   detailsIcon: {
     width: 22,
     height: 22,
-    tintColor: theme['text-color-hint'],
+    tintColor: theme['text-hint-color'],
   },
 }));

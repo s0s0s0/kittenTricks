@@ -1,6 +1,7 @@
 import { ThemeType } from '@kitten/theme';
+import { ThemeEnum } from '@src/core/model';
 
 export interface Theme {
-  name: string;
+  name: ThemeEnum;
   theme: ThemeType;
 }

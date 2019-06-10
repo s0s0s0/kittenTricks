@@ -22,9 +22,8 @@ import {
   textStyle,
 } from '@src/components/common';
 import {
-  evaIcons,
   IconSource,
-  PlusIcon,
+  PlusIconFill,
 } from '@src/assets/icons';
 import {
   imageSignUp3Bg,
@@ -51,7 +50,7 @@ class SignUp3Component extends React.Component<SignUp3Props, State> {
 
   private backgroundImage: ImageSource = imageSignUp3Bg;
 
-  private profileImage: IconSource = evaIcons.personFill;
+  private profileImage: IconSource = require('../../../../assets/icons/eva/person.png');
 
   private onFormDataChange = (formData: SignUpForm2Data) => {
     this.setState({ formData });
@@ -72,7 +71,7 @@ class SignUp3Component extends React.Component<SignUp3Props, State> {
   private renderPhotoButtonIcon = (style: StyleType): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return PlusIcon({ ...style, ...themedStyle.photoButtonIcon });
+    return PlusIconFill({ ...style, ...themedStyle.photoButtonIcon });
   };
 
   private renderPhotoButton = (): React.ReactElement<ButtonProps> => {
@@ -147,8 +146,8 @@ export const SignUp3 = withStyles(SignUp3Component, (theme: ThemeType) => ({
     height: 116,
     borderRadius: 58,
     alignSelf: 'center',
-    backgroundColor: theme['background-color-default-1'],
-    tintColor: theme['text-color-hint'],
+    backgroundColor: theme['background-basic-color-1'],
+    tintColor: theme['text-hint-color'],
   },
   photoButton: {
     width: 40,

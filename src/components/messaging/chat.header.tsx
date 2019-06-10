@@ -16,7 +16,7 @@ import {
   TopNavigationActionProps,
   TopNavigationProps,
 } from '@kitten/ui';
-import { BackArrowIcon } from '@src/assets/icons';
+import { ArrowIosBackFill } from '@src/assets/icons';
 import { Profile } from '@src/core/model';
 
 interface ComponentProps {
@@ -50,7 +50,7 @@ class ChatHeaderComponent extends React.Component<ChatHeaderProps> {
   private renderLeftControl = (): React.ReactElement<TopNavigationActionProps> => {
     return (
       <TopNavigationAction
-        icon={BackArrowIcon}
+        icon={ArrowIosBackFill}
         onPress={this.onBack}
       />
     );
@@ -102,7 +102,7 @@ class ChatHeaderComponent extends React.Component<ChatHeaderProps> {
 
 export const ChatHeader = withStyles(ChatHeaderComponent, (theme: ThemeType) => ({
   container: {
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
   },
 }));
 

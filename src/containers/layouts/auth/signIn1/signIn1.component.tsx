@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  ImageBackground,
   ImageProps,
   View,
 } from 'react-native';
@@ -20,12 +21,11 @@ import {
 } from '@src/components/auth';
 import {
   ScrollableAvoidKeyboard,
-  ImageOverlay,
   textStyle,
 } from '@src/components/common';
 import {
-  ForwardIcon,
-  HeartIcon,
+  ArrowForwardIconOutline,
+  HeartIconFill,
 } from '@src/assets/icons';
 import {
   imageSignIn1Bg,
@@ -86,13 +86,13 @@ class SignIn1Component extends React.Component<SignIn1Props, State> {
   private renderEwaButtonIcon = (style: StyleType): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return HeartIcon({ ...style, ...themedStyle.ewaButtonIcon });
+    return HeartIconFill({ ...style, ...themedStyle.ewaButtonIcon });
   };
 
   private renderSignUpButtonIcon = (style: StyleType): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return ForwardIcon({ ...style, ...themedStyle.signUpButtonIcon });
+    return ArrowForwardIconOutline({ ...style, ...themedStyle.signUpButtonIcon });
   };
 
   public render(): React.ReactNode {
@@ -100,7 +100,7 @@ class SignIn1Component extends React.Component<SignIn1Props, State> {
 
     return (
       <ScrollableAvoidKeyboard>
-        <ImageOverlay
+        <ImageBackground
           style={themedStyle.container}
           source={this.backgroundImage.imageSource}>
           <Button
@@ -150,7 +150,7 @@ class SignIn1Component extends React.Component<SignIn1Props, State> {
             onFacebookPress={this.onFacebookButtonPress}
             onTwitterPress={this.onTwitterButtonPress}
           />
-        </ImageOverlay>
+        </ImageBackground>
       </ScrollableAvoidKeyboard>
     );
   }
