@@ -6,7 +6,10 @@ import {
 } from 'react-navigation';
 import { EcommerceHeader } from '@src/components/ecommerce';
 import { MenuContainer } from '@src/containers/menu';
-import { ArrowIosBackFill } from '@src/assets/icons';
+import {
+  ArrowIosBackFill,
+  SettingsIconFill,
+} from '@src/assets/icons';
 import { TopNavigationBar } from './components/topNavigationBar.component';
 import {
   getCurrentRouteState,
@@ -33,6 +36,10 @@ const MenuTopNavigationParams: TopNavigationParams = {
         {...props}
         title={state.routeName}
         backIcon={!state.params.root && ArrowIosBackFill}
+        settingsIcon={SettingsIconFill}
+        onSettingsPress={() => {
+          props.navigation.navigate('App Settings');
+        }}
         onBackPress={() => {
           props.navigation.goBack(null);
         }}

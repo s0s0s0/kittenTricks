@@ -571,6 +571,14 @@ export const TwitterIconFill = (style: StyleProp<ImageStyle>): IconElement => {
   return Icon(source, style);
 };
 
+export const SettingsIconFill = (style: StyleProp<ImageStyle>): IconElement => {
+  const source: IconSource = {
+    imageSource: require('./eva/settings.png'),
+  };
+
+  return Icon(source, style);
+};
+
 export {
   Icon,
   IconSource,

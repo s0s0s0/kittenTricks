@@ -10,6 +10,7 @@ import {
   LayoutsContainer,
   ComponentsContainer,
   ThemesContainer,
+  AppSettingsContainer,
 } from '@src/containers/menu';
 import {
   ArticlesContainer,
@@ -475,6 +476,10 @@ const MenuNavigator: ReactNavigationContainer = createBottomTabNavigator({
   ['Layouts']: LayoutsNavigator,
   ['Components']: ComponentsNavigator,
   ['Themes']: ThemesNavigator,
+  ['App Settings']: {
+    screen: AppSettingsContainer,
+    params: { ...MenuNavigatorParams },
+  },
 }, {
   tabBarComponent: BottomNavigationBar,
 });
