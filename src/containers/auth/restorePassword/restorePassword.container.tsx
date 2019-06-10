@@ -1,4 +1,5 @@
 import React from 'react';
+import { Alert } from 'react-native';
 import { connect } from 'react-redux';
 import { NavigationScreenProps } from 'react-navigation';
 import { RestorePassword } from './restorePassword.component';
@@ -9,12 +10,14 @@ import { GlobalState } from '../../../store';
 import {
   restorePassword,
   restorePasswordSuccess,
+  resetPasswordFailure,
 } from '../../../actions';
 
 interface StateProps {
   isAuthenticating: boolean;
   restore: () => void;
   restoreSuccess: (user: User) => void;
+  restoreFailure: () => void;
 }
 
 type ComponentProps = NavigationScreenProps & StateProps;
@@ -26,6 +29,7 @@ const mapStateToProps = (state: GlobalState) => ({
 const mapDispatchToProps = (dispatch: Function) => ({
   restore: () => dispatch(restorePassword()),
   restoreSuccess: (user: User) => dispatch(restorePasswordSuccess(user)),
+  restoreFailure: () => dispatch(resetPasswordFailure()),
 });
 
 interface State {
@@ -40,6 +44,7 @@ export class RestorePasswordContainer extends React.Component<ComponentProps, St
   };
 
   private service: AuthService = new AuthService();
+  private failureMessage: string = 'Something went wrong while Restore Password...';
 
   public componentWillMount(): void {
     this.setState({
@@ -66,7 +71,8 @@ export class RestorePasswordContainer extends React.Component<ComponentProps, St
   };
 
   private onRestorePasswordFailure = (): void => {
-    console.warn('Something went wrong while restore...');
+    this.props.restoreFailure();
+    Alert.alert(this.failureMessage);
   };
 
   public render(): React.ReactNode {

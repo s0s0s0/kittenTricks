@@ -20,7 +20,7 @@ import {
   Loading,
   LoadingComponentProps,
 } from '@src/components/common';
-import { PlusIcon } from '@src/assets/icons';
+import { PlusIconFill } from '@src/assets/icons';
 
 interface ComponentProps {
   isAuthenticating: boolean;
@@ -66,7 +66,7 @@ class SignUpComponent extends React.Component<SignUpProps, State> {
   private renderPhotoButtonIcon = (style: StyleType): React.ReactElement<ImageProps> => {
     const { themedStyle } = this.props;
 
-    return PlusIcon({ ...style, ...themedStyle.photoButtonIcon });
+    return PlusIconFill({ ...style, ...themedStyle.photoButtonIcon });
   };
 
   private renderPhotoButton = (): React.ReactElement<ButtonProps> => {
@@ -145,7 +145,7 @@ class SignUpComponent extends React.Component<SignUpProps, State> {
 export const SignUp = withStyles(SignUpComponent, (theme: ThemeType) => ({
   container: {
     flex: 1,
-    backgroundColor: ['background-color-default-1'],
+    backgroundColor: ['background-basic-color-1'],
   },
   headerContainer: {
     justifyContent: 'center',
@@ -163,7 +163,7 @@ export const SignUp = withStyles(SignUpComponent, (theme: ThemeType) => ({
     height: 116,
     borderRadius: 58,
     alignSelf: 'center',
-    backgroundColor: theme['background-color-default-1'],
+    backgroundColor: theme['background-basic-color-1'],
     tintColor: theme['color-primary-default'],
   },
   photoButton: {
@@ -171,8 +171,8 @@ export const SignUp = withStyles(SignUpComponent, (theme: ThemeType) => ({
     height: 40,
     borderRadius: 20,
     transform: [{ translateY: 80 }],
-    borderColor: theme['border-color-default-2'],
-    backgroundColor: theme['background-color-default-2'],
+    borderColor: theme['border-basic-color-2'],
+    backgroundColor: theme['background-basic-color-2'],
   },
   photoButtonIcon: {
     width: 24,
@@ -186,7 +186,7 @@ export const SignUp = withStyles(SignUpComponent, (theme: ThemeType) => ({
     marginVertical: 12,
   },
   signInText: {
-    color: theme['text-color-hint'],
+    color: theme['text-hint-color'],
     ...textStyle.subtitle,
   },
 }));

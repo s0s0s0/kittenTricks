@@ -1,4 +1,5 @@
 import React from 'react';
+import { Alert } from 'react-native';
 import { connect } from 'react-redux';
 import { NavigationScreenProps } from 'react-navigation';
 import { ForgotPasswordFormData } from '../type';
@@ -8,12 +9,14 @@ import { GlobalState } from '../../../store';
 import {
   resetPassword,
   resetPasswordSuccess,
+  resetPasswordFailure,
 } from '../../../actions';
 
 interface StateProps {
   isAuthenticating: boolean;
   reset: () => void;
   resetSuccess: () => void;
+  resetFailure: () => void;
 }
 
 type ComponentProps = StateProps & NavigationScreenProps;
@@ -25,12 +28,14 @@ const mapStateToProps = (state: GlobalState) => ({
 const mapDispatchToProps = (dispatch: Function) => ({
   reset: () => dispatch(resetPassword()),
   resetSuccess: () => dispatch(resetPasswordSuccess()),
+  resetFailure: () => dispatch(resetPasswordFailure()),
 });
 
 @connect(mapStateToProps, mapDispatchToProps)
 export class ForgotPasswordContainer extends React.Component<ComponentProps> {
 
   private service: AuthService = new AuthService();
+  private failureMessage: string = 'Something went wrong while Reset Password';
 
   private onResetPress = (data: ForgotPasswordFormData): void => {
     this.props.reset();
@@ -47,7 +52,8 @@ export class ForgotPasswordContainer extends React.Component<ComponentProps> {
   };
 
   private onResetFailure = (): void => {
-    console.warn('Something went wrong while reset password');
+    Alert.alert(this.failureMessage);
+    this.props.resetFailure();
   };
 
   public render(): React.ReactNode {

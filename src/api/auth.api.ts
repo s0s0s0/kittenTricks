@@ -1,5 +1,12 @@
-import { ForgotPasswordFormData, SignInFormData, SignUpFormData } from '../containers/auth';
-import { API_VERBS, ApiService } from '../core/http/api.service';
+import {
+  ForgotPasswordFormData,
+  SignInFormData,
+  SignUpFormData,
+} from '../containers/auth';
+import {
+  API_VERBS,
+  ApiService,
+} from '../core/http/api.service';
 import { AuthStorageService } from '@src/core/authStorage/authStorage.service';
 import { User } from '@src/core/model';
 import { RestorePasswordFormData } from '@src/components/auth';
@@ -88,17 +95,16 @@ export class AuthApi {
       .then((token: string) => {
         if (token) {
           return this.getCurrentUser()
-            .then((user: any) => {
+            .then((user: User) => {
               return {
                 success: true,
                 user: user,
                 token: token,
               };
             });
-        } else {
-          return { success: false };
         }
-      });
+      })
+      .catch(() => ({ success: false }));
   };
 
   private setToken(token: string): Promise<string> {
