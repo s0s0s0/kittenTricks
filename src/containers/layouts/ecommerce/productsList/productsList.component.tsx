@@ -9,8 +9,8 @@ import {
   TabProps,
   TabView,
 } from 'react-native-ui-kitten/ui';
-import { ProductList } from '@src/components/ecommerce';
-import { Product } from '@src/core/model';
+import { ProductList } from 'src/components/ecommerce';
+import { Product } from 'src/core/model';
 
 interface ComponentProps {
   products: Product[];

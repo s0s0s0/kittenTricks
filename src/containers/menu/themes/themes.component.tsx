@@ -12,7 +12,7 @@ import {
 } from 'react-native-ui-kitten/theme';
 import { ThemeCard } from './themeCard.component';
 import { Theme } from './type';
-import { fireAnalyticsEvent } from '@src/core/utils/analytics';
+import { fireAnalyticsEvent } from 'src/core/utils/analytics';
 
 interface ComponentProps {
   data: Theme[];

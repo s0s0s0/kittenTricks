@@ -13,9 +13,9 @@ import {
   TopNavigationActionProps,
   TopNavigationProps,
 } from 'react-native-ui-kitten/ui';
-import { ArrowIosBackFill } from '@src/assets/icons';
-import { SafeAreaView } from '@src/core/navigation';
-import { Profile } from '@src/core/model';
+import { ArrowIosBackFill } from 'src/assets/icons';
+import { SafeAreaView } from 'src/core/navigation';
+import { Profile } from 'src/core/model';
 
 interface ComponentProps {
   interlocutor: Profile;

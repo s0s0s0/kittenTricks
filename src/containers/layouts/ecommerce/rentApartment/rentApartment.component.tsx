@@ -17,12 +17,12 @@ import {
   ApartmentFacilityList2,
   ApartmentPhotoList,
   PriceText,
-} from '@src/components/ecommerce';
-import { Apartment } from '@src/core/model';
+} from 'src/components/ecommerce';
+import { Apartment } from 'src/core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   apartment: Apartment;

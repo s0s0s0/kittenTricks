@@ -16,7 +16,7 @@ import {
   RadioProps,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 
 interface ComponentProps {
   image: ImageSourcePropType;

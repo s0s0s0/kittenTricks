@@ -8,7 +8,7 @@ import {
   ThemeType,
   ThemedComponentProps,
 } from 'react-native-ui-kitten/theme';
-import { ApartmentFacility } from '@src/core/model';
+import { ApartmentFacility } from 'src/core/model';
 import {
   ApartmentFacilityList2Item,
   ApartmentFacilityList2ItemProps,

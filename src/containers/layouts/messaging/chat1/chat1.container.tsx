@@ -6,18 +6,18 @@ import {
 import {
   ChatHeader,
   ChatHeaderNavigationStateParams,
-} from '@src/components/messaging';
+} from 'src/components/messaging';
 import {
   Conversation,
   Message,
   Profile,
-} from '@src/core/model';
-import { conversation5 } from '@src/core/data/conversation';
+} from 'src/core/model';
+import { conversation5 } from 'src/core/data/conversation';
 import {
   profile1,
   profile2,
-} from '@src/core/data/profile';
-import { TopNavigationElement } from '@src/core/navigation/navigationParams';
+} from 'src/core/data/profile';
+import { TopNavigationElement } from 'src/core/navigation/navigationParams';
 import { Chat1 } from './chat1.component';
 
 interface State {

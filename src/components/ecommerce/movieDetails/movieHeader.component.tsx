@@ -14,7 +14,7 @@ import { Text } from 'react-native-ui-kitten/ui';
 import {
   RateBar,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import { MovieCategoryList } from './movieCategoryList.component';
 
 interface ComponentProps {

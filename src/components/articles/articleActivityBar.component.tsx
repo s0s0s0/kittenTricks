@@ -14,7 +14,7 @@ import {
   CommentsButton,
   LikeButton,
   ReactionBar,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   comments: number;

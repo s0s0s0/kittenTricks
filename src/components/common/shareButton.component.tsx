@@ -11,7 +11,7 @@ import {
   withStyles,
 } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { ShareIconOutline } from '@src/assets/icons';
+import { ShareIconOutline } from 'src/assets/icons';
 
 interface ComponentProps {
   textStyle?: StyleProp<TextStyle>;

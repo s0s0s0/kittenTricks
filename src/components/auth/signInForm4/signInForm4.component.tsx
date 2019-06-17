@@ -11,15 +11,15 @@ import {
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   PhoneNumberValidator,
   SMSCodeValidator,
-} from '@src/core/validators';
+} from 'src/core/validators';
 import {
   LockIconFill,
   PhoneIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import { SignInForm4Data } from './type';
 
 interface ComponentProps {

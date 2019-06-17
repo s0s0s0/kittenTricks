@@ -4,7 +4,7 @@ import {
   ThemeType,
   ThemedComponentProps,
 } from 'react-native-ui-kitten/theme';
-import { LayoutsList } from '@src/components/menu';
+import { LayoutsList } from 'src/components/menu';
 import { LayoutsData } from './type';
 
 interface ComponentProps {

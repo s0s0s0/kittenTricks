@@ -12,14 +12,14 @@ import {
 import {
   ActivityAuthoring,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   ListItem,
   ListItemProps,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { MoreHorizontalIconFill } from '@src/assets/icons';
-import { Comment } from '@src/core/model';
+import { MoreHorizontalIconFill } from 'src/assets/icons';
+import { Comment } from 'src/core/model';
 
 interface ComponentProps {
   data: Comment;

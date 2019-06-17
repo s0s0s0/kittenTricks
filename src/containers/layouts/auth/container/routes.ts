@@ -10,7 +10,7 @@ import {
   imageSignUp2Layout,
   imageSignUp3Layout,
   imageSignUp4Layout,
-} from '@src/assets/images';
+} from 'src/assets/images';
 import { AuthContainerData } from './type';
 
 export const routes: AuthContainerData[] = [

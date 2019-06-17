@@ -6,8 +6,8 @@ import {
   ThemedComponentProps,
   StyleType,
 } from 'react-native-ui-kitten/theme';
-import { DoneAllIconOutline } from '@src/assets/icons';
-import { Message } from '@src/core/model';
+import { DoneAllIconOutline } from 'src/assets/icons';
+import { Message } from 'src/core/model';
 
 interface MessageIconProvider {
   icon(style: StyleType): React.ReactElement<ImageProps>;

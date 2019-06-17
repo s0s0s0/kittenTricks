@@ -18,19 +18,19 @@ import {
   SignInForm1,
   SignInForm1Data,
   SocialAuth,
-} from '@src/components/auth';
+} from 'src/components/auth';
 import {
   ScrollableAvoidKeyboard,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   ArrowForwardIconOutline,
   HeartIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   imageSignIn1Bg,
   ImageSource,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 interface ComponentProps {
   onSignInPress: (formData: SignInForm1Data) => void;

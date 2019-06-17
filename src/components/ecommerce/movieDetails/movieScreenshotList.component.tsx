@@ -14,7 +14,7 @@ import {
   ListItemProps,
   ListProps,
 } from 'react-native-ui-kitten/ui';
-import { ImageSource } from '@src/assets/images';
+import { ImageSource } from 'src/assets/images';
 
 // @ts-ignore (`renderItem` prop override)
 interface ComponentProps extends ListProps {

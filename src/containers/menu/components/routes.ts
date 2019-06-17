@@ -15,7 +15,7 @@ import {
   ComponentsIconToggle,
   ComponentsIconTooltip,
   ComponentsIconTopNavigation,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 
 export const routes: ComponentsContainerData[] = [
   {

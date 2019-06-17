@@ -9,7 +9,7 @@ import {
   List,
   ListProps,
 } from 'react-native-ui-kitten/ui';
-import { Comment } from '@src/core/model';
+import { Comment } from 'src/core/model';
 import {
   CommentList2Item,
   CommentList2ItemProps,

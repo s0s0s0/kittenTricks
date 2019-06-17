@@ -13,7 +13,7 @@ import {
   List,
   ListProps,
 } from 'react-native-ui-kitten/ui';
-import { Post } from '@src/core/model';
+import { Post } from 'src/core/model';
 import {
   ProfileActivityList1Item,
   ProfileActivityList1ItemProps,

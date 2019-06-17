@@ -10,7 +10,7 @@ import {
   StarIconFill,
   ArrowIosBackFill,
   MoreVerticalIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 
 type TopNavigationElement = React.ReactElement<TopNavigationProps>;
 type TopNavigationActionElement = React.ReactElement<TopNavigationActionProps>;

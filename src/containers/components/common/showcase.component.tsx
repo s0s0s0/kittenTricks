@@ -12,7 +12,7 @@ import { ShowcaseSectionProps } from './showcaseSection.component';
 import {
   ScrollableAvoidKeyboard,
   ScrollableAvoidKeyboardProps,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   children?: ChildrenProp;

@@ -12,7 +12,7 @@ import {
   ApartmentFacilityList1Item,
   ApartmentFacilityList1ItemProps,
 } from './apartmentFacilityList1Item.component';
-import { ApartmentFacility } from '@src/core/model';
+import { ApartmentFacility } from 'src/core/model';
 
 interface ComponentProps {
   data: ApartmentFacility[];

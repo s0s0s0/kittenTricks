@@ -10,7 +10,7 @@ import {
   PopoverContentProps,
 } from './popoverContent.component';
 import { StyleSheet } from 'react-native';
-import { profile1 } from '@src/core/data/profile';
+import { profile1 } from 'src/core/data/profile';
 
 interface PopoverShowcaseComponentState {
   visible: boolean;

@@ -12,8 +12,8 @@ import {
   withStyles,
 } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { ArticleActivityBar } from '@src/components/articles';
-import { textStyle } from '@src/components/common';
+import { ArticleActivityBar } from 'src/components/articles';
+import { textStyle } from 'src/components/common';
 
 interface ListDerivedProps {
   index?: number;

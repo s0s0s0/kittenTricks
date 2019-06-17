@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
 import { Trainings1 } from './trainings1.component';
-import { Exercise } from '@src/core/model/exercise.model';
-import { exercises1 } from '@src/core/data/exercise';
+import { Exercise } from 'src/core/model/exercise.model';
+import { exercises1 } from 'src/core/data/exercise';
 
 interface State {
   selectedLevelIndex: number;

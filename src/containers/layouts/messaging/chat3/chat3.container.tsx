@@ -9,21 +9,21 @@ import {
   ChatHeader,
   ChatHeaderNavigationStateParams,
   ChatFileMessageAppearance,
-} from '@src/components/messaging';
+} from 'src/components/messaging';
 import {
   Conversation,
   FileType,
   Message,
   Profile,
-} from '@src/core/model';
-import { conversation6 } from '@src/core/data/conversation';
+} from 'src/core/model';
+import { conversation6 } from 'src/core/data/conversation';
 import {
   profile1,
   profile2,
-} from '@src/core/data/profile';
+} from 'src/core/data/profile';
 import { Chat2 } from '../chat2/chat2.component';
-import { TopNavigationElement } from '@src/core/navigation/navigationParams';
-import { imageMessage2 } from '@src/assets/images';
+import { TopNavigationElement } from 'src/core/navigation/navigationParams';
+import { imageMessage2 } from 'src/assets/images';
 
 interface State {
   newMessageText: string;

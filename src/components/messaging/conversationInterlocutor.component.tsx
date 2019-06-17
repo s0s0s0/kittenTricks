@@ -9,7 +9,7 @@ import {
   withStyles,
 } from 'react-native-ui-kitten/theme';
 import { Avatar } from 'react-native-ui-kitten/ui';
-import { Profile } from '@src/core/model';
+import { Profile } from 'src/core/model';
 
 interface ComponentProps {
   profile: Profile;

@@ -12,12 +12,12 @@ import { Text } from 'react-native-ui-kitten/ui';
 import {
   ArticleActivityBar,
   ArticleTips,
-} from '@src/components/articles';
+} from 'src/components/articles';
 import {
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
-import { Article } from '@src/core/model';
+} from 'src/components/common';
+import { Article } from 'src/core/model';
 
 // @ts-ignore (override `onPress` prop)
 interface ComponentProps extends TouchableOpacityProps {

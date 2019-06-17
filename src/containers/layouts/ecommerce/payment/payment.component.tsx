@@ -15,13 +15,13 @@ import {
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
-import { PaymentCard as PaymentCardModel } from '@src/core/model';
+} from 'src/components/common';
+import { PaymentCard as PaymentCardModel } from 'src/core/model';
 import {
   PaymentCard,
   PaymentCardProps,
-} from '@src/components/ecommerce';
-import { CreditCardIconFill } from '@src/assets/icons';
+} from 'src/components/ecommerce';
+import { CreditCardIconFill } from 'src/assets/icons';
 
 
 interface ComponentProps {

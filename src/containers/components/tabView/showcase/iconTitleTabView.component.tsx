@@ -5,7 +5,7 @@ import {
   TabViewProps,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { StarIconFill } from '@src/assets/icons';
+import { StarIconFill } from 'src/assets/icons';
 
 type TabViewElement = React.ReactElement<TabViewProps>;
 

@@ -20,26 +20,26 @@ import {
   Alignments,
   ChatMessage,
   ChatMessageProps,
-} from '@src/components/messaging';
+} from 'src/components/messaging';
 import {
   MicIconFill,
   PaperPlaneIconFill,
   PlusIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   Conversation as ConversationModel,
   Message as MessageModel,
-} from '@src/core/model';
+} from 'src/core/model';
 import {
   profile1,
   profile2,
-} from '@src/core/data/profile';
+} from 'src/core/data/profile';
 import { UiMessageModel } from '../container/uiMessage.model';
 import {
   AvoidKeyboard,
   textStyle,
-} from '@src/components/common';
-import { StringValidator } from '@src/core/validators';
+} from 'src/components/common';
+import { StringValidator } from 'src/core/validators';
 
 interface ComponentProps {
   conversation: ConversationModel;

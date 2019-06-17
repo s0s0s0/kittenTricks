@@ -9,7 +9,7 @@ import {
   ThemeType,
   withStyles,
 } from 'react-native-ui-kitten/theme';
-import { Message as MessageModel } from '@src/core/model';
+import { Message as MessageModel } from 'src/core/model';
 import {
   Alignments,
   getContentAlignment,

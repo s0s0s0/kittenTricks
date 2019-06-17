@@ -9,7 +9,7 @@ import {
   ActivityBarProps,
   LikeButton,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   likes: number;

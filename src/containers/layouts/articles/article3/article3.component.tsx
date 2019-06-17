@@ -12,15 +12,15 @@ import {
   Input,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { CommentsList1 } from '@src/components/articles';
+import { CommentsList1 } from 'src/components/articles';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   Article,
   Comment,
-} from '@src/core/model';
+} from 'src/core/model';
 
 interface ComponentProps {
   article: Article;

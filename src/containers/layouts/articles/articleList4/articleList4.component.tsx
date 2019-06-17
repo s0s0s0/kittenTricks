@@ -10,8 +10,8 @@ import {
   List,
   Button,
 } from 'react-native-ui-kitten/ui';
-import { ArticleHeader } from '@src/components/articles';
-import { Article } from '@src/core/model';
+import { ArticleHeader } from 'src/components/articles';
+import { Article } from 'src/core/model';
 import {
   ArticleList4Item,
   ArticleList4ItemProps,
@@ -19,7 +19,7 @@ import {
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   articles: Article[];

@@ -3,7 +3,7 @@ import { NavigationScreenProps } from 'react-navigation';
 import {
   SignInForm3Data,
   SignInForm4Data,
-} from '@src/components/auth';
+} from 'src/components/auth';
 import { SignIn5 } from './signIn5.component';
 
 export class SignIn5Container extends React.Component<NavigationScreenProps> {

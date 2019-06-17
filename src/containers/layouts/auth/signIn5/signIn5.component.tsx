@@ -16,16 +16,16 @@ import {
   SignInForm3Data,
   SignInForm4,
   SignInForm4Data,
-} from '@src/components/auth';
+} from 'src/components/auth';
 import {
   ScrollableAvoidKeyboard,
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   imageSignIn5Bg,
   ImageSource,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 interface ComponentProps {
   onSignInEmailPress: (formData: SignInForm3Data) => void;

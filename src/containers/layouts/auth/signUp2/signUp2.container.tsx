@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
-import { SignUpForm2Data } from '@src/components/auth';
+import { SignUpForm2Data } from 'src/components/auth';
 import { SignUp2 } from './signUp2.component';
 
 export class SignUp2Container extends React.Component<NavigationScreenProps> {

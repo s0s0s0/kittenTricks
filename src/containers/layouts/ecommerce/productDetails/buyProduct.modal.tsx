@@ -16,9 +16,9 @@ import {
   Button,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { Product as ProductModel } from '@src/core/model';
+import { Product as ProductModel } from 'src/core/model';
 import { BuyActionModel } from './productDetails.container';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 
 const { width, height } = Dimensions.get('window');
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
-import { Training } from '@src/core/model';
-import { trainings } from '@src/core/data/training';
+import { Training } from 'src/core/model';
+import { trainings } from 'src/core/data/training';
 import { Feed1 } from './feed1.component';
 
 interface State {

@@ -11,7 +11,7 @@ import {
 import { Easy1 } from './easy1.component';
 import { Medium1 } from './medium1.component';
 import { Hard1 } from './hard1.component';
-import { Exercise } from '@src/core/model/exercise.model';
+import { Exercise } from 'src/core/model/exercise.model';
 
 interface ComponentProps {
   levels: string[];

@@ -21,7 +21,7 @@ import {
   getContentAlignment,
 } from './type';
 import { getFileComponent } from './file.component';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 
 interface FileComponentProps {
   appearance: ChatFileMessageAppearance;

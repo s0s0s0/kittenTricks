@@ -9,7 +9,7 @@ import {
   Chips,
   ChipsProps,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 // @ts-ignore (`children` prop override)
 interface ComponentProps extends ChipsProps {

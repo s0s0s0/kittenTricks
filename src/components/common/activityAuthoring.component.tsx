@@ -11,7 +11,7 @@ import {
   withStyles,
 } from 'react-native-ui-kitten/theme';
 import { Avatar } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common/style';
+import { textStyle } from 'src/components/common/style';
 
 interface ComponentProps {
   photo: ImageSourcePropType;

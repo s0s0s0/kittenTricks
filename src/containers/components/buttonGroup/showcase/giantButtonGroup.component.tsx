@@ -4,7 +4,7 @@ import {
   ButtonGroup,
   ButtonGroupProps,
 } from 'react-native-ui-kitten/ui';
-import { StarIconFill } from '@src/assets/icons';
+import { StarIconFill } from 'src/assets/icons';
 
 type ButtonGroupElement = React.ReactElement<ButtonGroupProps>;
 

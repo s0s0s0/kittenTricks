@@ -1,5 +1,5 @@
-import { Book } from '@src/core/model';
-import { imageBook } from '@src/assets/images';
+import { Book } from 'src/core/model';
+import { imageBook } from 'src/assets/images';
 
 export const book1: Book = {
   name: 'Design Systems',

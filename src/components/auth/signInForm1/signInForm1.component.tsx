@@ -11,11 +11,11 @@ import {
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   EmailValidator,
   PasswordValidator,
-} from '@src/core/validators';
+} from 'src/core/validators';
 import { SignInForm1Data } from './type';
 
 interface ComponentProps {

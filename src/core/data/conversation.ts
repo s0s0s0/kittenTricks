@@ -1,4 +1,4 @@
-import { Conversation } from '@src/core/model';
+import { Conversation } from 'src/core/model';
 import {
   profile2,
   profile3,

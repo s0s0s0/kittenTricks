@@ -6,13 +6,13 @@ import {
   withStyles,
 } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { ProfileParameter } from '@src/components/social';
+import { ProfileParameter } from 'src/components/social';
 import {
   ImageOverlay,
   RateBar,
   textStyle,
-} from '@src/components/common';
-import { Profile } from '@src/core/model';
+} from 'src/components/common';
+import { Profile } from 'src/core/model';
 
 interface ComponentProps {
   profile: Profile;

@@ -10,16 +10,16 @@ import {
   ProfileInfo1,
   ProfileSocials,
   ProfileActivityList1,
-} from '@src/components/social';
+} from 'src/components/social';
 import {
   Profile as ProfileModel,
   ProfileSocials as ProfileSocialsModel,
   Post as PostModel,
-} from '@src/core/model';
+} from 'src/core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   profile: ProfileModel;

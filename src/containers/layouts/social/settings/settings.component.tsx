@@ -15,7 +15,7 @@ import {
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   soundEnabled: boolean;

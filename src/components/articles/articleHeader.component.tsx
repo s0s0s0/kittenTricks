@@ -9,7 +9,7 @@ import {
   ImageOverlay,
   ImageOverlayProps,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   title: string;

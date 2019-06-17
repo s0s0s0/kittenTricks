@@ -12,17 +12,17 @@ import { CheckBox } from 'react-native-ui-kitten/ui';
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   EmailIconFill,
   EyeOffIconFill,
   PersonIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   EmailValidator,
   NameValidator,
   PasswordValidator,
-} from '@src/core/validators';
+} from 'src/core/validators';
 import { SignUpForm2Data } from './type';
 
 interface ComponentProps {

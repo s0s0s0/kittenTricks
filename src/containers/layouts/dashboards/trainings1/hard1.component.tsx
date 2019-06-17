@@ -5,12 +5,12 @@ import {
   ThemeType,
   withStyles,
 } from 'react-native-ui-kitten/theme';
-import { Exercise } from '@src/core/model/exercise.model';
+import { Exercise } from 'src/core/model/exercise.model';
 import { List } from 'react-native-ui-kitten/ui';
 import {
   TrainingCard2,
   TrainingCardProps,
-} from '@src/components/trainings/trainingCard2.component';
+} from 'src/components/trainings/trainingCard2.component';
 
 interface ComponentProps {
   exercises: Exercise[];

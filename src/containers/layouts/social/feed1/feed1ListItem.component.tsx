@@ -15,11 +15,11 @@ import { Text } from 'react-native-ui-kitten/ui';
 import {
   FeedActivityBar,
   Styx,
-} from '@src/components/social';
+} from 'src/components/social';
 import {
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ListDerivedProps {
   index?: number;

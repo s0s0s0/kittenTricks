@@ -13,8 +13,8 @@ import {
   Text,
   Avatar,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
-import { Profile } from '@src/core/model';
+import { textStyle } from 'src/components/common';
+import { Profile } from 'src/core/model';
 
 interface ComponentProps {
   profile: Profile;

@@ -8,7 +8,7 @@ import {
 import {
   ComponentsList,
   ComponentsListItemData,
-} from '@src/components/menu';
+} from 'src/components/menu';
 
 interface ComponentProps {
   data: ComponentsListItemData[];

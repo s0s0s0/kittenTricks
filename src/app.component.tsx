@@ -3,7 +3,7 @@ import { ImageRequireSource } from 'react-native';
 import { NavigationState } from 'react-navigation';
 import { mapping } from '@eva-design/eva';
 import { ApplicationProvider } from 'react-native-ui-kitten/theme';
-import { DynamicStatusBar } from '@src/components/common';
+import { DynamicStatusBar } from 'src/components/common';
 import {
   ApplicationLoader,
   Assets,
@@ -17,7 +17,7 @@ import {
   ThemeKey,
   themes,
   ThemeStore,
-} from '@src/core/themes';
+} from 'src/core/themes';
 
 const images: ImageRequireSource[] = [
   require('./assets/images/source/image-profile-1.jpg'),

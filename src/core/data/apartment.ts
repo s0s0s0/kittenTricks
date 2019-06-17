@@ -8,7 +8,7 @@ import {
   imageApartment3,
   imageApartment4,
   imageApartment5,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 /* tslint:disable */
 

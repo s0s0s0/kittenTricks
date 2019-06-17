@@ -10,11 +10,11 @@ import {
   TopNavigationAction,
   TopNavigation,
 } from 'react-native-ui-kitten/ui';
-import { SafeAreaView } from '@src/core/navigation';
+import { SafeAreaView } from 'src/core/navigation';
 import {
   ArrowIosBackFill,
   SearchIconOutline,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 
 interface ComponentProps {
   onBack: () => void;

@@ -15,12 +15,12 @@ import { Text } from 'react-native-ui-kitten/ui';
 import {
   Chips,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   ClockIconOutline,
   ArrowForwardIconOutline,
-} from '@src/assets/icons';
-import { Exercise } from '@src/core/model/exercise.model';
+} from 'src/assets/icons';
+import { Exercise } from 'src/core/model/exercise.model';
 
 interface ComponentProps {
   training: Exercise;

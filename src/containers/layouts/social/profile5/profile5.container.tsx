@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
-import { Profile } from '@src/core/model';
-import { profile4 } from '@src/core/data/profile';
+import { Profile } from 'src/core/model';
+import { profile4 } from 'src/core/data/profile';
 import { Profile5 } from './profile5.component';
 
 interface State {

@@ -15,21 +15,21 @@ import {
   SignUpForm2,
   SignUpForm2Data,
   SocialAuth,
-} from '@src/components/auth';
-import { ProfilePhoto } from '@src/components/social';
+} from 'src/components/auth';
+import { ProfilePhoto } from 'src/components/social';
 import {
   ImageOverlay,
   ScrollableAvoidKeyboard,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   IconSource,
   PlusIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   imageSignUp4Bg,
   ImageSource,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 interface ComponentProps {
   onSignUpPress: (formData: SignUpForm2Data) => void;

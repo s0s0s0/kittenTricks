@@ -14,11 +14,11 @@ import {
 import {
   GridIconOutline,
   ListIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import { LayoutGridList } from '../layoutGridList';
 import { LayoutList } from '../layoutList';
 import { LayoutMenuItemData } from './type';
-import { themes } from '@src/core/themes';
+import { themes } from 'src/core/themes';
 
 // @ts-ignore (override `children` prop)
 interface ComponentProps extends TabViewProps {

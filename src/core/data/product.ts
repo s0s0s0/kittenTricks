@@ -1,4 +1,4 @@
-import { Product } from '@src/core/model';
+import { Product } from 'src/core/model';
 import {
   imageProduct1,
   imageProduct2,
@@ -6,7 +6,7 @@ import {
   imageProduct4,
   imageProduct5,
   imageProduct6,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 export const products: Product[] = [
   {

@@ -4,13 +4,13 @@ import {
   Profile,
   ProfileActivity,
   ProfileSocials,
-} from '@src/core/model';
+} from 'src/core/model';
 import { Profile7 } from './profile7.component';
 import {
   profile6,
   profileActivity1,
   profileSocials1,
-} from '@src/core/data/profile';
+} from 'src/core/data/profile';
 
 interface State {
   profile: Profile;

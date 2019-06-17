@@ -13,20 +13,20 @@ import {
   ProfileInfo1,
   ProfileParameterCard,
   ProfileSocials,
-} from '@src/components/social';
+} from 'src/components/social';
 import {
   ContainerView,
   RateBar,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   ArrowHeadDownIconFill,
   ArrowHeadUpIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   Profile as ProfileModel,
   ProfileSocials as ProfileSocialsModel,
-} from '@src/core/model';
+} from 'src/core/model';
 
 interface ComponentProps {
   profile: ProfileModel;

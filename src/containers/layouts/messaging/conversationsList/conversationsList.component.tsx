@@ -16,10 +16,10 @@ import {
 import {
   Conversation,
   ConversationProps,
-} from '@src/components/messaging';
-import { Conversation as ConversationModel } from '@src/core/model';
-import { SearchIconOutline } from '@src/assets/icons';
-import { textStyle } from '@src/components/common';
+} from 'src/components/messaging';
+import { Conversation as ConversationModel } from 'src/core/model';
+import { SearchIconOutline } from 'src/assets/icons';
+import { textStyle } from 'src/components/common';
 
 interface ComponentProps {
   searchEnabled: boolean;

@@ -14,9 +14,9 @@ import {
   Chips,
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
-import { ClockIconOutline } from '@src/assets/icons';
-import { Exercise } from '@src/core/model';
+} from 'src/components/common';
+import { ClockIconOutline } from 'src/assets/icons';
+import { Exercise } from 'src/core/model';
 
 interface ComponentProps {
   training: Exercise;

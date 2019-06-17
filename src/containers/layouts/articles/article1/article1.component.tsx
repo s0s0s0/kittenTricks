@@ -8,13 +8,13 @@ import { Text } from 'react-native-ui-kitten/ui';
 import {
   ArticleActivityBar,
   ArticleHeader,
-} from '@src/components/articles';
+} from 'src/components/articles';
 import {
   ActivityAuthoring,
   ContainerView,
   textStyle,
-} from '@src/components/common';
-import { Article } from '@src/core/model';
+} from 'src/components/common';
+import { Article } from 'src/core/model';
 
 interface ComponentProps {
   article: Article;

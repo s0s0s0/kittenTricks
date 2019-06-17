@@ -11,11 +11,11 @@ import {
 import {
   SignInForm2,
   SignInForm2Data,
-} from '@src/components/auth';
+} from 'src/components/auth';
 import {
   ScrollableAvoidKeyboard,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import { View } from 'react-native';
 
 interface ComponentProps {

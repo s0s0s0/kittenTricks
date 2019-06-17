@@ -8,7 +8,7 @@ import {
   ThemeType,
   withStyles,
 } from 'react-native-ui-kitten/theme';
-import { MovieDetail } from '@src/core/model';
+import { MovieDetail } from 'src/core/model';
 import {
   MovieDetailListItem,
   MovieDetailListItemProps,

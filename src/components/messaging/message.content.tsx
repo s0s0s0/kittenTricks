@@ -1,6 +1,6 @@
 import React from 'react';
 import { ViewProps } from 'react-native';
-import { Message } from '@src/core/model';
+import { Message } from 'src/core/model';
 import { LeftMessage } from './leftMessage.component';
 import { RightMessage } from './rightMessage.component';
 import { Alignments } from './type';

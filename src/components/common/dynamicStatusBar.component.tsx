@@ -11,7 +11,7 @@ import {
   ThemeType,
   withStyles,
 } from 'react-native-ui-kitten/theme';
-import { ThemeKey } from '@src/core/themes';
+import { ThemeKey } from 'src/core/themes';
 import Constants from 'expo-constants';
 
 interface ComponentProps {

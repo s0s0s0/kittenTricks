@@ -16,12 +16,12 @@ import {
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import { CartProduct as CartProductModel } from './cartProduct.model';
 import {
   CartProduct,
   CartProductProps,
-} from '@src/components/ecommerce';
+} from 'src/components/ecommerce';
 
 interface ComponentProps {
   products: CartProductModel[];

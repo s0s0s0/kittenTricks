@@ -11,15 +11,15 @@ import {
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   EmailIconFill,
   LockIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   EmailValidator,
   PasswordValidator,
-} from '@src/core/validators';
+} from 'src/core/validators';
 import { SignInForm3Data } from './type';
 
 interface ComponentProps {

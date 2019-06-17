@@ -10,7 +10,7 @@ import {
   LayoutsContainer,
   ComponentsContainer,
   ThemesContainer,
-} from '@src/containers/menu';
+} from 'src/containers/menu';
 import {
   ArticlesContainer,
   Article1Container,
@@ -20,7 +20,7 @@ import {
   ArticleList2Container,
   ArticleList3Container,
   ArticleList4Container,
-} from '@src/containers/layouts/articles';
+} from 'src/containers/layouts/articles';
 import {
   AuthContainer,
   ForgotPasswordContainer,
@@ -33,12 +33,12 @@ import {
   SignUp2Container,
   SignUp3Container,
   SignUp4Container,
-} from '@src/containers/layouts/auth';
+} from 'src/containers/layouts/auth';
 import {
   DashboardsContainer,
   Trainings1Container,
   Trainings2Container,
-} from '@src/containers/layouts/dashboards';
+} from 'src/containers/layouts/dashboards';
 import {
   EcommerceContainer,
   AddNewCardContainer,
@@ -49,15 +49,15 @@ import {
   ProductsListContainer,
   RentApartmentContainer,
   ShoppingCartContainer,
-} from '@src/containers/layouts/ecommerce';
+} from 'src/containers/layouts/ecommerce';
 import {
   MessagingContainer,
   Chat1Container,
   Chat2Container,
   Chat3Container,
   ConversationsListContainer,
-} from '@src/containers/layouts/messaging';
-import { NavigationContainer } from '@src/containers/layouts/navigation';
+} from 'src/containers/layouts/messaging';
+import { NavigationContainer } from 'src/containers/layouts/navigation';
 import {
   SocialContainer,
   Feed1Container,
@@ -73,8 +73,8 @@ import {
   ProfileSettings2Container,
   ProfileSettings3Container,
   SettingsContainer,
-} from '@src/containers/layouts/social';
-import { WalkthroughContainer } from '@src/containers/layouts/walkthrough';
+} from 'src/containers/layouts/social';
+import { WalkthroughContainer } from 'src/containers/layouts/walkthrough';
 import {
   AvatarContainer,
   ButtonContainer,
@@ -91,7 +91,7 @@ import {
   ListContainer,
   TopNavigationContainer,
   BottomNavigationContainer,
-} from '@src/containers/components';
+} from 'src/containers/components';
 import {
   MenuNavigatorParams,
   TopNavigationElement,

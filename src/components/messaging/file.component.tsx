@@ -7,7 +7,7 @@ import { StyleType } from 'react-native-ui-kitten/theme';
 import {
   FileType,
   Message,
-} from '@src/core/model';
+} from 'src/core/model';
 import { ChatFileMessageAppearance } from './type';
 import { VideoMessage } from './videoMessage.component';
 import { PhotoMessage } from './photoMessage.component';

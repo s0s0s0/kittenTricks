@@ -13,8 +13,8 @@ import {
   Avatar,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
-import { PinIconOutline } from '@src/assets/icons';
+import { textStyle } from 'src/components/common';
+import { PinIconOutline } from 'src/assets/icons';
 import { ProfileLocation } from './profileLocation.component';
 
 interface ComponentProps {

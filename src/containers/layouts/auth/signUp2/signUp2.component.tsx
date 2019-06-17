@@ -14,13 +14,13 @@ import { Button } from 'react-native-ui-kitten/ui';
 import {
   SignUpForm2,
   SignUpForm2Data,
-} from '@src/components/auth';
-import { ProfilePhoto } from '@src/components/social';
+} from 'src/components/auth';
+import { ProfilePhoto } from 'src/components/social';
 import {
   ScrollableAvoidKeyboard,
   textStyle,
-} from '@src/components/common';
-import { PlusIconFill } from '@src/assets/icons';
+} from 'src/components/common';
+import { PlusIconFill } from 'src/assets/icons';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
 
 interface ComponentProps {

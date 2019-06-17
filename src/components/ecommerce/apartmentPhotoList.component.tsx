@@ -9,11 +9,11 @@ import {
   List,
   ListProps,
 } from 'react-native-ui-kitten/ui';
-import { ImageSource } from '@src/assets/images';
+import { ImageSource } from 'src/assets/images';
 import {
   ApartmentPhotoListItem,
   ApartmentPhotoListItemProps,
-} from '@src/components/ecommerce/apartmentPhotoListItem.component';
+} from 'src/components/ecommerce/apartmentPhotoListItem.component';
 
 // @ts-ignore (override `renderItem` prop)
 interface ComponentProps extends ListProps {

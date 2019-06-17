@@ -1,5 +1,5 @@
-import { ImageSource } from '@src/assets/images';
-import { IconSource } from '@src/assets/icons';
+import { ImageSource } from 'src/assets/images';
+import { IconSource } from 'src/assets/icons';
 
 export interface Apartment {
   title: string;

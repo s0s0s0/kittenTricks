@@ -10,16 +10,16 @@ import {
   Input,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { CommentsList1 } from '@src/components/articles';
-import { ProductInfo } from '@src/components/ecommerce';
+import { CommentsList1 } from 'src/components/articles';
+import { ProductInfo } from 'src/components/ecommerce';
 import {
   Product,
   Comment,
-} from '@src/core/model';
+} from 'src/core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   product: Product;

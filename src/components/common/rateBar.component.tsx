@@ -17,8 +17,8 @@ import {
   ThemeType,
   withStyles,
 } from 'react-native-ui-kitten/theme';
-import { StarIconFill } from '@src/assets/icons';
-import { textStyle } from '@src/components/common/style';
+import { StarIconFill } from 'src/assets/icons';
+import { textStyle } from 'src/components/common/style';
 
 interface ComponentProps {
   hint?: string;

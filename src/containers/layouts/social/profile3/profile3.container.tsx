@@ -3,11 +3,11 @@ import { NavigationScreenProps } from 'react-navigation';
 import {
   Profile,
   ProfileSocials,
-} from '@src/core/model';
+} from 'src/core/model';
 import {
   profile1,
   profileSocials1,
-} from '@src/core/data/profile';
+} from 'src/core/data/profile';
 import { Profile3 } from './profile3.component';
 
 interface State {

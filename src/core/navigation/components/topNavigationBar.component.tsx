@@ -11,7 +11,7 @@ import {
   TopNavigationActionProps,
   TopNavigationProps,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 import { SafeAreaView } from './safeAreaView.component';
 
 export interface ComponentProps {

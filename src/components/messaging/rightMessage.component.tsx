@@ -10,8 +10,8 @@ import {
   withStyles,
 } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
-import { Message } from '@src/core/model';
+import { textStyle } from 'src/components/common';
+import { Message } from 'src/core/model';
 import { MessageContent } from './messageContent.component';
 
 interface ComponentProps {

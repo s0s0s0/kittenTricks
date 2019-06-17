@@ -13,7 +13,7 @@ import {
   imageProfileSettings2Layout,
   imageProfileSettings3Layout,
   imageSettingsLayout,
-} from '@src/assets/images';
+} from 'src/assets/images';
 import { SocialContainerData } from './type';
 
 export const routes: SocialContainerData[] = [

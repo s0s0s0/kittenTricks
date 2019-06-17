@@ -11,7 +11,7 @@ import {
   List,
   ListProps,
 } from 'react-native-ui-kitten/ui';
-import { Product } from '@src/core/model';
+import { Product } from 'src/core/model';
 import {
   ProductListItem,
   ProductListItemProps,

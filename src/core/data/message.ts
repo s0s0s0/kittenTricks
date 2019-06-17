@@ -4,11 +4,11 @@ import {
   profile3,
   profile4,
 } from './profile';
-import { Message } from '@src/core/model';
+import { Message } from 'src/core/model';
 import {
   file1,
   file2,
-} from '@src/core/data/file';
+} from 'src/core/data/file';
 
 export const message1: Message = {
   author: profile1,

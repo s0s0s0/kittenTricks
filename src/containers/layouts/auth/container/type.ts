@@ -1,4 +1,4 @@
-import { LayoutMenuItemData } from '@src/components/common';
+import { LayoutMenuItemData } from 'src/components/common';
 
 export type AuthData = LayoutMenuItemData;
 

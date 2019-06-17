@@ -12,9 +12,9 @@ import {
   withStyles,
 } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { PaymentCard as PaymentCardModel } from '@src/core/model';
-import { MoreVerticalIconFill } from '@src/assets/icons';
-import { textStyle } from '@src/components/common';
+import { PaymentCard as PaymentCardModel } from 'src/core/model';
+import { MoreVerticalIconFill } from 'src/assets/icons';
+import { textStyle } from 'src/components/common';
 
 interface ComponentProps {
   paymentCard: PaymentCardModel;

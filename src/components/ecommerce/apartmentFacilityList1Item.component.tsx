@@ -8,7 +8,7 @@ import {
   Button,
   ButtonProps,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 
 interface ListDerivedProps {
   index?: number;

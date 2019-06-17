@@ -16,13 +16,13 @@ import {
   Button,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 import {
   CloseIconOutline,
   MinusIconFill,
   PlusIconFill,
-} from '@src/assets/icons';
-import { CartProduct as CartProductModel } from '@src/containers/layouts/ecommerce/shoppingCart/cartProduct.model';
+} from 'src/assets/icons';
+import { CartProduct as CartProductModel } from 'src/containers/layouts/ecommerce/shoppingCart/cartProduct.model';
 
 interface ComponentProps {
   product: CartProductModel;

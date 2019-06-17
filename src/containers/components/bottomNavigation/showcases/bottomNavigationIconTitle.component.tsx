@@ -3,7 +3,7 @@ import {
   BottomNavigation,
   BottomNavigationTab,
 } from 'react-native-ui-kitten/ui';
-import { StarIconFill } from '@src/assets/icons';
+import { StarIconFill } from 'src/assets/icons';
 
 interface State {
   selectedIndex: number;

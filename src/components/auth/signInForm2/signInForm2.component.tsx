@@ -12,15 +12,15 @@ import { Button } from 'react-native-ui-kitten/ui';
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   EyeOffIconFill,
   PersonIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   NameValidator,
   PasswordValidator,
-} from '@src/core/validators';
+} from 'src/core/validators';
 import { SignInForm2Data } from './type';
 
 interface ComponentProps {

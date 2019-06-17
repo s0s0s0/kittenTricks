@@ -1,4 +1,4 @@
-import { ImageSource } from '@src/assets/images';
+import { ImageSource } from 'src/assets/images';
 import { Comment } from './comment.model';
 import { Profile } from './profile.model';
 

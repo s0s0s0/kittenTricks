@@ -1,11 +1,11 @@
 import {
   File,
   FileType,
-} from '@src/core/model';
+} from 'src/core/model';
 import {
   imageMessage1,
   imageMessage2,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 export const file1: File = {
   type: FileType.photo,

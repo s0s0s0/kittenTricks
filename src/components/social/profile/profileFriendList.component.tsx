@@ -13,7 +13,7 @@ import {
   List,
   ListProps,
 } from 'react-native-ui-kitten/ui';
-import { Profile as ProfileModel } from '@src/core/model';
+import { Profile as ProfileModel } from 'src/core/model';
 import {
   ProfileFriendListItem,
   ProfileFriendListItemProps,

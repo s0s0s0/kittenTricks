@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
 import { AddNewCard } from './addNewCard.component';
-import { AddPaymentCardFormType } from '@src/components/ecommerce';
+import { AddPaymentCardFormType } from 'src/components/ecommerce';
 
 export class AddNewCardContainer extends React.Component<NavigationScreenProps> {
 

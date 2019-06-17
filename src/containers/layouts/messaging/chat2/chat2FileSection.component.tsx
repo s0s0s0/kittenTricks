@@ -29,8 +29,8 @@ import {
   ImageIconFill,
   MapIconFill,
   PeopleIconFill,
-} from '@src/assets/icons';
-import { textStyle } from '@src/components/common';
+} from 'src/assets/icons';
+import { textStyle } from 'src/components/common';
 
 interface ComponentProps {
   galleryFiles: MediaLibrary.Asset[];

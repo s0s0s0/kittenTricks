@@ -13,16 +13,16 @@ import {
   ThemedComponentProps,
   StyleType,
 } from 'react-native-ui-kitten/theme';
-import { Exercise } from '@src/core/model/exercise.model';
+import { Exercise } from 'src/core/model/exercise.model';
 import {
   TrainingCard1,
   TrainingCardProps,
-} from '@src/components/trainings/trainingCard.component';
+} from 'src/components/trainings/trainingCard.component';
 import {
   List,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 
 interface ComponentProps {
   exercises: Exercise[];

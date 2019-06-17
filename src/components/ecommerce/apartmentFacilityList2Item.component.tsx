@@ -14,7 +14,7 @@ import {
 import {
   TextIcon,
   TextIconProps,
-} from '@src/components/common';
+} from 'src/components/common';
 
 // @ts-ignore (`icon` prop override)
 interface ComponentProps extends TextIconProps {

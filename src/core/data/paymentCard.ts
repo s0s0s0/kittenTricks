@@ -1,4 +1,4 @@
-import { PaymentCard } from '@src/core/model';
+import { PaymentCard } from 'src/core/model';
 
 export const paymentCard1: PaymentCard = {
   type: 'VISA',

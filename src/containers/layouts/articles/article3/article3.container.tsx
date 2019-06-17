@@ -4,15 +4,15 @@ import {
   Article,
   Comment,
   Profile,
-} from '@src/core/model';
-import { articles } from '@src/core/data/article';
+} from 'src/core/model';
+import { articles } from 'src/core/data/article';
 import {
   profile1,
   profile2,
   profile3,
   profile4,
-} from '@src/core/data/profile';
-import { comments } from '@src/core/data/comment';
+} from 'src/core/data/profile';
+import { comments } from 'src/core/data/comment';
 import { Article3 } from './article3.component';
 
 const profiles: Profile[] = [

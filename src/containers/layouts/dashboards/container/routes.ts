@@ -1,7 +1,7 @@
 import {
   imageTrainings1Layout,
   imageTrainings2Layout,
-} from '@src/assets/images';
+} from 'src/assets/images';
 import { DashboardsContainerData } from './type';
 
 export const routes: DashboardsContainerData[] = [

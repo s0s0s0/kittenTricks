@@ -15,13 +15,13 @@ import {
 import {
   ProfileSetting,
   ProfilePhoto,
-} from '@src/components/social';
-import { CameraIconFill } from '@src/assets/icons';
-import { Profile } from '@src/core/model';
+} from 'src/components/social';
+import { CameraIconFill } from 'src/assets/icons';
+import { Profile } from 'src/core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   profile: Profile;

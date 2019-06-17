@@ -13,16 +13,16 @@ import {
   SignInForm2,
   SignInForm2Data,
   SocialAuth,
-} from '@src/components/auth';
+} from 'src/components/auth';
 import {
   ScrollableAvoidKeyboard,
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   imageSignIn4Bg,
   ImageSource,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 interface ComponentProps {
   onForgotPasswordPress: () => void;

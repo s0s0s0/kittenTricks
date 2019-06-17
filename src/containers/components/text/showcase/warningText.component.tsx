@@ -3,7 +3,7 @@ import {
   Text,
   TextProps,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 
 type TextElement = React.ReactElement<TextProps>;
 

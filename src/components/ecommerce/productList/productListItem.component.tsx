@@ -15,8 +15,8 @@ import {
   Button,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
-import { CartIconOutline } from '@src/assets/icons';
+import { textStyle } from 'src/components/common';
+import { CartIconOutline } from 'src/assets/icons';
 
 interface ListDerivedProps {
   index?: number;

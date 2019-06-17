@@ -13,12 +13,12 @@ import {
   MovieDetailList,
   MovieHeader,
   MovieScreenshotList,
-} from '@src/components/ecommerce';
+} from 'src/components/ecommerce';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
-import { Movie as MovieModel } from '@src/core/model';
+} from 'src/components/common';
+import { Movie as MovieModel } from 'src/core/model';
 
 interface ComponentProps {
   movie: MovieModel;

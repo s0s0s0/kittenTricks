@@ -17,20 +17,20 @@ import {
   SignUpForm1,
   SignUpForm1Data,
   SocialAuth,
-} from '@src/components/auth';
+} from 'src/components/auth';
 import {
   ScrollableAvoidKeyboard,
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   ArrowForwardIconOutline,
   HeartIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   imageSignUp1Bg,
   ImageSource,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 interface ComponentProps {
   onSignUpPress: (formData: SignUpForm1Data) => void;

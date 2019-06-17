@@ -11,11 +11,11 @@ import {
   ListItemProps,
   Text,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 import {
   ThemeContext,
   ThemeKey,
-} from '@src/core/themes';
+} from 'src/core/themes';
 import { ComponentsListItemData } from './type';
 
 interface ComponentProps {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView } from '@src/core/navigation';
+import { SafeAreaView } from 'src/core/navigation';
 import {
   ThemeProvider,
   ThemedComponentProps,
@@ -14,8 +14,8 @@ import {
   ColorPaletteIconOutline,
   LayoutIconOutline,
   StarIconOutline,
-} from '@src/assets/icons';
-import { themes } from '@src/core/themes';
+} from 'src/assets/icons';
+import { themes } from 'src/core/themes';
 
 interface ComponentProps {
   selectedIndex: number;

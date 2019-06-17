@@ -14,8 +14,8 @@ import {
   ReactionBar,
   ShareButton,
   textStyle,
-} from '@src/components/common';
-import { PlusIconFill } from '@src/assets/icons';
+} from 'src/components/common';
+import { PlusIconFill } from 'src/assets/icons';
 
 interface ComponentProps {
   onSharePress: () => void;

@@ -21,7 +21,7 @@ import {
   SuccessInput,
   WarningInput,
 } from './showcase';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 
 type InputContainerProps = ThemedComponentProps & NavigationScreenProps;
 

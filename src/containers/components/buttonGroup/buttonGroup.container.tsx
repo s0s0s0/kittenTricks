@@ -11,7 +11,7 @@ import {
   SmallButtonGroup,
   TinyButtonGroup,
 } from './showcase';
-import { ShowcaseItem } from '@src/containers/components/common/showcaseItem.component';
+import { ShowcaseItem } from 'src/containers/components/common/showcaseItem.component';
 
 export class ButtonGroupContainer extends React.Component<NavigationScreenProps> {
 

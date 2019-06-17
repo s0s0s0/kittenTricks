@@ -5,7 +5,7 @@ import {
   ThemeType,
   withStyles,
 } from 'react-native-ui-kitten/theme';
-import { Training } from '@src/core/model';
+import { Training } from 'src/core/model';
 import { List } from 'react-native-ui-kitten/ui';
 import {
   Feed2ListItem,

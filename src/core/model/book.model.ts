@@ -1,4 +1,4 @@
-import { ImageSource } from '@src/assets/images';
+import { ImageSource } from 'src/assets/images';
 
 export interface Book {
   name: string;

@@ -11,19 +11,19 @@ import {
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   CardNumberValidator,
   ExpirationDateValidator,
   CvvValidator,
   CardholderNameValidator,
-} from '@src/core/validators';
+} from 'src/core/validators';
 import {
   CardNumberFormatter,
   ExpirationDateFormatter,
   CvvFormatter,
   CardholderNameFormatter,
-} from '@src/core/formatters';
+} from 'src/core/formatters';
 
 export interface AddPaymentCardFormType {
   cardNumber: string;

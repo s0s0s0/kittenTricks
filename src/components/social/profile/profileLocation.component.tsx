@@ -18,7 +18,7 @@ import {
   Text,
   TextProps,
 } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from 'src/components/common';
 
 type IconProp = (style: StyleType) => React.ReactElement<ImageProps>;
 type ChildrenProp = string;

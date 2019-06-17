@@ -6,7 +6,7 @@ import {
   ListItemProps,
   ListProps,
 } from 'react-native-ui-kitten/ui';
-import { StarIconFill } from '@src/assets/icons';
+import { StarIconFill } from 'src/assets/icons';
 import { BottomEndTooltip } from '../../tooltip/showcase';
 
 

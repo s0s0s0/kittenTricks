@@ -18,9 +18,9 @@ import {
 import {
   ClockIconOutline,
   FlashIconOutline,
-} from '@src/assets/icons';
-import { Exercise } from '@src/core/model';
-import { textStyle } from '@src/components/common';
+} from 'src/assets/icons';
+import { Exercise } from 'src/core/model';
+import { textStyle } from 'src/components/common';
 
 interface ComponentProps {
   training: Exercise;

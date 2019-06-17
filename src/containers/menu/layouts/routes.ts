@@ -5,7 +5,7 @@ import {
   MenuIconEcommerce,
   MenuIconMessaging,
   MenuIconSocial,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import { LayoutsContainerData } from './type';
 
 export const routes: LayoutsContainerData[] = [

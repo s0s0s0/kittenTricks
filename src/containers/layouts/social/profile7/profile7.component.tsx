@@ -17,25 +17,25 @@ import {
   ProfileFriendList,
   ProfileInfo3,
   ProfileSocials,
-} from '@src/components/social';
+} from 'src/components/social';
 import {
   MessageCircleIconFill,
   PersonAddIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   Profile as ProfileModel,
   ProfileSocials as ProfileSocialsModel,
   ProfileActivity as ProfileActivityModel,
-} from '@src/core/model';
+} from 'src/core/model';
 import {
   ContainerView,
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   imageProfile7Bg,
   ImageSource,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 interface ComponentProps {
   profile: ProfileModel;

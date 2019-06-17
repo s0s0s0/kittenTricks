@@ -14,8 +14,8 @@ import { Text } from 'react-native-ui-kitten/ui';
 import {
   Chips,
   textStyle,
-} from '@src/components/common';
-import { ClockIconOutline } from '@src/assets/icons';
+} from 'src/components/common';
+import { ClockIconOutline } from 'src/assets/icons';
 
 interface ComponentProps {
   hint?: string;

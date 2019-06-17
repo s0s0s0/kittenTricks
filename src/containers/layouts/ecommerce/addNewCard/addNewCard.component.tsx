@@ -8,11 +8,11 @@ import { Button } from 'react-native-ui-kitten/ui';
 import {
   AddPaymentCardForm,
   AddPaymentCardFormType,
-} from '@src/components/ecommerce';
+} from 'src/components/ecommerce';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   onAddPress: (value: AddPaymentCardFormType) => void;

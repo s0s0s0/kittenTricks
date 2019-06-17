@@ -4,15 +4,15 @@ import {
   Book,
   Comment,
   Profile,
-} from '@src/core/model';
-import { book1 } from '@src/core/data/book';
-import { comments } from '@src/core/data/comment';
+} from 'src/core/model';
+import { book1 } from 'src/core/data/book';
+import { comments } from 'src/core/data/comment';
 import {
   profile1,
   profile2,
   profile3,
   profile4,
-} from '@src/core/data/profile';
+} from 'src/core/data/profile';
 import { BookDetails } from './bookDetails.component';
 
 const profiles: Profile[] = [

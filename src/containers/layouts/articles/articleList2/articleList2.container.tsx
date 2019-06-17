@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
-import { Article } from '@src/core/model';
-import { articles } from '@src/core/data/article';
+import { Article } from 'src/core/model';
+import { articles } from 'src/core/data/article';
 import { ArticleList2 } from './articleList2.component';
 
 interface State {

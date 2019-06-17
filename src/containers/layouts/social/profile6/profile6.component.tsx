@@ -17,22 +17,22 @@ import {
   ProfileActivityList2Props,
   ProfileInfo2,
   ProfileSocials,
-} from '@src/components/social';
+} from 'src/components/social';
 import {
   MessageCircleIconFill,
   PersonAddIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   Profile as ProfileModel,
   ProfileSocials as ProfileSocialsModel,
   ProfileActivity as ProfileActivityModel,
   CategorisedProfileActivity as CategorisedProfileActivityModel,
   Post,
-} from '@src/core/model';
+} from 'src/core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 
 interface ComponentProps {
   profile: ProfileModel;

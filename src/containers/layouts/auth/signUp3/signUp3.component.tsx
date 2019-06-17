@@ -14,21 +14,21 @@ import { Button } from 'react-native-ui-kitten/ui';
 import {
   SignUpForm2,
   SignUpForm2Data,
-} from '@src/components/auth';
-import { ProfilePhoto } from '@src/components/social';
+} from 'src/components/auth';
+import { ProfilePhoto } from 'src/components/social';
 import {
   ScrollableAvoidKeyboard,
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from 'src/components/common';
 import {
   IconSource,
   PlusIconFill,
-} from '@src/assets/icons';
+} from 'src/assets/icons';
 import {
   imageSignUp3Bg,
   ImageSource,
-} from '@src/assets/images';
+} from 'src/assets/images';
 
 interface ComponentProps {
   onSignUpPress: (formData: SignUpForm2Data) => void;
