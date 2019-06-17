@@ -7,12 +7,12 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   Input,
   InputProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   Conversation,
   ConversationProps,

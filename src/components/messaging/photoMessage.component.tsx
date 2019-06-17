@@ -8,7 +8,7 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import { Message } from '@src/core/model';
 import { ChatFileMessageAppearance } from './type';
 

@@ -4,11 +4,11 @@ import {
   withStyles,
   ThemeType,
   ThemedComponentProps,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   ListProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import { ImageSource } from '@src/assets/images';
 import {
   ApartmentPhotoListItem,

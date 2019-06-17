@@ -7,11 +7,11 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Input,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import { CommentsList1 } from '@src/components/articles';
 import {
   ContainerView,

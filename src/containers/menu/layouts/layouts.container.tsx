@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
-import { ModalService } from '@kitten/theme';
+import { ModalService } from 'react-native-ui-kitten/theme';
 import { Layouts } from './layouts.component';
 import { ComingSoonModal } from './comingSoon.modal';
 import { LayoutsContainerData } from './type';

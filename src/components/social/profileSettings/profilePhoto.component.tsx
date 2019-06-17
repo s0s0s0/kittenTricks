@@ -3,12 +3,12 @@ import { View } from 'react-native';
 import {
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Avatar,
   AvatarProps,
   ButtonProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 
 interface ComponentProps {
   button?: () => React.ReactElement<ButtonProps>;

@@ -4,9 +4,9 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import { Training } from '@src/core/model';
-import { List } from '@kitten/ui';
+import { List } from 'react-native-ui-kitten/ui';
 import {
   Feed1ListItem,
   Feed1ListItemProps,

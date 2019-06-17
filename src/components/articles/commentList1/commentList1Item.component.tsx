@@ -9,12 +9,12 @@ import {
   ListItemProps,
   ListProps,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   ActivityAuthoring,
   textStyle,

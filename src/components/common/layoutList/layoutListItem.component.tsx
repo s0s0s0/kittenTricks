@@ -3,12 +3,12 @@ import {
   ListItem,
   ListItemProps,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import { LayoutListItemData } from './type';
 import { textStyle } from '../style';
 

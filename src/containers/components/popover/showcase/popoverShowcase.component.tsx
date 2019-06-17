@@ -4,7 +4,7 @@ import {
   CheckBoxProps,
   Popover,
   PopoverProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   PopoverContent,
   PopoverContentProps,

@@ -7,7 +7,7 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 
 export type ProfileActivityList2ItemProps = ThemedComponentProps & ImageProps;
 

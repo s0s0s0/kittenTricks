@@ -8,11 +8,11 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Avatar,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import { textStyle } from '@src/components/common';
 import { PinIconFill } from '@src/assets/icons';
 import { ProfileLocation } from './profileLocation.component';

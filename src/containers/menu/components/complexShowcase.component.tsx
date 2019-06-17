@@ -7,7 +7,7 @@ import {
   withStyles,
   ThemeType,
   ThemedComponentProps,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import { StarIconFill } from '@src/assets/icons';
 
 type ComplexComponentShowcaseProps = ThemedComponentProps & ViewProps;

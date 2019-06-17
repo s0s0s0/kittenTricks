@@ -6,11 +6,11 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   ListProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import { Product } from '@src/core/model';
 import {
   ProductListItem,

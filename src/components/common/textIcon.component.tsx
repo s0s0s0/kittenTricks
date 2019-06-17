@@ -12,8 +12,8 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Text } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
 import { textStyle } from './style';
 
 type IconProp = (style: StyleType) => React.ReactElement<ImageProps>;

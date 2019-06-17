@@ -8,11 +8,11 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   ListProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import { Post } from '@src/core/model';
 import {
   ProfileActivityList1Item,

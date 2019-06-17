@@ -7,8 +7,8 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Avatar } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Avatar } from 'react-native-ui-kitten/ui';
 import { Profile } from '@src/core/model';
 
 interface ComponentProps {

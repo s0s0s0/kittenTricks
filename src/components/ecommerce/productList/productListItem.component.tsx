@@ -10,11 +10,11 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import { textStyle } from '@src/components/common';
 import { CartIconOutline } from '@src/assets/icons';
 

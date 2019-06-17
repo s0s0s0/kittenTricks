@@ -7,11 +7,11 @@ import {
   ThemeType,
   withStyles,
   ThemedComponentProps,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Toggle,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ContainerView,
   textStyle,

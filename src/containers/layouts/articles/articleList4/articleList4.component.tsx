@@ -5,11 +5,11 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   Button,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import { ArticleHeader } from '@src/components/articles';
 import { Article } from '@src/core/model';
 import {

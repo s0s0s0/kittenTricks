@@ -3,7 +3,7 @@ import {
   withStyles,
   ThemeType,
   ThemedComponentProps,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import { LayoutMenu } from '@src/components/common';
 import { SocialData } from './type';
 

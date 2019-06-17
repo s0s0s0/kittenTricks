@@ -11,13 +11,13 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   ButtonProps,
   Input,
   List,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   Alignments,
   ChatFileMessage,

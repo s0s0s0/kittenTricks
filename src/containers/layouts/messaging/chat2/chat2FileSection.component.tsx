@@ -15,14 +15,14 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   ListItem,
   ListItemProps,
   Text,
   ViewPagerProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   CameraIconFill,
   FileTextIconFill,
