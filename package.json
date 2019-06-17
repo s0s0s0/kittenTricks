@@ -18,6 +18,7 @@
     "ci:build": "npm run env:set -- prod && npm run build"
   },
   "dependencies": {
+    "kittenTricks": "https://github.com/s0s0s0/kittenTricks.git",
     "@eva-design/eva": "1.0.0",
     "expo": "^33.0.4",
     "expo-analytics": "^1.0.8",
