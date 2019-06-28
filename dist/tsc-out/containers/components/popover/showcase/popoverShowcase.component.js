@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Popover, } from 'react-native-ui-kitten/ui';
 import { PopoverContent, } from './popoverContent.component';
 import { StyleSheet } from 'react-native';
-import { profile1 } from '@src/core/data/profile';
+import { profile1 } from '../../../../core/data/profile';
 export class PopoverShowcase extends React.Component {
     constructor() {
         super(...arguments);

@@ -13,7 +13,7 @@ import React from 'react';
 import { TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { MessageCircleIconOutline } from '@src/assets/icons';
+import { MessageCircleIconOutline } from '../../assets/icons';
 class CommentsButtonComponent extends React.Component {
     render() {
         const _a = this.props, { style, themedStyle, textStyle, children } = _a, restProps = __rest(_a, ["style", "themedStyle", "textStyle", "children"]);

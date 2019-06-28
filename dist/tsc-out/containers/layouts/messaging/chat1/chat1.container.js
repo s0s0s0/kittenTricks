@@ -1,7 +1,7 @@
 import React from 'react';
-import { ChatHeader, } from '@src/components/messaging';
-import { conversation5 } from '@src/core/data/conversation';
-import { profile1, profile2, } from '@src/core/data/profile';
+import { ChatHeader, } from '../../../../components/messaging';
+import { conversation5 } from '../../../../core/data/conversation';
+import { profile1, profile2, } from '../../../../core/data/profile';
 import { Chat1 } from './chat1.component';
 export class Chat1Container extends React.Component {
     constructor() {

@@ -1,4 +1,4 @@
-import { imageProduct1, imageProduct2, imageProduct3, imageProduct4, imageProduct5, imageProduct6, } from '@src/assets/images';
+import { imageProduct1, imageProduct2, imageProduct3, imageProduct4, imageProduct5, imageProduct6, } from '../../assets/images';
 export const products = [
     {
         name: 'White Chair',

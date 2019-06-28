@@ -1,6 +1,6 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { LayoutsList } from '@src/components/menu';
+import { LayoutsList } from '../../../components/menu';
 class LayoutsComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -1,8 +1,8 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { SignInForm2, } from '@src/components/auth';
-import { ScrollableAvoidKeyboard, textStyle, } from '@src/components/common';
+import { SignInForm2, } from '../../../../components/auth';
+import { ScrollableAvoidKeyboard, textStyle, } from '../../../../components/common';
 import { View } from 'react-native';
 class SignIn2Component extends React.Component {
     constructor() {

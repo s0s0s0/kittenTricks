@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { TopNavigation, TopNavigationAction, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../../../components/common';
 import { SafeAreaView } from './safeAreaView.component';
 class TopNavigationBarComponent extends React.Component {
     constructor() {

@@ -2,9 +2,9 @@ import React from 'react';
 import { ImageBackground, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Avatar, Text, } from 'react-native-ui-kitten/ui';
-import { ArticleActivityBar } from '@src/components/articles';
-import { ContainerView, textStyle, } from '@src/components/common';
-import { ClockIconOutline } from '@src/assets/icons';
+import { ArticleActivityBar } from '../../../../components/articles';
+import { ContainerView, textStyle, } from '../../../../components/common';
+import { ClockIconOutline } from '../../../../assets/icons';
 class Article2Component extends React.Component {
     constructor() {
         super(...arguments);

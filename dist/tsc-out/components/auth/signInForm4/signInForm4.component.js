@@ -12,9 +12,9 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { textStyle, ValidationInput, } from '@src/components/common';
-import { PhoneNumberValidator, SMSCodeValidator, } from '@src/core/validators';
-import { LockIconFill, PhoneIconFill, } from '@src/assets/icons';
+import { textStyle, ValidationInput, } from '../../common';
+import { PhoneNumberValidator, SMSCodeValidator, } from '../../../core/validators';
+import { LockIconFill, PhoneIconFill, } from '../../../assets/icons';
 class SignInForm4Component extends React.Component {
     constructor() {
         super(...arguments);

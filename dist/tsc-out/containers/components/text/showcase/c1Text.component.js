@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../../../../components/common';
 export const C1Text = () => {
     return (<Text style={textStyle.caption1} category='c1'>
       Sample Text

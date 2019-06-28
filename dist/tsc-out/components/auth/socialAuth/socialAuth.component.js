@@ -13,8 +13,8 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
-import { FacebookIconFill, GoogleIconFill, TwitterIconFill, } from '@src/assets/icons';
+import { textStyle } from '../../common';
+import { FacebookIconFill, GoogleIconFill, TwitterIconFill, } from '../../../assets/icons';
 import { SocialButton } from './socialAuthButton.component';
 class SocialAuthComponent extends React.Component {
     constructor() {

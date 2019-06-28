@@ -1,6 +1,6 @@
 import React from 'react';
 import { Animated, Easing, StyleSheet, } from 'react-native';
-import { splash } from '@src/assets/images';
+import { splash } from '../../assets/images';
 export class LoadingAnimationComponent extends React.Component {
     constructor() {
         super(...arguments);

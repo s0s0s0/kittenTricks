@@ -11,7 +11,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { ActivityBar, LikeButton, textStyle, } from '@src/components/common';
+import { ActivityBar, LikeButton, textStyle, } from '../../common';
 class ProfileActivityBarComponent extends React.Component {
     render() {
         const _a = this.props, { themedStyle, likes, onLikePress, children } = _a, restProps = __rest(_a, ["themedStyle", "likes", "onLikePress", "children"]);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { TopNavigation, TopNavigationAction, } from 'react-native-ui-kitten/ui';
-import { StarIconFill, ArrowIosBackFill, MoreVerticalIconFill, } from '@src/assets/icons';
+import { StarIconFill, ArrowIosBackFill, MoreVerticalIconFill, } from '../../../../assets/icons';
 export const StartTopNavigation = (props) => {
     return (<TopNavigation {...props} alignment='start' title='Title' subtitle='Subtitle' leftControl={renderLeftControl()} rightControls={renderRightControls()}/>);
 };

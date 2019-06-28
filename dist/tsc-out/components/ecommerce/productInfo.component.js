@@ -13,7 +13,7 @@ import React from 'react';
 import { Image, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Radio, RadioGroup, Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../common';
 class ProductInfoComponent extends React.Component {
     constructor() {
         super(...arguments);

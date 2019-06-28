@@ -13,8 +13,8 @@ import React from 'react';
 import { View, Image, TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
-import { CartIconOutline } from '@src/assets/icons';
+import { textStyle } from '../../common';
+import { CartIconOutline } from '../../../assets/icons';
 class ProductListItemComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -3,8 +3,8 @@ import { Image, ScrollView, TouchableOpacity, View, } from 'react-native';
 import { Camera } from 'expo-camera';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, ListItem, Text, } from 'react-native-ui-kitten/ui';
-import { CameraIconFill, FileTextIconFill, ImageIconFill, MapIconFill, PeopleIconFill, } from '@src/assets/icons';
-import { textStyle } from '@src/components/common';
+import { CameraIconFill, FileTextIconFill, ImageIconFill, MapIconFill, PeopleIconFill, } from '../../../../assets/icons';
+import { textStyle } from '../../../../components/common';
 class Chat2FileSectionComponent extends React.Component {
     constructor() {
         super(...arguments);

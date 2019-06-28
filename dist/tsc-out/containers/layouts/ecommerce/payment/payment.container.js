@@ -1,6 +1,6 @@
 import React from 'react';
 import { Payment } from './payment.component';
-import { paymentCard1 } from '@src/core/data/paymentCard';
+import { paymentCard1 } from '../../../../core/data/paymentCard';
 export class PaymentContainer extends React.Component {
     constructor() {
         super(...arguments);

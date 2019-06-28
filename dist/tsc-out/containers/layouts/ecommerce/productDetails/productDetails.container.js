@@ -1,8 +1,8 @@
 import React from 'react';
 import { ModalService } from 'react-native-ui-kitten/theme';
-import { products } from '@src/core/data/product';
-import { comments } from '@src/core/data/comment';
-import { profile1, profile2, profile3, profile4, } from '@src/core/data/profile';
+import { products } from '../../../../core/data/product';
+import { comments } from '../../../../core/data/comment';
+import { profile1, profile2, profile3, profile4, } from '../../../../core/data/profile';
 import { ProductDetails } from './productDetails.component';
 import { BuyProductModal } from './buyProduct.modal';
 const profiles = [

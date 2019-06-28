@@ -1,9 +1,9 @@
 import React from 'react';
-import { SafeAreaView } from '@src/core/navigation';
+import { SafeAreaView } from '../../core/navigation';
 import { ThemeProvider, withStyles, } from 'react-native-ui-kitten/theme';
 import { BottomNavigation, BottomNavigationTab, } from 'react-native-ui-kitten/ui';
-import { ColorPaletteIconOutline, LayoutIconOutline, StarIconOutline, } from '@src/assets/icons';
-import { themes } from '@src/core/themes';
+import { ColorPaletteIconOutline, LayoutIconOutline, StarIconOutline, } from '../../assets/icons';
+import { themes } from '../../core/themes';
 class MenuComponent extends React.Component {
     constructor() {
         super(...arguments);

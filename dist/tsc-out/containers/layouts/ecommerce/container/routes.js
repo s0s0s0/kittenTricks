@@ -1,4 +1,4 @@
-import { imageAddNewCardLayout, imageBookDetailsLayout, imageMovieDetailsLayout, imagePaymentLayout, imageProductDetailsLayout, imageProductListLayout, imageRentApartmentLayout, imageShoppingCartLayout, } from '@src/assets/images';
+import { imageAddNewCardLayout, imageBookDetailsLayout, imageMovieDetailsLayout, imagePaymentLayout, imageProductDetailsLayout, imageProductListLayout, imageRentApartmentLayout, imageShoppingCartLayout, } from '../../../../assets/images';
 export const routes = [
     {
         title: 'Add New Card',

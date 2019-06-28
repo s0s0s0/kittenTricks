@@ -13,8 +13,8 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { CheckBox } from 'react-native-ui-kitten/ui';
-import { textStyle, ValidationInput, } from '@src/components/common';
-import { DOBValidator, EmailValidator, NameValidator, PasswordValidator, } from '@src/core/validators';
+import { textStyle, ValidationInput, } from '../../common';
+import { DOBValidator, EmailValidator, NameValidator, PasswordValidator, } from '../../../core/validators';
 class SignUpForm1Component extends React.Component {
     constructor() {
         super(...arguments);

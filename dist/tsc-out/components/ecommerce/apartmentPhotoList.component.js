@@ -12,7 +12,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { List, } from 'react-native-ui-kitten/ui';
-import { ApartmentPhotoListItem, } from '@src/components/ecommerce/apartmentPhotoListItem.component';
+import { ApartmentPhotoListItem, } from './apartmentPhotoListItem.component';
 class ApartmentPhotoListComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -2,7 +2,7 @@ import React from 'react';
 import { Showcase } from '../common/showcase.component';
 import { ShowcaseSection } from '../common/showcaseSection.component';
 import { FilledButtonGroup, GiantButtonGroup, LargeButtonGroup, MediumButtonGroup, OutlineButtonGroup, SmallButtonGroup, TinyButtonGroup, } from './showcase';
-import { ShowcaseItem } from '@src/containers/components/common/showcaseItem.component';
+import { ShowcaseItem } from '../common/showcaseItem.component';
 export class ButtonGroupContainer extends React.Component {
     render() {
         return (<Showcase>

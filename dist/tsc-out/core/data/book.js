@@ -1,4 +1,4 @@
-import { imageBook } from '@src/assets/images';
+import { imageBook } from '../../assets/images';
 export const book1 = {
     name: 'Design Systems',
     author: 'Alla Kholmatova',

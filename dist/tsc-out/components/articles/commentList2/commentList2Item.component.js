@@ -12,9 +12,9 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { TouchableOpacity, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { ActivityAuthoring, textStyle, } from '@src/components/common';
+import { ActivityAuthoring, textStyle, } from '../../common';
 import { ListItem, Text, } from 'react-native-ui-kitten/ui';
-import { MoreHorizontalIconFill } from '@src/assets/icons';
+import { MoreHorizontalIconFill } from '../../../assets/icons';
 class CommentList2ItemComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -1,4 +1,4 @@
-import { imageForgotPasswordLayout, imageSignIn1Layout, imageSignIn2Layout, imageSignIn3Layout, imageSignIn4Layout, imageSignIn5Layout, imageSignUp1Layout, imageSignUp2Layout, imageSignUp3Layout, imageSignUp4Layout, } from '@src/assets/images';
+import { imageForgotPasswordLayout, imageSignIn1Layout, imageSignIn2Layout, imageSignIn3Layout, imageSignIn4Layout, imageSignIn5Layout, imageSignUp1Layout, imageSignUp2Layout, imageSignUp3Layout, imageSignUp4Layout, } from '../../../../assets/images';
 export const routes = [
     {
         title: 'Sign In',

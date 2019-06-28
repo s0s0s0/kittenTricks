@@ -13,7 +13,7 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../../../components/common';
 class ShowcaseItemComponent extends React.Component {
     render() {
         const _a = this.props, { style, themedStyle, title, children } = _a, restProps = __rest(_a, ["style", "themedStyle", "title", "children"]);

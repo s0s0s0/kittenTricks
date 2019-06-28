@@ -1,7 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { ComponentsList, } from '@src/components/menu';
+import { ComponentsList, } from '../../../components/menu';
 class ComponentsComponent extends React.Component {
     constructor() {
         super(...arguments);

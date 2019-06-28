@@ -13,8 +13,8 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { Chips, textStyle, } from '@src/components/common';
-import { ClockIconOutline } from '@src/assets/icons';
+import { Chips, textStyle, } from '../../common';
+import { ClockIconOutline } from '../../../assets/icons';
 class StyxComponent extends React.Component {
     render() {
         const _a = this.props, { style, themedStyle, hint, value, icon, onPress } = _a, restProps = __rest(_a, ["style", "themedStyle", "hint", "value", "icon", "onPress"]);

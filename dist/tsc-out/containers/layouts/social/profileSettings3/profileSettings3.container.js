@@ -1,5 +1,5 @@
 import React from 'react';
-import { profile1 } from '@src/core/data/profile';
+import { profile1 } from '../../../../core/data/profile';
 import { ProfileSettings3 } from './profileSettings3.component';
 export class ProfileSettings3Container extends React.Component {
     constructor() {

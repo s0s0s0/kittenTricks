@@ -5,7 +5,7 @@ import { Text } from 'react-native-ui-kitten/ui';
 import { ChatMessage, } from './chatMessage.component';
 import { Alignments, ChatFileMessageAppearance, getContentAlignment, } from './type';
 import { getFileComponent } from './file.component';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../common';
 class ChatFileMessageComponent extends React.Component {
     constructor() {
         super(...arguments);

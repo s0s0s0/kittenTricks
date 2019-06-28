@@ -1,4 +1,4 @@
-import { imageTrainings1Layout, imageTrainings2Layout, } from '@src/assets/images';
+import { imageTrainings1Layout, imageTrainings2Layout, } from '../../../../assets/images';
 export const routes = [
     {
         title: 'Trainings',

@@ -1,7 +1,7 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { List } from 'react-native-ui-kitten/ui';
-import { TrainingCard1, } from '@src/components/trainings/trainingCard.component';
+import { TrainingCard1, } from '../../../../components/trainings/trainingCard.component';
 class Medium1Component extends React.Component {
     constructor() {
         super(...arguments);

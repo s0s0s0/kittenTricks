@@ -1,7 +1,7 @@
 import React from 'react';
-import { categorisedProfileActivity1, profileSocials1, profile5, } from '@src/core/data/profile';
+import { categorisedProfileActivity1, profileSocials1, profile5, } from '../../../../core/data/profile';
 import { Profile6 } from './profile6.component';
-import { posts } from '@src/core/data/post';
+import { posts } from '../../../../core/data/post';
 export class Profile6Container extends React.Component {
     constructor() {
         super(...arguments);

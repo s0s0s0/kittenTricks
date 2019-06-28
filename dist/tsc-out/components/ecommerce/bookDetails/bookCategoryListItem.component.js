@@ -12,7 +12,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { Chips, textStyle, } from '@src/components/common';
+import { Chips, textStyle, } from '../../common';
 class BookCategoryListItemComponent extends React.Component {
     render() {
         const _a = this.props, { style, themedStyle, children } = _a, restProps = __rest(_a, ["style", "themedStyle", "children"]);

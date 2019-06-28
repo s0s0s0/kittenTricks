@@ -12,9 +12,9 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { textStyle, ValidationInput, } from '@src/components/common';
-import { EmailIconFill } from '@src/assets/icons';
-import { EmailValidator } from '@src/core/validators';
+import { textStyle, ValidationInput, } from '../../common';
+import { EmailIconFill } from '../../../assets/icons';
+import { EmailValidator } from '../../../core/validators';
 class ForgotPasswordFormComponent extends React.Component {
     constructor() {
         super(...arguments);

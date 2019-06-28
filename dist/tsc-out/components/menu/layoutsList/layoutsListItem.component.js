@@ -12,8 +12,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { ListItem, Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
-import { ThemeContext, } from '@src/core/themes';
+import { textStyle } from '../../common';
+import { ThemeContext, } from '../../../core/themes';
 class LayoutsListItemComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -13,9 +13,9 @@ import React from 'react';
 import { TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { ArticleActivityBar, ArticleTips, } from '@src/components/articles';
-import { ActivityAuthoring, ImageOverlay, textStyle, } from '@src/components/common';
-import { BulbIconFill } from '@src/assets/icons';
+import { ArticleActivityBar, ArticleTips, } from '../../../../components/articles';
+import { ActivityAuthoring, ImageOverlay, textStyle, } from '../../../../components/common';
+import { BulbIconFill } from '../../../../assets/icons';
 class ArticleList2ItemComponent extends React.Component {
     constructor() {
         super(...arguments);

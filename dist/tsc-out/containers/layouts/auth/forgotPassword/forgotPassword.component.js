@@ -1,9 +1,9 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { ForgotPasswordForm, } from '@src/components/auth';
-import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '@src/components/common';
-import { imageForgotPasswordBg, } from '@src/assets/images';
+import { ForgotPasswordForm, } from '../../../../components/auth';
+import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '../../../../components/common';
+import { imageForgotPasswordBg, } from '../../../../assets/images';
 class ForgotPasswordComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -1,9 +1,9 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { List, Button, } from 'react-native-ui-kitten/ui';
-import { ArticleHeader } from '@src/components/articles';
+import { ArticleHeader } from '../../../../components/articles';
 import { ArticleList4Item, } from './articleList4Item.component';
-import { ContainerView, textStyle, } from '@src/components/common';
+import { ContainerView, textStyle, } from '../../../../components/common';
 class ArticleList4Component extends React.Component {
     constructor() {
         super(...arguments);

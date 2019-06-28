@@ -1,5 +1,5 @@
 import React from 'react';
-import { trainings } from '@src/core/data/training';
+import { trainings } from '../../../../core/data/training';
 import { Feed1 } from './feed1.component';
 export class Feed1Container extends React.Component {
     constructor() {

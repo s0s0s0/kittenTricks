@@ -1,6 +1,6 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { LayoutMenu } from '@src/components/common';
+import { LayoutMenu } from '../../../../components/common';
 class WalkthroughComponent extends React.Component {
     constructor() {
         super(...arguments);

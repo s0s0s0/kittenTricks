@@ -2,8 +2,8 @@ import React from 'react';
 import { View, TouchableOpacity, } from 'react-native';
 import { ListItem, Text, } from 'react-native-ui-kitten/ui';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { ActivityAuthoring, textStyle, } from '@src/components/common';
-import { MoreHorizontalIconFill } from '@src/assets/icons';
+import { ActivityAuthoring, textStyle, } from '../../common';
+import { MoreHorizontalIconFill } from '../../../assets/icons';
 import { CommentList2 } from '../commentList2';
 import { ArticleActivityBar } from '../articleActivityBar.component';
 class CommentList1ItemComponent extends React.Component {

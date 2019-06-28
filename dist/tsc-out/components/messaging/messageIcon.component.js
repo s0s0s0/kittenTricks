@@ -1,6 +1,6 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { DoneAllIconOutline } from '@src/assets/icons';
+import { DoneAllIconOutline } from '../../assets/icons';
 export var MessageIcons;
 (function (MessageIcons) {
     MessageIcons["READ"] = "read";

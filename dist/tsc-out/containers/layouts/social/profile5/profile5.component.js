@@ -2,8 +2,8 @@ import React from 'react';
 import { View } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { ProfileParameter } from '@src/components/social';
-import { ImageOverlay, RateBar, textStyle, } from '@src/components/common';
+import { ProfileParameter } from '../../../../components/social';
+import { ImageOverlay, RateBar, textStyle, } from '../../../../components/common';
 class Profile5Component extends React.Component {
     constructor() {
         super(...arguments);

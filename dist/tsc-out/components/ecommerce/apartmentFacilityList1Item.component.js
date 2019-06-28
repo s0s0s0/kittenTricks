@@ -12,7 +12,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../common';
 class ApartmentFacilityList1ItemComponent extends React.Component {
     constructor() {
         super(...arguments);

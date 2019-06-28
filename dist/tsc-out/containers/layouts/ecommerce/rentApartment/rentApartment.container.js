@@ -1,5 +1,5 @@
 import React from 'react';
-import { apartment1 } from '@src/core/data/apartment';
+import { apartment1 } from '../../../../core/data/apartment';
 import { RentApartment } from './rentApartment.component';
 export class RentApartmentContainer extends React.Component {
     constructor() {

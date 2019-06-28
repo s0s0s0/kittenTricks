@@ -1,6 +1,6 @@
 import React from 'react';
 import { ShoppingCart } from './shoppingCart.component';
-import { products } from '@src/core/data/product';
+import { products } from '../../../../core/data/product';
 export class ShoppingCartContainer extends React.Component {
     constructor() {
         super(...arguments);

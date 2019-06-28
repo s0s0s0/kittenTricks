@@ -2,10 +2,10 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { SignUpForm1, SocialAuth, } from '@src/components/auth';
-import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '@src/components/common';
-import { ArrowForwardIconOutline, HeartIconFill, } from '@src/assets/icons';
-import { imageSignUp1Bg, } from '@src/assets/images';
+import { SignUpForm1, SocialAuth, } from '../../../../components/auth';
+import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '../../../../components/common';
+import { ArrowForwardIconOutline, HeartIconFill, } from '../../../../assets/icons';
+import { imageSignUp1Bg, } from '../../../../assets/images';
 class SignUp1Component extends React.Component {
     constructor() {
         super(...arguments);

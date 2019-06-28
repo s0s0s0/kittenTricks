@@ -13,7 +13,7 @@ import React from 'react';
 import { TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Avatar, Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../../common';
 class ProfileFriendListItemComponent extends React.Component {
     constructor() {
         super(...arguments);

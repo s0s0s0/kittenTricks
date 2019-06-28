@@ -1,4 +1,4 @@
-import { imageFeed1Layout, imageFeed2Layout, imageProfile1Layout, imageProfile2Layout, imageProfile3Layout, imageProfile4Layout, imageProfile5Layout, imageProfile6Layout, imageProfile7Layout, imageProfileSettings1Layout, imageProfileSettings2Layout, imageProfileSettings3Layout, imageSettingsLayout, } from '@src/assets/images';
+import { imageFeed1Layout, imageFeed2Layout, imageProfile1Layout, imageProfile2Layout, imageProfile3Layout, imageProfile4Layout, imageProfile5Layout, imageProfile6Layout, imageProfile7Layout, imageProfileSettings1Layout, imageProfileSettings2Layout, imageProfileSettings3Layout, imageSettingsLayout, } from '../../../../assets/images';
 export const routes = [
     {
         title: 'Profile',

@@ -2,8 +2,8 @@ import React from 'react';
 import { Image, TouchableOpacity, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
-import { CloseIconOutline, MinusIconFill, PlusIconFill, } from '@src/assets/icons';
+import { textStyle } from '../common';
+import { CloseIconOutline, MinusIconFill, PlusIconFill, } from '../../assets/icons';
 class CartProductComponent extends React.Component {
     constructor() {
         super(...arguments);

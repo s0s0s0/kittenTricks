@@ -2,10 +2,10 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button } from 'react-native-ui-kitten/ui';
-import { SignUpForm2, } from '@src/components/auth';
-import { ProfilePhoto } from '@src/components/social';
-import { ScrollableAvoidKeyboard, textStyle, } from '@src/components/common';
-import { PlusIconFill } from '@src/assets/icons';
+import { SignUpForm2, } from '../../../../components/auth';
+import { ProfilePhoto } from '../../../../components/social';
+import { ScrollableAvoidKeyboard, textStyle, } from '../../../../components/common';
+import { PlusIconFill } from '../../../../assets/icons';
 class SignUp2Component extends React.Component {
     constructor() {
         super(...arguments);

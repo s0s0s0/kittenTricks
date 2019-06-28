@@ -1,9 +1,9 @@
 import React from 'react';
 import { ScrollView, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { TrainingCard1, } from '@src/components/trainings/trainingCard.component';
+import { TrainingCard1, } from '../../../../components/trainings/trainingCard.component';
 import { List, Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../../../../components/common';
 class Easy1Component extends React.Component {
     constructor() {
         super(...arguments);

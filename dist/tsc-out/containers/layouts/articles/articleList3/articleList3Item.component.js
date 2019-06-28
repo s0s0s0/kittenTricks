@@ -13,8 +13,8 @@ import React from 'react';
 import { TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { ArticleActivityBar, ArticleTips, } from '@src/components/articles';
-import { ImageOverlay, textStyle, } from '@src/components/common';
+import { ArticleActivityBar, ArticleTips, } from '../../../../components/articles';
+import { ImageOverlay, textStyle, } from '../../../../components/common';
 class ArticleList3ItemComponent extends React.Component {
     constructor() {
         super(...arguments);

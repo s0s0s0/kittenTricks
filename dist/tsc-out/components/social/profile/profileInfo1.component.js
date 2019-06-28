@@ -13,7 +13,7 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Avatar, Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../../common';
 class ProfileInfo1Component extends React.Component {
     render() {
         const _a = this.props, { style, themedStyle, photo, name, location, children } = _a, restProps = __rest(_a, ["style", "themedStyle", "photo", "name", "location", "children"]);

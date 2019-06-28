@@ -1,6 +1,6 @@
 import React from 'react';
 import { Avatar, } from 'react-native-ui-kitten/ui';
-import { imageProfile1 } from '@src/assets/images';
+import { imageProfile1 } from '../../../../assets/images';
 export const MediumAvatar = () => {
     return (<Avatar size='medium' source={imageProfile1.imageSource}/>);
 };

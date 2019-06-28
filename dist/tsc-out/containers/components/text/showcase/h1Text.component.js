@@ -1,7 +1,7 @@
 import React from 'react';
 import { Dimensions, StyleSheet, } from 'react-native';
 import { Text, } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../../../../components/common';
 const { width } = Dimensions.get('window');
 export const H1Text = () => {
     return (<Text style={[textStyle.headline, styles.text]} numberOfLines={1} ellipsizeMode='tail' category='h1'>

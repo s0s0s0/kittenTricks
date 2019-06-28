@@ -1,6 +1,6 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { StarIconFill } from '@src/assets/icons';
+import { StarIconFill } from '../../../assets/icons';
 class ComplexComponentShowcaseComponent extends React.Component {
     render() {
         const { themedStyle } = this.props;

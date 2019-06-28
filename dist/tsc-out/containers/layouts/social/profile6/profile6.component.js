@@ -2,9 +2,9 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { ProfileActivityList2, ProfileInfo2, ProfileSocials, } from '@src/components/social';
-import { MessageCircleIconFill, PersonAddIconFill, } from '@src/assets/icons';
-import { ContainerView, textStyle, } from '@src/components/common';
+import { ProfileActivityList2, ProfileInfo2, ProfileSocials, } from '../../../../components/social';
+import { MessageCircleIconFill, PersonAddIconFill, } from '../../../../assets/icons';
+import { ContainerView, textStyle, } from '../../../../components/common';
 class Profile6Component extends React.Component {
     constructor() {
         super(...arguments);

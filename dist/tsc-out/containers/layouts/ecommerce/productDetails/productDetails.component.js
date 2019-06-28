@@ -2,9 +2,9 @@ import React from 'react';
 import { View } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Input, Text, } from 'react-native-ui-kitten/ui';
-import { CommentsList1 } from '@src/components/articles';
-import { ProductInfo } from '@src/components/ecommerce';
-import { ContainerView, textStyle, } from '@src/components/common';
+import { CommentsList1 } from '../../../../components/articles';
+import { ProductInfo } from '../../../../components/ecommerce';
+import { ContainerView, textStyle, } from '../../../../components/common';
 class ProductDetailsComponent extends React.Component {
     constructor() {
         super(...arguments);

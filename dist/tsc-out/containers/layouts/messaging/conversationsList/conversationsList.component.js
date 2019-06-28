@@ -2,9 +2,9 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { List, Input, } from 'react-native-ui-kitten/ui';
-import { Conversation, } from '@src/components/messaging';
-import { SearchIconOutline } from '@src/assets/icons';
-import { textStyle } from '@src/components/common';
+import { Conversation, } from '../../../../components/messaging';
+import { SearchIconOutline } from '../../../../assets/icons';
+import { textStyle } from '../../../../components/common';
 class ConversationsListComponent extends React.Component {
     constructor() {
         super(...arguments);

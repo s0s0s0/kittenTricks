@@ -2,10 +2,10 @@ import React from 'react';
 import { View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { ProfileActivityList3, ProfileFriendList, ProfileInfo3, ProfileSocials, } from '@src/components/social';
-import { MessageCircleIconFill, PersonAddIconFill, } from '@src/assets/icons';
-import { ContainerView, ImageOverlay, textStyle, } from '@src/components/common';
-import { imageProfile7Bg, } from '@src/assets/images';
+import { ProfileActivityList3, ProfileFriendList, ProfileInfo3, ProfileSocials, } from '../../../../components/social';
+import { MessageCircleIconFill, PersonAddIconFill, } from '../../../../assets/icons';
+import { ContainerView, ImageOverlay, textStyle, } from '../../../../components/common';
+import { imageProfile7Bg, } from '../../../../assets/images';
 class Profile7Component extends React.Component {
     constructor() {
         super(...arguments);

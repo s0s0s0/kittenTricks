@@ -2,7 +2,7 @@ import React from 'react';
 import { TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Toggle, Text, } from 'react-native-ui-kitten/ui';
-import { ContainerView, textStyle, } from '@src/components/common';
+import { ContainerView, textStyle, } from '../../../../components/common';
 class SettingsComponent extends React.Component {
     constructor() {
         super(...arguments);

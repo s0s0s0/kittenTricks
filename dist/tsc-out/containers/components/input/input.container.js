@@ -4,7 +4,7 @@ import { Showcase } from '../common/showcase.component';
 import { ShowcaseSection } from '../common/showcaseSection.component';
 import { ShowcaseItem } from '../common/showcaseItem.component';
 import { CaptionIconInput, CaptionInput, DangerInput, DefaultInput, DisabledInput, IconInput, InfoInput, LabelInput, PrimaryInput, SuccessInput, WarningInput, } from './showcase';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../../../components/common';
 class InputContainerComponent extends React.Component {
     render() {
         const { themedStyle } = this.props;

@@ -1,4 +1,4 @@
-import { imageArticle1Layout, imageArticle2Layout, imageArticle3Layout, imageArticleList1Layout, imageArticleList2Layout, imageArticleList3Layout, imageArticleList4Layout, } from '@src/assets/images';
+import { imageArticle1Layout, imageArticle2Layout, imageArticle3Layout, imageArticleList1Layout, imageArticleList2Layout, imageArticleList3Layout, imageArticleList4Layout, } from '../../../../assets/images';
 export const routes = [
     {
         title: 'Article List',

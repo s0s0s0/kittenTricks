@@ -12,10 +12,10 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { ThemeProvider, withStyles, } from 'react-native-ui-kitten/theme';
 import { Tab, TabView, } from 'react-native-ui-kitten/ui';
-import { GridIconOutline, ListIconFill, } from '@src/assets/icons';
+import { GridIconOutline, ListIconFill, } from '../../../assets/icons';
 import { LayoutGridList } from '../layoutGridList';
 import { LayoutList } from '../layoutList';
-import { themes } from '@src/core/themes';
+import { themes } from '../../../core/themes';
 class LayoutMenuComponent extends React.Component {
     constructor(props) {
         super(props);

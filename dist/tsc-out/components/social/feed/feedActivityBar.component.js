@@ -12,8 +12,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button } from 'react-native-ui-kitten/ui';
-import { ActivityBar, LikeButton, ReactionBar, ShareButton, textStyle, } from '@src/components/common';
-import { PlusIconFill } from '@src/assets/icons';
+import { ActivityBar, LikeButton, ReactionBar, ShareButton, textStyle, } from '../../common';
+import { PlusIconFill } from '../../../assets/icons';
 class FeedActivityBarComponent extends React.Component {
     constructor() {
         super(...arguments);

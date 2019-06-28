@@ -1,7 +1,7 @@
 import React from 'react';
 import { ImageBackground, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { PlayCircleIconFill } from '@src/assets/icons';
+import { PlayCircleIconFill } from '../../assets/icons';
 import { ChatFileMessageAppearance } from './type';
 class VideoMessageComponent extends React.Component {
     constructor() {

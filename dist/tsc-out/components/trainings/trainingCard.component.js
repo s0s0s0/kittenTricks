@@ -2,8 +2,8 @@ import React from 'react';
 import { View, TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { Chips, ImageOverlay, textStyle, } from '@src/components/common';
-import { ClockIconOutline } from '@src/assets/icons';
+import { Chips, ImageOverlay, textStyle, } from '../common';
+import { ClockIconOutline } from '../../assets/icons';
 class TrainingCardComponent extends React.Component {
     constructor() {
         super(...arguments);

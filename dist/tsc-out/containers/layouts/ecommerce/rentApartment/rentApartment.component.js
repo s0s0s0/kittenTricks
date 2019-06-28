@@ -2,8 +2,8 @@ import React from 'react';
 import { ImageBackground, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { ApartmentFacilityList1, ApartmentFacilityList2, ApartmentPhotoList, PriceText, } from '@src/components/ecommerce';
-import { ContainerView, textStyle, } from '@src/components/common';
+import { ApartmentFacilityList1, ApartmentFacilityList2, ApartmentPhotoList, PriceText, } from '../../../../components/ecommerce';
+import { ContainerView, textStyle, } from '../../../../components/common';
 class RentApartmentComponent extends React.Component {
     constructor() {
         super(...arguments);

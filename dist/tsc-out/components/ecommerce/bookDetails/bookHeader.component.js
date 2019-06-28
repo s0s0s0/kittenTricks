@@ -13,7 +13,7 @@ import React from 'react';
 import { Image, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { RateBar, textStyle, } from '@src/components/common';
+import { RateBar, textStyle, } from '../../common';
 import { BookCategoryList } from './bookCategoryList.component';
 class BookHeaderComponent extends React.Component {
     render() {

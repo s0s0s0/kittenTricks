@@ -1,8 +1,8 @@
 import React from 'react';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { TopNavigationAction, TopNavigation, } from 'react-native-ui-kitten/ui';
-import { SafeAreaView } from '@src/core/navigation';
-import { ArrowIosBackFill, CartIconFill, SearchIconOutline, } from '@src/assets/icons';
+import { SafeAreaView } from '../../core/navigation';
+import { ArrowIosBackFill, CartIconFill, SearchIconOutline, } from '../../assets/icons';
 class EcommerceHeaderComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -1,5 +1,5 @@
 import React from 'react';
-import { movie1 } from '@src/core/data/movie';
+import { movie1 } from '../../../../core/data/movie';
 import { Movie } from './movieDetails.component';
 export class MovieDetailsContainer extends React.Component {
     constructor() {

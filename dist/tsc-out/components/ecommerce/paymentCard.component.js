@@ -2,8 +2,8 @@ import React from 'react';
 import { View, TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { MoreVerticalIconFill } from '@src/assets/icons';
-import { textStyle } from '@src/components/common';
+import { MoreVerticalIconFill } from '../../assets/icons';
+import { textStyle } from '../common';
 class PaymentCardComponent extends React.Component {
     constructor() {
         super(...arguments);

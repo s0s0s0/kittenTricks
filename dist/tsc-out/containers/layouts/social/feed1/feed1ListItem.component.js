@@ -13,8 +13,8 @@ import React from 'react';
 import { Image, TouchableOpacity, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { FeedActivityBar, Styx, } from '@src/components/social';
-import { ImageOverlay, textStyle, } from '@src/components/common';
+import { FeedActivityBar, Styx, } from '../../../../components/social';
+import { ImageOverlay, textStyle, } from '../../../../components/common';
 class Feed1ListItemComponent extends React.Component {
     constructor() {
         super(...arguments);

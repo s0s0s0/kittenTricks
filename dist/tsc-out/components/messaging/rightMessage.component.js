@@ -2,7 +2,7 @@ import React from 'react';
 import { Dimensions, View, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Text } from 'react-native-ui-kitten/ui';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../common';
 import { MessageContent } from './messageContent.component';
 class RigheMessageComponent extends React.Component {
     render() {

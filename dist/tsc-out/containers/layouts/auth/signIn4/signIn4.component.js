@@ -2,9 +2,9 @@ import React from 'react';
 import { View } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Button, Text, } from 'react-native-ui-kitten/ui';
-import { SignInForm2, SocialAuth, } from '@src/components/auth';
-import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '@src/components/common';
-import { imageSignIn4Bg, } from '@src/assets/images';
+import { SignInForm2, SocialAuth, } from '../../../../components/auth';
+import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '../../../../components/common';
+import { imageSignIn4Bg, } from '../../../../assets/images';
 class SignIn4Component extends React.Component {
     constructor() {
         super(...arguments);

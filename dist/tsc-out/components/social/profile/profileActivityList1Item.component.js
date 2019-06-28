@@ -12,7 +12,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 import React from 'react';
 import { ImageBackground, TouchableOpacity, } from 'react-native';
 import { withStyles, } from 'react-native-ui-kitten/theme';
-import { ActivityAuthoring } from '@src/components/common';
+import { ActivityAuthoring } from '../../common';
 import { ProfileActivityBar } from './profileActivityBar.component';
 class ProfileActivityList1ItemComponent extends React.Component {
     constructor() {
