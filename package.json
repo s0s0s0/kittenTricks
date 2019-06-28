@@ -5,6 +5,7 @@
   "author": "akveo",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "fixPath": "tsc --project tsconfig.json && tscpaths -p tsconfig.json -s ./src -o ./src",
     "start": "expo start",
     "start:dev": "npm run env:set -- dev && npm start -- -c",
     "start:prod": "npm run env:set -- prod && npm start -- -c",
@@ -44,6 +45,7 @@
     "conventional-changelog-cli": "^2.0.21",
     "husky": "^1.1.2",
     "rimraf": "^2.6.2",
+    "tscpaths": "^0.0.9",
     "tslint": "^5.12.1",
     "typescript": "^3.5.1"
   }
