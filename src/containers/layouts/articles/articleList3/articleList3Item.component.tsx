@@ -7,17 +7,17 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Text } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
 import {
   ArticleActivityBar,
   ArticleTips,
-} from '@src/components/articles';
+} from '../../../../components/articles';
 import {
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
-import { Article } from '@src/core/model';
+} from '../../../../components/common';
+import { Article } from '../../../../core/model';
 
 // @ts-ignore (override `onPress` prop)
 interface ComponentProps extends TouchableOpacityProps {

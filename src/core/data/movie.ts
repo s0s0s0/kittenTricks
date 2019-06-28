@@ -1,16 +1,16 @@
-import { Movie } from '@src/core/model';
+import { Movie } from '../model';
 import {
   CountryDetail,
   LengthDetail,
   YearDetail,
-} from '@src/core/model/movie.model';
+} from '../model/movie.model';
 import {
   movieImage1,
   movieImage2,
   movieImage3,
   movieImage4,
   movieImage5,
-} from '@src/assets/images';
+} from '../../assets/images';
 
 export const movie1: Movie = {
   name: 'How To Train Your Dragon\nThe Hidden World',

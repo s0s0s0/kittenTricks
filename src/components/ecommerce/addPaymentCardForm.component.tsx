@@ -7,23 +7,23 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from '../common';
 import {
   CardNumberValidator,
   ExpirationDateValidator,
   CvvValidator,
   CardholderNameValidator,
-} from '@src/core/validators';
+} from '../../core/validators';
 import {
   CardNumberFormatter,
   ExpirationDateFormatter,
   CvvFormatter,
   CardholderNameFormatter,
-} from '@src/core/formatters';
+} from '../../core/formatters';
 
 export interface AddPaymentCardFormType {
   cardNumber: string;

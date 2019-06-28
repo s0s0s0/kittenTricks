@@ -1,6 +1,6 @@
 import React from 'react';
-import { List, ListItem, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { StarIconFill } from '../../../../assets/icons';
+import { List, ListItem, } from 'react-native-ui-kitten/ui';
+import { StarIconFill } from '@src/assets/icons';
 export const IconList = () => {
     const data = Array(4).fill({
         title: 'Title',

@@ -7,20 +7,20 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Input,
   Text,
-} from '@kitten/ui';
-import { CommentsList1 } from '@src/components/articles';
+} from 'react-native-ui-kitten/ui';
+import { CommentsList1 } from '../../../../components/articles';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 import {
   Article,
   Comment,
-} from '@src/core/model';
+} from '../../../../core/model';
 
 interface ComponentProps {
   article: Article;

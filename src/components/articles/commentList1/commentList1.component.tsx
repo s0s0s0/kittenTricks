@@ -7,12 +7,12 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   ListProps,
-} from '@kitten/ui';
-import { Comment } from '@src/core/model';
+} from 'react-native-ui-kitten/ui';
+import { Comment } from '../../../core/model';
 import {
   CommentList1Item,
   CommentList1ItemProps,

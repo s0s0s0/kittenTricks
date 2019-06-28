@@ -7,7 +7,7 @@ import {
   imageProductListLayout,
   imageRentApartmentLayout,
   imageShoppingCartLayout,
-} from '@src/assets/images';
+} from '../../../../assets/images';
 import { EcommerceContainerData } from './type';
 
 export const routes: EcommerceContainerData[] = [

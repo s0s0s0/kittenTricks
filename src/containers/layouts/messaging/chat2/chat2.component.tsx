@@ -11,13 +11,13 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   ButtonProps,
   Input,
   List,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   Alignments,
   ChatFileMessage,
@@ -25,27 +25,27 @@ import {
   ChatFileMessageProps,
   ChatMessage,
   ChatMessageProps,
-} from '@src/components/messaging';
+} from '../../../../components/messaging';
 import {
   MicIconFill,
   PaperPlaneIconFill,
   PlusIconFill,
-} from '@src/assets/icons';
+} from '../../../../assets/icons';
 import {
   Conversation as ConversationModel,
   Message as MessageModel,
-} from '@src/core/model';
+} from '../../../../core/model';
 import {
   profile1,
   profile2,
-} from '@src/core/data/profile';
+} from '../../../../core/data/profile';
 import { UiMessageModel } from '../container/uiMessage.model';
 import { Chat2FileSection } from './chat2FileSection.component';
 import {
   AvoidKeyboard,
   textStyle,
-} from '@src/components/common';
-import { StringValidator } from '@src/core/validators';
+} from '../../../../components/common';
+import { StringValidator } from '../../../../core/validators';
 
 interface ComponentProps {
   conversation: ConversationModel;

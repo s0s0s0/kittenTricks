@@ -1,5 +1,5 @@
-import { IconSource } from '@src/assets/icons';
-import { ImageSource } from '@src/assets/images';
+import { IconSource } from '../../assets/icons';
+import { ImageSource } from '../../assets/images';
 
 export interface Training {
   icon: IconSource;

@@ -10,11 +10,11 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   TextIcon,
   TextIconProps,
-} from '@src/components/common';
+} from '../common';
 
 // @ts-ignore (`icon` prop override)
 interface ComponentProps extends TextIconProps {

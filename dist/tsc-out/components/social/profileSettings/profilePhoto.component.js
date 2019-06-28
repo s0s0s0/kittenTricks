@@ -11,8 +11,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { View } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { Avatar, } from '../../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Avatar, } from 'react-native-ui-kitten/ui';
 class ProfilePhotoComponent extends React.Component {
     constructor() {
         super(...arguments);

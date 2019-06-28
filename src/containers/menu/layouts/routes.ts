@@ -15,11 +15,11 @@ import {
   MenuIconMessagingDark,
   MenuIconDashboardsDark,
   MenuIconEcommerceDark,
-} from '@src/assets/icons';
+} from '../../../assets/icons';
 import {
   ThemeKey,
   ThemeService,
-} from '@src/core/themes';
+} from '../../../core/themes';
 import { LayoutsContainerData } from './type';
 
 export const routes: LayoutsContainerData[] = [

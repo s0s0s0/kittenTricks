@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, StatusBar, Platform, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
+import { withStyles, } from 'react-native-ui-kitten/theme';
 import Constants from 'expo-constants';
 class DynamicStatusBarComponent extends React.Component {
     constructor() {

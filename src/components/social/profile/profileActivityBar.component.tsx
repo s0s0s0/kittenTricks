@@ -3,13 +3,13 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   ActivityBar,
   ActivityBarProps,
   LikeButton,
   textStyle,
-} from '@src/components/common';
+} from '../../common';
 
 interface ComponentProps {
   likes: number;

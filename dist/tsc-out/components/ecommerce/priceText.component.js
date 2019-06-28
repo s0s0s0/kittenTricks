@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { Text } from '../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
 class PriceTextComponent extends React.Component {
     render() {
         const { style, themedStyle, valueStyle, scaleStyle, children, scale } = this.props;

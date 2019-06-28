@@ -1,12 +1,12 @@
 import React from 'react';
 import { mapping } from '@eva-design/eva';
-import { ApplicationProvider } from '../node_modules/react-native-ui-kitten/theme';
-import { DynamicStatusBar } from './components/common';
+import { ApplicationProvider } from 'react-native-ui-kitten/theme';
+import { DynamicStatusBar } from '@src/components/common';
 import { ApplicationLoader, } from './core/appLoader/applicationLoader.component';
 import { Router } from './core/navigation/routes';
 import { trackScreenTransition } from './core/utils/analytics';
 import { getCurrentStateName } from './core/navigation/util';
-import { ThemeContext, themes, ThemeStore, } from './core/themes';
+import { ThemeContext, themes, ThemeStore, } from '@src/core/themes';
 const images = [
     require('./assets/images/source/image-profile-1.jpg'),
     require('./assets/images/source/image-profile-2.jpg'),

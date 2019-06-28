@@ -4,22 +4,22 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Input,
   Text,
-} from '@kitten/ui';
-import { CommentsList1 } from '@src/components/articles';
-import { ProductInfo } from '@src/components/ecommerce';
+} from 'react-native-ui-kitten/ui';
+import { CommentsList1 } from '../../../../components/articles';
+import { ProductInfo } from '../../../../components/ecommerce';
 import {
   Product,
   Comment,
-} from '@src/core/model';
+} from '../../../../core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 
 interface ComponentProps {
   product: Product;

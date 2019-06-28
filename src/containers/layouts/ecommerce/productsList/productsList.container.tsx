@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
-import { Product } from '@src/core/model';
-import { products } from '@src/core/data/product';
+import { Product } from '../../../../core/model';
+import { products } from '../../../../core/data/product';
 import { ProductsList } from './productsList.component';
 
 interface State {

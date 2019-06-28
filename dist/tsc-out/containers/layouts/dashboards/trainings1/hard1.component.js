@@ -1,7 +1,7 @@
 import React from 'react';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { List } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { TrainingCard2, } from '../../../../components/trainings/trainingCard2.component';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { List } from 'react-native-ui-kitten/ui';
+import { TrainingCard2, } from '@src/components/trainings/trainingCard2.component';
 class Hard1Component extends React.Component {
     constructor() {
         super(...arguments);

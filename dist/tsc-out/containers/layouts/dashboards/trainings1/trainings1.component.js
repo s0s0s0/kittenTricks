@@ -1,6 +1,6 @@
 import React from 'react';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { TabView, Tab, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { TabView, Tab, } from 'react-native-ui-kitten/ui';
 import { Easy1 } from './easy1.component';
 import { Medium1 } from './medium1.component';
 import { Hard1 } from './hard1.component';

@@ -1,4 +1,4 @@
-import { imageChat1Layout, imageChat2Layout, imageChat3Layout, imageConversationListLayout, } from '../../../../assets/images';
+import { imageChat1Layout, imageChat2Layout, imageChat3Layout, imageConversationListLayout, } from '@src/assets/images';
 export const routes = [
     {
         title: 'Conversations List',

@@ -1,9 +1,9 @@
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { List, Button, Text, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { ContainerView, textStyle, } from '../../../../components/common';
-import { CartProduct, } from '../../../../components/ecommerce';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { List, Button, Text, } from 'react-native-ui-kitten/ui';
+import { ContainerView, textStyle, } from '@src/components/common';
+import { CartProduct, } from '@src/components/ecommerce';
 class ShoppingCartComponent extends React.Component {
     constructor() {
         super(...arguments);

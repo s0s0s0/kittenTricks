@@ -1,11 +1,11 @@
 import React from 'react';
 import * as MediaLibrary from 'expo-media-library';
 import * as Permissions from 'expo-permissions';
-import { ChatHeader, ChatFileMessageAppearance, } from '../../../../components/messaging';
-import { conversation5, conversation6 } from '../../../../core/data/conversation';
-import { profile1, profile2, } from '../../../../core/data/profile';
+import { ChatHeader, ChatFileMessageAppearance, } from '@src/components/messaging';
+import { conversation5, conversation6 } from '@src/core/data/conversation';
+import { profile1, profile2, } from '@src/core/data/profile';
 import { Chat2 } from '../chat2/chat2.component';
-import { imageMessage2 } from '../../../../assets/images';
+import { imageMessage2 } from '@src/assets/images';
 export class Chat3Container extends React.Component {
     constructor() {
         super(...arguments);

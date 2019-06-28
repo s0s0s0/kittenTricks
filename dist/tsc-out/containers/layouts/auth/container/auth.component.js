@@ -1,6 +1,6 @@
 import React from 'react';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { LayoutMenu } from '../../../../components/common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { LayoutMenu } from '@src/components/common';
 class AuthComponent extends React.Component {
     constructor() {
         super(...arguments);

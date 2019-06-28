@@ -7,12 +7,12 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import { ShowcaseSectionProps } from './showcaseSection.component';
 import {
   ScrollableAvoidKeyboard,
   ScrollableAvoidKeyboardProps,
-} from '@src/components/common';
+} from '../../../components/common';
 
 interface ComponentProps {
   children?: ChildrenProp;

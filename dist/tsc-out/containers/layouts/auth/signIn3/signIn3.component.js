@@ -1,10 +1,10 @@
 import React from 'react';
 import { View } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Button, Text, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { SignInForm2, } from '../../../../components/auth';
-import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '../../../../components/common';
-import { imageSignIn3Bg, } from '../../../../assets/images';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, Text, } from 'react-native-ui-kitten/ui';
+import { SignInForm2, } from '@src/components/auth';
+import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '@src/components/common';
+import { imageSignIn3Bg, } from '@src/assets/images';
 class SignIn3Component extends React.Component {
     constructor() {
         super(...arguments);

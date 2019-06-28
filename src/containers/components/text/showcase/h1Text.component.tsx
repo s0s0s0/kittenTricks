@@ -6,8 +6,8 @@ import {
 import {
   Text,
   TextProps,
-} from '@kitten/ui';
-import { textStyle } from '@src/components/common';
+} from 'react-native-ui-kitten/ui';
+import { textStyle } from '../../../../components/common';
 
 const { width } = Dimensions.get('window');
 

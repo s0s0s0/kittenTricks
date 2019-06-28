@@ -1,4 +1,4 @@
-import { Exercise } from '@src/core/model/exercise.model';
+import { Exercise } from '../model/exercise.model';
 import {
   imageExercise1Bg,
   imageExercise2Bg,
@@ -7,7 +7,7 @@ import {
   imageExercise5Bg,
   imageExercise6Bg,
   imageExercise7Bg,
-} from '@src/assets/images';
+} from '../../assets/images';
 
 export const exercises1: Exercise[] = [
   {

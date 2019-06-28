@@ -3,16 +3,16 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Button } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Button } from 'react-native-ui-kitten/ui';
 import {
   AddPaymentCardForm,
   AddPaymentCardFormType,
-} from '@src/components/ecommerce';
+} from '../../../../components/ecommerce';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 
 interface ComponentProps {
   onAddPress: (value: AddPaymentCardFormType) => void;

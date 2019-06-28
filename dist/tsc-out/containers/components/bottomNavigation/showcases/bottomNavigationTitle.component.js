@@ -1,5 +1,5 @@
 import React from 'react';
-import { BottomNavigation, BottomNavigationTab, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { BottomNavigation, BottomNavigationTab, } from 'react-native-ui-kitten/ui';
 export class BottomNavigationTitle extends React.Component {
     constructor() {
         super(...arguments);

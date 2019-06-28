@@ -7,12 +7,12 @@ import {
   withStyles,
   ThemeType,
   ThemedComponentProps,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   ApartmentFacilityList1Item,
   ApartmentFacilityList1ItemProps,
 } from './apartmentFacilityList1Item.component';
-import { ApartmentFacility } from '@src/core/model';
+import { ApartmentFacility } from '../../core/model';
 
 interface ComponentProps {
   data: ApartmentFacility[];

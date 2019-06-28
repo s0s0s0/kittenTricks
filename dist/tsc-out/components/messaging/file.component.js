@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileType, } from '../../core/model';
+import { FileType, } from '@src/core/model';
 import { VideoMessage } from './videoMessage.component';
 import { PhotoMessage } from './photoMessage.component';
 const types = {

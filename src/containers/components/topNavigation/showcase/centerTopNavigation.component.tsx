@@ -5,12 +5,12 @@ import {
   TopNavigationProps,
   TopNavigationAction,
   TopNavigationActionProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   StarIconFill,
   ArrowIosBackFill,
   MoreVerticalIconFill,
-} from '@src/assets/icons';
+} from '../../../../assets/icons';
 
 type TopNavigationElement = React.ReactElement<TopNavigationProps>;
 type TopNavigationActionElement = React.ReactElement<TopNavigationActionProps>;

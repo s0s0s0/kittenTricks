@@ -5,17 +5,17 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   ListItem,
   ListItemProps,
   Text,
-} from '@kitten/ui';
-import { textStyle } from '@src/components/common';
+} from 'react-native-ui-kitten/ui';
+import { textStyle } from '../../common';
 import {
   ThemeContext,
   ThemeKey,
-} from '@src/core/themes';
+} from '../../../core/themes';
 import { ComponentsListItemData } from './type';
 
 interface ComponentProps {

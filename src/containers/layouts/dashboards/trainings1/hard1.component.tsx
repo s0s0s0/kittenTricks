@@ -4,13 +4,13 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Exercise } from '@src/core/model/exercise.model';
-import { List } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Exercise } from '../../../../core/model/exercise.model';
+import { List } from 'react-native-ui-kitten/ui';
 import {
   TrainingCard2,
   TrainingCardProps,
-} from '@src/components/trainings/trainingCard2.component';
+} from '../../../../components/trainings/trainingCard2.component';
 
 interface ComponentProps {
   exercises: Exercise[];

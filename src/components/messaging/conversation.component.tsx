@@ -8,14 +8,14 @@ import {
 import {
   Conversation as ConversationModel,
   Message,
-} from '@src/core/model';
+} from '../../core/model';
 import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Text } from '@kitten/ui';
-import { textStyle } from '@src/components/common';
+} from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { textStyle } from '../common';
 import { MessageIcon } from './messageIcon.component';
 import { ConversationInterlocutor } from './conversationInterlocutor.component';
 

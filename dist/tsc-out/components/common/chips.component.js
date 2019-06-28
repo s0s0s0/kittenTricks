@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
+import { withStyles, } from 'react-native-ui-kitten/theme';
 class ChipsComponent extends React.Component {
     constructor() {
         super(...arguments);

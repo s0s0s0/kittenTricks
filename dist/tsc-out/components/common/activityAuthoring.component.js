@@ -11,10 +11,10 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { View, } from 'react-native';
-import { Text } from '../../../node_modules/react-native-ui-kitten/ui';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { Avatar } from '../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from './style';
+import { Text } from 'react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Avatar } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common/style';
 class ActivityAuthoringComponent extends React.Component {
     render() {
         const _a = this.props, { style, themedStyle, photo, name, date } = _a, restProps = __rest(_a, ["style", "themedStyle", "photo", "name", "date"]);

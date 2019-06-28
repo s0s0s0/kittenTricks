@@ -1,6 +1,6 @@
 import React from 'react';
-import { List, ListItem, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { StarIconFill } from '../../../../assets/icons';
+import { List, ListItem, } from 'react-native-ui-kitten/ui';
+import { StarIconFill } from '@src/assets/icons';
 import { BottomEndTooltip } from '../../tooltip/showcase';
 export const AccessoryList = () => {
     const data = Array(4).fill({

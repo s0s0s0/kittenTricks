@@ -1,6 +1,6 @@
 import React from 'react';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { List } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { List } from 'react-native-ui-kitten/ui';
 import { Feed1ListItem, } from './feed1ListItem.component';
 class Feed1Component extends React.Component {
     constructor() {

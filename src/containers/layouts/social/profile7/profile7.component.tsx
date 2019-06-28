@@ -7,35 +7,35 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ProfileActivityList3,
   ProfileFriendList,
   ProfileInfo3,
   ProfileSocials,
-} from '@src/components/social';
+} from '../../../../components/social';
 import {
   MessageCircleIconFill,
   PersonAddIconFill,
-} from '@src/assets/icons';
+} from '../../../../assets/icons';
 import {
   Profile as ProfileModel,
   ProfileSocials as ProfileSocialsModel,
   ProfileActivity as ProfileActivityModel,
-} from '@src/core/model';
+} from '../../../../core/model';
 import {
   ContainerView,
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 import {
   imageProfile7Bg,
   ImageSource,
-} from '@src/assets/images';
+} from '../../../../assets/images';
 
 interface ComponentProps {
   profile: ProfileModel;

@@ -5,7 +5,7 @@ import {
   ThemeContext,
   ThemeKey,
   themes,
-} from '@src/core/themes';
+} from '../../../core/themes';
 import { Theme } from './type';
 
 export class ThemesContainer extends React.Component {

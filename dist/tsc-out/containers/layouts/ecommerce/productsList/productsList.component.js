@@ -1,7 +1,7 @@
 import React from 'react';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Tab, TabView, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { ProductList } from '../../../../components/ecommerce';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Tab, TabView, } from 'react-native-ui-kitten/ui';
+import { ProductList } from '@src/components/ecommerce';
 class ProductsListComponent extends React.Component {
     constructor() {
         super(...arguments);

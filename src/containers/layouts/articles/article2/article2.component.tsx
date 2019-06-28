@@ -7,18 +7,18 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Avatar,
   Text,
-} from '@kitten/ui';
-import { ArticleActivityBar } from '@src/components/articles';
+} from 'react-native-ui-kitten/ui';
+import { ArticleActivityBar } from '../../../../components/articles';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
-import { ClockIconOutline } from '@src/assets/icons';
-import { Article } from '@src/core/model';
+} from '../../../../components/common';
+import { ClockIconOutline } from '../../../../assets/icons';
+import { Article } from '../../../../core/model';
 
 interface ComponentProps {
   article: Article;

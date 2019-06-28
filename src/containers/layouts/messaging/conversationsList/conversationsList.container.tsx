@@ -3,7 +3,7 @@ import {
   NavigationScreenProps,
   NavigationScreenConfig,
 } from 'react-navigation';
-import { Conversation } from '@src/core/model';
+import { Conversation } from '../../../../core/model';
 import {
   conversation1,
   conversation2,
@@ -15,9 +15,9 @@ import {
   conversation10,
   conversation11,
   conversation12,
-} from '@src/core/data/conversation';
+} from '../../../../core/data/conversation';
 import { ConversationsList } from './conversationsList.component';
-import { TopNavigationElement } from '@src/core/navigation/options';
+import { TopNavigationElement } from '../../../../core/navigation/options';
 import { ConversationListHeader } from './conversationList.header';
 
 interface ConversationsListNavigationStateParams {

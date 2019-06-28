@@ -13,12 +13,12 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Text,
   TextProps,
-} from '@kitten/ui';
-import { textStyle } from '@src/components/common';
+} from 'react-native-ui-kitten/ui';
+import { textStyle } from '../../common';
 
 type IconProp = (style: StyleType) => React.ReactElement<ImageProps>;
 type ChildrenProp = string;

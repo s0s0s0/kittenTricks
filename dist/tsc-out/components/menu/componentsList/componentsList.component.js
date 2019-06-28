@@ -11,8 +11,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { Dimensions, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { List, } from '../../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { List, } from 'react-native-ui-kitten/ui';
 import { ComponentsListItem, } from './componentsListItem.component';
 const { width } = Dimensions.get('window');
 const itemWidth = width / 2 - 32;

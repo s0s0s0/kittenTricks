@@ -1,5 +1,5 @@
 import React from 'react';
-import { ThemeKey } from '@src/core/themes/index';
+import { ThemeKey } from './index';
 
 export interface ThemeContextType {
   currentTheme: ThemeKey;

@@ -1,8 +1,8 @@
 import React from 'react';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { TopNavigationAction, TopNavigation, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { SafeAreaView } from '../../../../core/navigation';
-import { ArrowIosBackFill, SearchIconOutline, } from '../../../../assets/icons';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { TopNavigationAction, TopNavigation, } from 'react-native-ui-kitten/ui';
+import { SafeAreaView } from '@src/core/navigation';
+import { ArrowIosBackFill, SearchIconOutline, } from '@src/assets/icons';
 class ConversationListHeaderComponent extends React.Component {
     constructor() {
         super(...arguments);

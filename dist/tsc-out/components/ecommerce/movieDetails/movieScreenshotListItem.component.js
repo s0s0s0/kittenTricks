@@ -11,7 +11,7 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { Image, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
+import { withStyles, } from 'react-native-ui-kitten/theme';
 class MovieScreenshotListItemComponent extends React.Component {
     render() {
         const _a = this.props, { themedStyle, style } = _a, restProps = __rest(_a, ["themedStyle", "style"]);

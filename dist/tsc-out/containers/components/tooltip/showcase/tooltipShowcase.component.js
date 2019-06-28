@@ -10,7 +10,7 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import React from 'react';
-import { Button, Tooltip, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { Button, Tooltip, } from 'react-native-ui-kitten/ui';
 import { StyleSheet } from 'react-native';
 export class TooltipShowcase extends React.Component {
     constructor() {

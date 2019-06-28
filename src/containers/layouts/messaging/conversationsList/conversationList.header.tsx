@@ -4,17 +4,17 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   TopNavigationActionProps,
   TopNavigationAction,
   TopNavigation,
-} from '@kitten/ui';
-import { SafeAreaView } from '@src/core/navigation';
+} from 'react-native-ui-kitten/ui';
+import { SafeAreaView } from '../../../../core/navigation';
 import {
   ArrowIosBackFill,
   SearchIconOutline,
-} from '@src/assets/icons';
+} from '../../../../assets/icons';
 
 interface ComponentProps {
   onBack: () => void;

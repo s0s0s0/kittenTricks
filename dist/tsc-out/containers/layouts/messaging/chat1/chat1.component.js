@@ -1,12 +1,12 @@
 import React from 'react';
 import { Platform, View, } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Button, Input, List, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { Alignments, ChatMessage, } from '../../../../components/messaging';
-import { MicIconFill, PaperPlaneIconFill, PlusIconFill, } from '../../../../assets/icons';
-import { profile1, profile2, } from '../../../../core/data/profile';
-import { AvoidKeyboard, textStyle, } from '../../../../components/common';
-import { StringValidator } from '../../../../core/validators';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, Input, List, } from 'react-native-ui-kitten/ui';
+import { Alignments, ChatMessage, } from '@src/components/messaging';
+import { MicIconFill, PaperPlaneIconFill, PlusIconFill, } from '@src/assets/icons';
+import { profile1, profile2, } from '@src/core/data/profile';
+import { AvoidKeyboard, textStyle, } from '@src/components/common';
+import { StringValidator } from '@src/core/validators';
 class Chat1Component extends React.Component {
     constructor() {
         super(...arguments);

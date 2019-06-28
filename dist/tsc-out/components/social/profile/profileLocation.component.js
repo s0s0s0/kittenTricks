@@ -11,9 +11,9 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { StyleSheet, View, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { Text, } from '../../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from '../../common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Text, } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common';
 class ProfileLocationComponent extends React.Component {
     constructor() {
         super(...arguments);

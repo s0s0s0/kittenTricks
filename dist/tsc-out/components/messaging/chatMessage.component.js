@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
+import { withStyles, } from 'react-native-ui-kitten/theme';
 import { getContentAlignment, } from './type';
 import { getMessageContent, } from './message.content';
 class ChatMessageComponent extends React.Component {

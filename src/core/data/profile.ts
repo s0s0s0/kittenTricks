@@ -4,7 +4,7 @@ import {
   Profile,
   ProfileActivity,
   ProfileSocials,
-} from '@src/core/model';
+} from '../model';
 import {
   imageFeed1,
   imageFeed2,
@@ -25,7 +25,7 @@ import {
   imageProfile7,
   imageProfile8,
   imageProfile9,
-} from '@src/assets/images';
+} from '../../assets/images';
 
 export const profile1: Profile = {
   photo: imageProfile1,

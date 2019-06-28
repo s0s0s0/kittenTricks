@@ -1,4 +1,4 @@
-import { Comment } from '@src/core/model';
+import { Comment } from '../model';
 import {
   profile1,
   profile2,

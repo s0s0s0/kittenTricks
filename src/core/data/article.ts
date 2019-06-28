@@ -1,4 +1,4 @@
-import { Article } from '@src/core/model';
+import { Article } from '../model';
 import {
   profile2,
   profile3,
@@ -11,7 +11,7 @@ import {
   imageArticle3Bg,
   imageArticle2Bg,
   imageArticle4Bg,
-} from '@src/assets/images';
+} from '../../assets/images';
 
 /* tslint:disable */
 

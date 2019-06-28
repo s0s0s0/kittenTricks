@@ -11,11 +11,11 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { CheckBox } from '../../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle, ValidationInput, } from '../../common';
-import { EmailIconFill, EyeOffIconFill, PersonIconFill, } from '../../../assets/icons';
-import { EmailValidator, NameValidator, PasswordValidator, } from '../../../core/validators';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { CheckBox } from 'react-native-ui-kitten/ui';
+import { textStyle, ValidationInput, } from '@src/components/common';
+import { EmailIconFill, EyeOffIconFill, PersonIconFill, } from '@src/assets/icons';
+import { EmailValidator, NameValidator, PasswordValidator, } from '@src/core/validators';
 class SignUpForm2Component extends React.Component {
     constructor() {
         super(...arguments);

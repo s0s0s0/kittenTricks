@@ -11,10 +11,10 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { Text } from '../../../../node_modules/react-native-ui-kitten/ui';
-import { Chips, textStyle, } from '../../common';
-import { ClockIconOutline } from '../../../assets/icons';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { Chips, textStyle, } from '@src/components/common';
+import { ClockIconOutline } from '@src/assets/icons';
 class StyxComponent extends React.Component {
     render() {
         const _a = this.props, { style, themedStyle, hint, value, icon, onPress } = _a, restProps = __rest(_a, ["style", "themedStyle", "hint", "value", "icon", "onPress"]);

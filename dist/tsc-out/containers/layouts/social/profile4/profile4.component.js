@@ -1,10 +1,10 @@
 import React from 'react';
 import { View } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Button, Text, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { ProfileInfo1, ProfileParameterCard, ProfileSocials, } from '../../../../components/social';
-import { ContainerView, RateBar, textStyle, } from '../../../../components/common';
-import { ArrowHeadDownIconFill, ArrowHeadUpIconFill, } from '../../../../assets/icons';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, Text, } from 'react-native-ui-kitten/ui';
+import { ProfileInfo1, ProfileParameterCard, ProfileSocials, } from '@src/components/social';
+import { ContainerView, RateBar, textStyle, } from '@src/components/common';
+import { ArrowHeadDownIconFill, ArrowHeadUpIconFill, } from '@src/assets/icons';
 class Profile4Component extends React.Component {
     constructor() {
         super(...arguments);

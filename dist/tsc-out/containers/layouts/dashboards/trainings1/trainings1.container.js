@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trainings1 } from './trainings1.component';
-import { exercises1 } from '../../../../core/data/exercise';
+import { exercises1 } from '@src/core/data/exercise';
 export class Trainings1Container extends React.Component {
     constructor() {
         super(...arguments);

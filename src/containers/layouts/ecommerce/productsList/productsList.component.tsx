@@ -3,14 +3,14 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Tab,
   TabProps,
   TabView,
-} from '@kitten/ui';
-import { ProductList } from '@src/components/ecommerce';
-import { Product } from '@src/core/model';
+} from 'react-native-ui-kitten/ui';
+import { ProductList } from '../../../../components/ecommerce';
+import { Product } from '../../../../core/model';
 
 interface ComponentProps {
   products: Product[];

@@ -7,22 +7,22 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ApartmentFacilityList1,
   ApartmentFacilityList2,
   ApartmentPhotoList,
   PriceText,
-} from '@src/components/ecommerce';
-import { Apartment } from '@src/core/model';
+} from '../../../../components/ecommerce';
+import { Apartment } from '../../../../core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 
 interface ComponentProps {
   apartment: Apartment;

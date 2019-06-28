@@ -10,9 +10,9 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import React from 'react';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { Button, } from '../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from '../common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common';
 class ApartmentFacilityList1ItemComponent extends React.Component {
     constructor() {
         super(...arguments);

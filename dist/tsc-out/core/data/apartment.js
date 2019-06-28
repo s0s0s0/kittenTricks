@@ -1,4 +1,4 @@
-import { imageApartment1, imageApartment2, imageApartment3, imageApartment4, imageApartment5, } from '../../assets/images';
+import { imageApartment1, imageApartment2, imageApartment3, imageApartment4, imageApartment5, } from '@src/assets/images';
 /* tslint:disable */
 class GuestsFacility {
     constructor(count) {

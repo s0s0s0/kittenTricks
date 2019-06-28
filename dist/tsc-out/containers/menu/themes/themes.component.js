@@ -1,8 +1,8 @@
 import React from 'react';
-import { List, } from '../../../../node_modules/react-native-ui-kitten/ui';
-import { ThemeProvider, withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
+import { List, } from 'react-native-ui-kitten/ui';
+import { ThemeProvider, withStyles, } from 'react-native-ui-kitten/theme';
 import { ThemeCard } from './themeCard.component';
-import { fireAnalyticsEvent } from '../../../core/utils/analytics';
+import { fireAnalyticsEvent } from '@src/core/utils/analytics';
 class ThemesComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -2,7 +2,7 @@ import React from 'react';
 import { AppLoading, SplashScreen, } from 'expo';
 import { Asset } from 'expo-asset';
 import * as Font from 'expo-font';
-import { LoadingAnimationComponent } from './loadingAnimation.component';
+import { LoadingAnimationComponent } from '@src/core/appLoader/loadingAnimation.component';
 /**
  * Loads child component after asynchronous tasks are done
  */

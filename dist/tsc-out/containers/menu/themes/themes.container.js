@@ -1,6 +1,6 @@
 import React from 'react';
 import { Themes } from './themes.component';
-import { ThemeContext, themes, } from '../../../core/themes';
+import { ThemeContext, themes, } from '@src/core/themes';
 export class ThemesContainer extends React.Component {
     constructor(props) {
         super(props);

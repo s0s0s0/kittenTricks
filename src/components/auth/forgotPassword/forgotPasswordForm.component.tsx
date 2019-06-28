@@ -7,13 +7,13 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
-import { EmailIconFill } from '@src/assets/icons';
-import { EmailValidator } from '@src/core/validators';
+} from '../../common';
+import { EmailIconFill } from '../../../assets/icons';
+import { EmailValidator } from '../../../core/validators';
 import { ForgotPasswordFormData } from './type';
 
 

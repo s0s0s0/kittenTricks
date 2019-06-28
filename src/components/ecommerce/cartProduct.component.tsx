@@ -11,18 +11,18 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
-import { textStyle } from '@src/components/common';
+} from 'react-native-ui-kitten/ui';
+import { textStyle } from '../common';
 import {
   CloseIconOutline,
   MinusIconFill,
   PlusIconFill,
-} from '@src/assets/icons';
-import { CartProduct as CartProductModel } from '@src/containers/layouts/ecommerce/shoppingCart/cartProduct.model';
+} from '../../assets/icons';
+import { CartProduct as CartProductModel } from '../../containers/layouts/ecommerce/shoppingCart/cartProduct.model';
 
 interface ComponentProps {
   product: CartProductModel;

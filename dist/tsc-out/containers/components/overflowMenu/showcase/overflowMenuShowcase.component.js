@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button, OverflowMenu, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { StarIconFill } from '../../../../assets/icons';
+import { Button, OverflowMenu, } from 'react-native-ui-kitten/ui';
+import { StarIconFill } from '@src/assets/icons';
 import { StyleSheet } from 'react-native';
 export class OverflowMenuShowcase extends React.Component {
     constructor() {

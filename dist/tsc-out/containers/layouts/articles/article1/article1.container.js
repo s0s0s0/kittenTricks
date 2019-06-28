@@ -1,6 +1,6 @@
 import React from 'react';
 import { Article1 } from './article1.component';
-import { articles } from '../../../../core/data/article';
+import { articles } from '@src/core/data/article';
 export class Article1Container extends React.Component {
     constructor() {
         super(...arguments);

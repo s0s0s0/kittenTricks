@@ -1,5 +1,5 @@
-import { FileType, } from '../model';
-import { imageMessage1, imageMessage2, } from '../../assets/images';
+import { FileType, } from '@src/core/model';
+import { imageMessage1, imageMessage2, } from '@src/assets/images';
 export const file1 = {
     type: FileType.photo,
     preview: imageMessage1,

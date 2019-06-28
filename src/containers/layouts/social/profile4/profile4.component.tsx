@@ -4,29 +4,29 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ProfileInfo1,
   ProfileParameterCard,
   ProfileSocials,
-} from '@src/components/social';
+} from '../../../../components/social';
 import {
   ContainerView,
   RateBar,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 import {
   ArrowHeadDownIconFill,
   ArrowHeadUpIconFill,
-} from '@src/assets/icons';
+} from '../../../../assets/icons';
 import {
   Profile as ProfileModel,
   ProfileSocials as ProfileSocialsModel,
-} from '@src/core/model';
+} from '../../../../core/model';
 
 interface ComponentProps {
   profile: ProfileModel;

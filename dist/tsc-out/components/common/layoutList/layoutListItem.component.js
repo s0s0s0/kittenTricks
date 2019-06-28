@@ -10,8 +10,8 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import React from 'react';
-import { ListItem, Text, } from '../../../../node_modules/react-native-ui-kitten/ui';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
+import { ListItem, Text, } from 'react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
 import { textStyle } from '../style';
 class LayoutListItemComponent extends React.Component {
     render() {

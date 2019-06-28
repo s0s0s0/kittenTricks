@@ -10,15 +10,15 @@ import {
   View,
   ViewProps,
 } from 'react-native';
-import { Text } from '@kitten/ui';
+import { Text } from 'react-native-ui-kitten/ui';
 import {
   StyleType,
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { StarIconFill } from '@src/assets/icons';
-import { textStyle } from '@src/components/common/style';
+} from 'react-native-ui-kitten/theme';
+import { StarIconFill } from '../../assets/icons';
+import { textStyle } from './style';
 
 interface ComponentProps {
   hint?: string;

@@ -8,13 +8,13 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Text } from '@kitten/ui';
-import { FeedActivityBar } from '@src/components/social';
+} from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { FeedActivityBar } from '../../../../components/social';
 import {
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 
 interface ListDerivedProps {
   index?: number;

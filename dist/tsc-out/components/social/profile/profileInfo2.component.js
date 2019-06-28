@@ -11,10 +11,10 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { Avatar, Text, } from '../../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from '../../common';
-import { PinIconFill } from '../../../assets/icons';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Avatar, Text, } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common';
+import { PinIconFill } from '@src/assets/icons';
 import { ProfileLocation } from './profileLocation.component';
 class ProfileInfo2Component extends React.Component {
     render() {

@@ -1,10 +1,10 @@
 import React from 'react';
 import { View } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Button, Tab, TabView, Text, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { SignInForm3, SignInForm4, } from '../../../../components/auth';
-import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '../../../../components/common';
-import { imageSignIn5Bg, } from '../../../../assets/images';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, Tab, TabView, Text, } from 'react-native-ui-kitten/ui';
+import { SignInForm3, SignInForm4, } from '@src/components/auth';
+import { ScrollableAvoidKeyboard, ImageOverlay, textStyle, } from '@src/components/common';
+import { imageSignIn5Bg, } from '@src/assets/images';
 const TAB_INDEX_EMAIL = 0;
 const TAB_INDEX_SMS = 1;
 class SignIn5Component extends React.Component {

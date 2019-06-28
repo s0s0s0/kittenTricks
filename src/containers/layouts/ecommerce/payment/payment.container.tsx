@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
 import { Payment } from './payment.component';
-import { PaymentCard } from '@src/core/model';
-import { paymentCard1 } from '@src/core/data/paymentCard';
+import { PaymentCard } from '../../../../core/model';
+import { paymentCard1 } from '../../../../core/data/paymentCard';
 
 interface State {
   paymentCards: PaymentCard[];

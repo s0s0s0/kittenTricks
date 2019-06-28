@@ -10,8 +10,8 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import React from 'react';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { List, ListItem, } from '../../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { List, ListItem, } from 'react-native-ui-kitten/ui';
 import { ProfileActivityList2Item, } from './profileActivityList2Item.component';
 class ProfileActivityList2Component extends React.Component {
     constructor() {

@@ -1,8 +1,8 @@
 import React from 'react';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { Avatar, TopNavigation, TopNavigationAction, } from '../../../node_modules/react-native-ui-kitten/ui';
-import { ArrowIosBackFill } from '../../assets/icons';
-import { SafeAreaView } from '../../core/navigation';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Avatar, TopNavigation, TopNavigationAction, } from 'react-native-ui-kitten/ui';
+import { ArrowIosBackFill } from '@src/assets/icons';
+import { SafeAreaView } from '@src/core/navigation';
 class ChatHeaderComponent extends React.Component {
     constructor() {
         super(...arguments);

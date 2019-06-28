@@ -11,8 +11,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { Image, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { List, ListItem, } from '../../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { List, ListItem, } from 'react-native-ui-kitten/ui';
 class MovieScreenshotListComponent extends React.Component {
     constructor() {
         super(...arguments);

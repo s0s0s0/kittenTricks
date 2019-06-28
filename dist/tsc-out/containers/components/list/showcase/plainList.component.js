@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ListItem, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { List, ListItem, } from 'react-native-ui-kitten/ui';
 export const PlainList = () => {
     const data = Array(4).fill({
         title: 'Title',

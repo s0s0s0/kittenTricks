@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { Button, } from 'react-native-ui-kitten/ui';
 export const FilledButton = (props) => {
     return (<Button appearance='filled' {...props}>
       BUTTON

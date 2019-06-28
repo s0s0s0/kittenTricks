@@ -7,14 +7,14 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   ActivityBar,
   ActivityBarProps,
   CommentsButton,
   LikeButton,
   ReactionBar,
-} from '@src/components/common';
+} from '../common';
 
 interface ComponentProps {
   comments: number;

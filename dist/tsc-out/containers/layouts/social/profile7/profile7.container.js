@@ -1,6 +1,6 @@
 import React from 'react';
 import { Profile7 } from './profile7.component';
-import { profile6, profileActivity1, profileSocials1, } from '../../../../core/data/profile';
+import { profile6, profileActivity1, profileSocials1, } from '@src/core/data/profile';
 export class Profile7Container extends React.Component {
     constructor() {
         super(...arguments);

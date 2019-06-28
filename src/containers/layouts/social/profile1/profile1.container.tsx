@@ -4,12 +4,12 @@ import {
   Profile,
   ProfileSocials,
   Post,
-} from '@src/core/model';
+} from '../../../../core/model';
 import {
   profile1,
   profileSocials1,
-} from '@src/core/data/profile';
-import { posts } from '@src/core/data/post';
+} from '../../../../core/data/profile';
+import { posts } from '../../../../core/data/post';
 import { Profile1 } from './profile1.component';
 
 interface State {

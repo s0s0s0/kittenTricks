@@ -11,10 +11,10 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { TouchableOpacity, View, } from 'react-native';
-import { Text } from '../../../node_modules/react-native-ui-kitten/ui';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { StarIconFill } from '../../assets/icons';
-import { textStyle } from './style';
+import { Text } from 'react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { StarIconFill } from '@src/assets/icons';
+import { textStyle } from '@src/components/common/style';
 class RateBarComponent extends React.Component {
     constructor() {
         super(...arguments);

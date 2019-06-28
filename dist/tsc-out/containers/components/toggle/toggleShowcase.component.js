@@ -1,5 +1,5 @@
 import React from 'react';
-import { Toggle, } from '../../../../node_modules/react-native-ui-kitten/ui';
+import { Toggle, } from 'react-native-ui-kitten/ui';
 class ToggleShowcaseComponent extends React.Component {
     constructor() {
         super(...arguments);

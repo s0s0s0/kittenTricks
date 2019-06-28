@@ -1,6 +1,6 @@
 import { profile2, profile3, profile4, profile5, } from './profile';
 import { comments } from './comment';
-import { imageArticle1Bg, imageArticle3Bg, imageArticle2Bg, imageArticle4Bg, } from '../../assets/images';
+import { imageArticle1Bg, imageArticle3Bg, imageArticle2Bg, imageArticle4Bg, } from '@src/assets/images';
 /* tslint:disable */
 export const articles = [
     {

@@ -7,19 +7,19 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   Input,
   InputProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   Conversation,
   ConversationProps,
-} from '@src/components/messaging';
-import { Conversation as ConversationModel } from '@src/core/model';
-import { SearchIconOutline } from '@src/assets/icons';
-import { textStyle } from '@src/components/common';
+} from '../../../../components/messaging';
+import { Conversation as ConversationModel } from '../../../../core/model';
+import { SearchIconOutline } from '../../../../assets/icons';
+import { textStyle } from '../../../../components/common';
 
 interface ComponentProps {
   searchEnabled: boolean;

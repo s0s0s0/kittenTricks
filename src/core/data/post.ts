@@ -1,12 +1,12 @@
-import { Post } from '@src/core/model';
+import { Post } from '../model';
 import {
   profile2,
   profile3,
-} from '@src/core/data/profile';
+} from './profile';
 import {
   imagePost1Bg,
   imagePost2Bg,
-} from '@src/assets/images';
+} from '../../assets/images';
 
 export const posts: Post[] = [
   {

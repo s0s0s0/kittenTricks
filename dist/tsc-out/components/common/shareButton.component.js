@@ -11,9 +11,9 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { TouchableOpacity, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { Text } from '../../../node_modules/react-native-ui-kitten/ui';
-import { ShareIconOutline } from '../../assets/icons';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { ShareIconOutline } from '@src/assets/icons';
 class ShareButtonComponent extends React.Component {
     render() {
         const _a = this.props, { style, themedStyle, textStyle, children } = _a, restProps = __rest(_a, ["style", "themedStyle", "textStyle", "children"]);

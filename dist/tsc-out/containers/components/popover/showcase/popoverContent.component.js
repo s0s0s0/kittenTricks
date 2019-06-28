@@ -11,9 +11,9 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Button, Text, Avatar, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from '../../../../components/common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, Text, Avatar, } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common';
 class PopoverContentComponent extends React.Component {
     constructor() {
         super(...arguments);

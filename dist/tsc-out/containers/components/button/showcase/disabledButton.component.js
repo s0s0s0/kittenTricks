@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { Button, } from 'react-native-ui-kitten/ui';
 export const DisabledButton = (props) => {
     return (<Button disabled={true} {...props}>
       BUTTON

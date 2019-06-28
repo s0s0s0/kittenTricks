@@ -9,14 +9,14 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Radio,
   RadioGroup,
   RadioProps,
   Text,
-} from '@kitten/ui';
-import { textStyle } from '@src/components/common';
+} from 'react-native-ui-kitten/ui';
+import { textStyle } from '../common';
 
 interface ComponentProps {
   image: ImageSourcePropType;

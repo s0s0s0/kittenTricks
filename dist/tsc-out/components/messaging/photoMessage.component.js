@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
+import { withStyles, } from 'react-native-ui-kitten/theme';
 import { ChatFileMessageAppearance } from './type';
 class PhotoMessageComponent extends React.Component {
     constructor() {

@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, TouchableOpacity, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { Text } from '../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from '../common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common';
 import { MessageIcon } from './messageIcon.component';
 import { ConversationInterlocutor } from './conversationInterlocutor.component';
 class ConversationComponent extends React.Component {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckBox, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { CheckBox, } from 'react-native-ui-kitten/ui';
 class CheckBoxShowcaseComponent extends React.Component {
     constructor() {
         super(...arguments);

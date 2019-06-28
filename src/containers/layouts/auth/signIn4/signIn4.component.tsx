@@ -4,25 +4,25 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   SignInForm2,
   SignInForm2Data,
   SocialAuth,
-} from '@src/components/auth';
+} from '../../../../components/auth';
 import {
   ScrollableAvoidKeyboard,
   ImageOverlay,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 import {
   imageSignIn4Bg,
   ImageSource,
-} from '@src/assets/images';
+} from '../../../../assets/images';
 
 interface ComponentProps {
   onForgotPasswordPress: () => void;

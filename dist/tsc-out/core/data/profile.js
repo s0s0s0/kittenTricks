@@ -1,5 +1,5 @@
-import { Gender, } from '../model';
-import { imageFeed1, imageFeed2, imageFeed3, imageFeed4, imageFeed5, imageFeed6, imageFeed7, imageFeed8, imageFeed9, imageProfile1, imageProfile10, imageProfile2, imageProfile3, imageProfile4, imageProfile5, imageProfile6, imageProfile7, imageProfile8, imageProfile9, } from '../../assets/images';
+import { Gender, } from '@src/core/model';
+import { imageFeed1, imageFeed2, imageFeed3, imageFeed4, imageFeed5, imageFeed6, imageFeed7, imageFeed8, imageFeed9, imageProfile1, imageProfile10, imageProfile2, imageProfile3, imageProfile4, imageProfile5, imageProfile6, imageProfile7, imageProfile8, imageProfile9, } from '@src/assets/images';
 export const profile1 = {
     photo: imageProfile1,
     about: 'Hi! My name is Jennifer. I\'m 25 and I live in Berlin.' +

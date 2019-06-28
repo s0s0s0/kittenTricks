@@ -7,7 +7,7 @@ import {
   imageArticleList2Layout,
   imageArticleList3Layout,
   imageArticleList4Layout,
-} from '@src/assets/images';
+} from '../../../../assets/images';
 
 export const routes: ArticlesContainerData[] = [
   {

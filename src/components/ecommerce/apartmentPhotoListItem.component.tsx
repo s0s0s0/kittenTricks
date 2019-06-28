@@ -9,7 +9,7 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 
 interface ListDerivedProps {
   index?: number;

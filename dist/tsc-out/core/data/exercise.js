@@ -1,4 +1,4 @@
-import { imageExercise1Bg, imageExercise2Bg, imageExercise3Bg, imageExercise4Bg, imageExercise5Bg, imageExercise6Bg, imageExercise7Bg, } from '../../assets/images';
+import { imageExercise1Bg, imageExercise2Bg, imageExercise3Bg, imageExercise4Bg, imageExercise5Bg, imageExercise6Bg, imageExercise7Bg, } from '@src/assets/images';
 export const exercises1 = [
     {
         name: 'Chest',

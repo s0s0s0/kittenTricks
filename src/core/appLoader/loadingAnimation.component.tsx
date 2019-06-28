@@ -4,7 +4,7 @@ import {
   Easing,
   StyleSheet,
 } from 'react-native';
-import { splash } from '@src/assets/images';
+import { splash } from '../../assets/images';
 
 interface Props {
   isLoaded: boolean;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { conversation1, conversation2, conversation3, conversation4, conversation7, conversation8, conversation9, conversation10, conversation11, conversation12, } from '../../../../core/data/conversation';
+import { conversation1, conversation2, conversation3, conversation4, conversation7, conversation8, conversation9, conversation10, conversation11, conversation12, } from '@src/core/data/conversation';
 import { ConversationsList } from './conversationsList.component';
 import { ConversationListHeader } from './conversationList.header';
 const conversations = [

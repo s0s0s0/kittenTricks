@@ -7,19 +7,19 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from '../../common';
 import {
   EmailIconFill,
   LockIconFill,
-} from '@src/assets/icons';
+} from '../../../assets/icons';
 import {
   EmailValidator,
   PasswordValidator,
-} from '@src/core/validators';
+} from '../../../core/validators';
 import { SignInForm3Data } from './type';
 
 interface ComponentProps {

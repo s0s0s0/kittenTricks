@@ -10,10 +10,10 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import React from 'react';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { ListItem, Text, } from '../../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from '../../common';
-import { ThemeContext, } from '../../../core/themes';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { ListItem, Text, } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common';
+import { ThemeContext, } from '@src/core/themes';
 class ComponentsListItemComponent extends React.Component {
     constructor() {
         super(...arguments);

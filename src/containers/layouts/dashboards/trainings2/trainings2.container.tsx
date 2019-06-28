@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavigationScreenProps } from 'react-navigation';
 import { Trainings2 } from './trainings2.component';
-import { Exercise } from '@src/core/model/exercise.model';
-import { exercises2 } from '@src/core/data/exercise';
+import { Exercise } from '../../../../core/model/exercise.model';
+import { exercises2 } from '../../../../core/data/exercise';
 
 interface State {
   exercises: Exercise[];

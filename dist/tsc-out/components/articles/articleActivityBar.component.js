@@ -10,8 +10,8 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import React from 'react';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { ActivityBar, CommentsButton, LikeButton, ReactionBar, } from '../common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { ActivityBar, CommentsButton, LikeButton, ReactionBar, } from '@src/components/common';
 class ArticleActivityBarComponent extends React.Component {
     render() {
         const _a = this.props, { themedStyle, textStyle, comments, likes, onCommentPress, onLikePress, children } = _a, restProps = __rest(_a, ["themedStyle", "textStyle", "comments", "likes", "onCommentPress", "onLikePress", "children"]);

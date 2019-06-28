@@ -1,9 +1,9 @@
-import { Training } from '@src/core/model';
+import { Training } from '../model';
 import {
   imageTraining1Bg,
   imageTraining2Bg,
   imageTraining3Bg,
-} from '@src/assets/images';
+} from '../../assets/images';
 
 /* tslint:disable */
 

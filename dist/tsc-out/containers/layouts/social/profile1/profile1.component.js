@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Button } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { ProfileInfo1, ProfileSocials, ProfileActivityList1, } from '../../../../components/social';
-import { ContainerView, textStyle, } from '../../../../components/common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button } from 'react-native-ui-kitten/ui';
+import { ProfileInfo1, ProfileSocials, ProfileActivityList1, } from '@src/components/social';
+import { ContainerView, textStyle, } from '@src/components/common';
 class Profile1Component extends React.Component {
     constructor() {
         super(...arguments);

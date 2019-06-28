@@ -11,10 +11,10 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { TouchableOpacity, } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Text } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { FeedActivityBar } from '../../../../components/social';
-import { ImageOverlay, textStyle, } from '../../../../components/common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { FeedActivityBar } from '@src/components/social';
+import { ImageOverlay, textStyle, } from '@src/components/common';
 class Feed2ListItemComponent extends React.Component {
     constructor() {
         super(...arguments);

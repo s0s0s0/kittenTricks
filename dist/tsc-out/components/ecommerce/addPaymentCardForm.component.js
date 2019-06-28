@@ -11,10 +11,10 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { textStyle, ValidationInput, } from '../common';
-import { CardNumberValidator, ExpirationDateValidator, CvvValidator, CardholderNameValidator, } from '../../core/validators';
-import { CardNumberFormatter, ExpirationDateFormatter, CvvFormatter, CardholderNameFormatter, } from '../../core/formatters';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { textStyle, ValidationInput, } from '@src/components/common';
+import { CardNumberValidator, ExpirationDateValidator, CvvValidator, CardholderNameValidator, } from '@src/core/validators';
+import { CardNumberFormatter, ExpirationDateFormatter, CvvFormatter, CardholderNameFormatter, } from '@src/core/formatters';
 class AddNewCardComponent extends React.Component {
     constructor() {
         super(...arguments);

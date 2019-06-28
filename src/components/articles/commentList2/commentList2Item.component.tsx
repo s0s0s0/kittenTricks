@@ -8,18 +8,18 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   ActivityAuthoring,
   textStyle,
-} from '@src/components/common';
+} from '../../common';
 import {
   ListItem,
   ListItemProps,
   Text,
-} from '@kitten/ui';
-import { MoreHorizontalIconFill } from '@src/assets/icons';
-import { Comment } from '@src/core/model';
+} from 'react-native-ui-kitten/ui';
+import { MoreHorizontalIconFill } from '../../../assets/icons';
+import { Comment } from '../../../core/model';
 
 interface ComponentProps {
   data: Comment;

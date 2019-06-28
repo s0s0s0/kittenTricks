@@ -3,8 +3,8 @@ import {
   withStyles,
   ThemeType,
   ThemedComponentProps,
-} from '@kitten/theme';
-import { LayoutMenu } from '@src/components/common';
+} from 'react-native-ui-kitten/theme';
+import { LayoutMenu } from '../../../../components/common';
 import { EcommerceData } from './type';
 
 interface ComponentProps {

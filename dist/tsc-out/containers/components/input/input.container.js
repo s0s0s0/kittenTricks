@@ -1,10 +1,10 @@
 import React from 'react';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
+import { withStyles, } from 'react-native-ui-kitten/theme';
 import { Showcase } from '../common/showcase.component';
 import { ShowcaseSection } from '../common/showcaseSection.component';
 import { ShowcaseItem } from '../common/showcaseItem.component';
 import { CaptionIconInput, CaptionInput, DangerInput, DefaultInput, DisabledInput, IconInput, InfoInput, LabelInput, PrimaryInput, SuccessInput, WarningInput, } from './showcase';
-import { textStyle } from '../../../components/common';
+import { textStyle } from '@src/components/common';
 class InputContainerComponent extends React.Component {
     render() {
         const { themedStyle } = this.props;

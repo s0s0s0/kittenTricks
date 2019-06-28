@@ -7,18 +7,18 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { CheckBox } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { CheckBox } from 'react-native-ui-kitten/ui';
 import {
   textStyle,
   ValidationInput,
-} from '@src/components/common';
+} from '../../common';
 import {
   DOBValidator,
   EmailValidator,
   NameValidator,
   PasswordValidator,
-} from '@src/core/validators';
+} from '../../../core/validators';
 import { SignUpForm1Data } from './type';
 
 interface ComponentProps {

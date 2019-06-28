@@ -7,14 +7,14 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   ListItem,
   ListItemProps,
   ListProps,
-} from '@kitten/ui';
-import { ImageSource } from '@src/assets/images';
+} from 'react-native-ui-kitten/ui';
+import { ImageSource } from '../../../assets/images';
 
 // @ts-ignore (`renderItem` prop override)
 interface ComponentProps extends ListProps {

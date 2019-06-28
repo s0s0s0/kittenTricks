@@ -1,5 +1,5 @@
 import React from 'react';
-import { articles } from '../../../../core/data/article';
+import { articles } from '@src/core/data/article';
 import { Article2 } from './article2.component';
 export class Article2Container extends React.Component {
     constructor() {

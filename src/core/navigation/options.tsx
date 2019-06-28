@@ -4,9 +4,9 @@ import {
   NavigationParams,
   NavigationScreenProps,
 } from 'react-navigation';
-import { EcommerceHeader } from '@src/components/ecommerce';
-import { MenuContainer } from '@src/containers/menu';
-import { ArrowIosBackFill } from '@src/assets/icons';
+import { EcommerceHeader } from '../../components/ecommerce';
+import { MenuContainer } from '../../containers/menu';
+import { ArrowIosBackFill } from '../../assets/icons';
 import { TopNavigationBar } from './components/topNavigationBar.component';
 import {
   getCurrentRouteState,

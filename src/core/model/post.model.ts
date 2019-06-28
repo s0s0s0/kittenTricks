@@ -1,4 +1,4 @@
-import { ImageSource } from '@src/assets/images';
+import { ImageSource } from '../../assets/images';
 import { Profile } from './profile.model';
 
 export interface Post {

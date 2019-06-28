@@ -1,10 +1,10 @@
 import React from 'react';
 import { TouchableOpacity, View, } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Button, Text, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { ContainerView, textStyle, } from '../../../../components/common';
-import { PaymentCard, } from '../../../../components/ecommerce';
-import { CreditCardIconFill } from '../../../../assets/icons';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, Text, } from 'react-native-ui-kitten/ui';
+import { ContainerView, textStyle, } from '@src/components/common';
+import { PaymentCard, } from '@src/components/ecommerce';
+import { CreditCardIconFill } from '@src/assets/icons';
 class PaymentComponent extends React.Component {
     constructor() {
         super(...arguments);

@@ -5,13 +5,13 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   Button,
-} from '@kitten/ui';
-import { ArticleHeader } from '@src/components/articles';
-import { Article } from '@src/core/model';
+} from 'react-native-ui-kitten/ui';
+import { ArticleHeader } from '../../../../components/articles';
+import { Article } from '../../../../core/model';
 import {
   ArticleList4Item,
   ArticleList4ItemProps,
@@ -19,7 +19,7 @@ import {
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 
 interface ComponentProps {
   articles: Article[];

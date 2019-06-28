@@ -4,21 +4,21 @@ import {
   ThemeProvider,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Tab,
   TabProps,
   TabView,
   TabViewProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   GridIconOutline,
   ListIconFill,
-} from '@src/assets/icons';
+} from '../../../assets/icons';
 import { LayoutGridList } from '../layoutGridList';
 import { LayoutList } from '../layoutList';
 import { LayoutMenuItemData } from './type';
-import { themes } from '@src/core/themes';
+import { themes } from '../../../core/themes';
 
 // @ts-ignore (override `children` prop)
 interface ComponentProps extends TabViewProps {

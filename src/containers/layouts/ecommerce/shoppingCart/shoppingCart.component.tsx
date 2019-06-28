@@ -7,21 +7,21 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 import { CartProduct as CartProductModel } from './cartProduct.model';
 import {
   CartProduct,
   CartProductProps,
-} from '@src/components/ecommerce';
+} from '../../../../components/ecommerce';
 
 interface ComponentProps {
   products: CartProductModel[];

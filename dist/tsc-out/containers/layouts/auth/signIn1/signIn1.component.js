@@ -1,11 +1,11 @@
 import React from 'react';
 import { ImageBackground, View, } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Button, Text, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { SignInForm1, SocialAuth, } from '../../../../components/auth';
-import { ScrollableAvoidKeyboard, textStyle, } from '../../../../components/common';
-import { ArrowForwardIconOutline, HeartIconFill, } from '../../../../assets/icons';
-import { imageSignIn1Bg, } from '../../../../assets/images';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, Text, } from 'react-native-ui-kitten/ui';
+import { SignInForm1, SocialAuth, } from '@src/components/auth';
+import { ScrollableAvoidKeyboard, textStyle, } from '@src/components/common';
+import { ArrowForwardIconOutline, HeartIconFill, } from '@src/assets/icons';
+import { imageSignIn1Bg, } from '@src/assets/images';
 class SignIn1Component extends React.Component {
     constructor() {
         super(...arguments);

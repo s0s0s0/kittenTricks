@@ -1,4 +1,4 @@
-import { Product } from '@src/core/model';
+import { Product } from '../../../../core/model';
 
 interface CartProductModel {
   count: number;

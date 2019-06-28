@@ -12,7 +12,7 @@ import {
   LayoutsContainer,
   MenuContainer,
   ThemesContainer,
-} from '@src/containers/menu';
+} from '../../containers/menu';
 import {
   Article1Container,
   Article2Container,
@@ -22,7 +22,7 @@ import {
   ArticleList3Container,
   ArticleList4Container,
   ArticlesContainer,
-} from '@src/containers/layouts/articles';
+} from '../../containers/layouts/articles';
 import {
   AuthContainer,
   ForgotPasswordContainer,
@@ -35,12 +35,12 @@ import {
   SignUp2Container,
   SignUp3Container,
   SignUp4Container,
-} from '@src/containers/layouts/auth';
+} from '../../containers/layouts/auth';
 import {
   DashboardsContainer,
   Trainings1Container,
   Trainings2Container,
-} from '@src/containers/layouts/dashboards';
+} from '../../containers/layouts/dashboards';
 import {
   AddNewCardContainer,
   BookDetailsContainer,
@@ -51,14 +51,14 @@ import {
   ProductsListContainer,
   RentApartmentContainer,
   ShoppingCartContainer,
-} from '@src/containers/layouts/ecommerce';
+} from '../../containers/layouts/ecommerce';
 import {
   Chat1Container,
   Chat2Container,
   Chat3Container,
   ConversationsListContainer,
   MessagingContainer,
-} from '@src/containers/layouts/messaging';
+} from '../../containers/layouts/messaging';
 import {
   Feed1Container,
   Feed2Container,
@@ -74,7 +74,7 @@ import {
   ProfileSettings3Container,
   SettingsContainer,
   SocialContainer,
-} from '@src/containers/layouts/social';
+} from '../../containers/layouts/social';
 import {
   AvatarContainer,
   BottomNavigationContainer,
@@ -91,7 +91,7 @@ import {
   ToggleContainer,
   TooltipContainer,
   TopNavigationContainer,
-} from '@src/containers/components';
+} from '../../containers/components';
 import {
   ArticlesNavigationOptions,
   DashboardNavigationOptions,

@@ -3,19 +3,19 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   SignInForm2,
   SignInForm2Data,
-} from '@src/components/auth';
+} from '../../../../components/auth';
 import {
   ScrollableAvoidKeyboard,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 import { View } from 'react-native';
 
 interface ComponentProps {

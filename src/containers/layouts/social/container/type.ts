@@ -1,4 +1,4 @@
-import { LayoutMenuItemData } from '@src/components/common';
+import { LayoutMenuItemData } from '../../../../components/common';
 
 export type SocialData = LayoutMenuItemData;
 

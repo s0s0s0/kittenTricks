@@ -9,28 +9,28 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   SignInForm1,
   SignInForm1Data,
   SocialAuth,
-} from '@src/components/auth';
+} from '../../../../components/auth';
 import {
   ScrollableAvoidKeyboard,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 import {
   ArrowForwardIconOutline,
   HeartIconFill,
-} from '@src/assets/icons';
+} from '../../../../assets/icons';
 import {
   imageSignIn1Bg,
   ImageSource,
-} from '@src/assets/images';
+} from '../../../../assets/images';
 
 interface ComponentProps {
   onSignInPress: (formData: SignInForm1Data) => void;

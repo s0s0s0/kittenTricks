@@ -4,9 +4,9 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { List } from '@kitten/ui';
-import { Article } from '@src/core/model';
+} from 'react-native-ui-kitten/theme';
+import { List } from 'react-native-ui-kitten/ui';
+import { Article } from '../../../../core/model';
 import {
   ArticleList1Item,
   ArticleList1ItemProps,

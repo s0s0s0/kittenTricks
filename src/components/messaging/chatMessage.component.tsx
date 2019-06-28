@@ -8,8 +8,8 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Message as MessageModel } from '@src/core/model';
+} from 'react-native-ui-kitten/theme';
+import { Message as MessageModel } from '../../core/model';
 import {
   Alignments,
   getContentAlignment,

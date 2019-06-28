@@ -11,10 +11,10 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { View, Image, TouchableOpacity, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { Button, Text, } from '../../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from '../../common';
-import { CartIconOutline } from '../../../assets/icons';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Button, Text, } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common';
+import { CartIconOutline } from '@src/assets/icons';
 class ProductListItemComponent extends React.Component {
     constructor() {
         super(...arguments);

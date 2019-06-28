@@ -33,11 +33,11 @@ import {
   ComponentsIconTooltipDark,
   ComponentsIconTopNavigation,
   ComponentsIconTopNavigationDark,
-} from '@src/assets/icons';
+} from '../../../assets/icons';
 import {
   ThemeKey,
   ThemeService,
-} from '@src/core/themes';
+} from '../../../core/themes';
 import { ComponentsContainerData } from './type';
 
 export const routes: ComponentsContainerData[] = [

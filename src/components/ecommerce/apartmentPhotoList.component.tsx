@@ -4,16 +4,16 @@ import {
   withStyles,
   ThemeType,
   ThemedComponentProps,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   List,
   ListProps,
-} from '@kitten/ui';
-import { ImageSource } from '@src/assets/images';
+} from 'react-native-ui-kitten/ui';
+import { ImageSource } from '../../assets/images';
 import {
   ApartmentPhotoListItem,
   ApartmentPhotoListItemProps,
-} from '@src/components/ecommerce/apartmentPhotoListItem.component';
+} from './apartmentPhotoListItem.component';
 
 // @ts-ignore (override `renderItem` prop)
 interface ComponentProps extends ListProps {

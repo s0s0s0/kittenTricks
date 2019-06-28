@@ -4,22 +4,22 @@ import {
   withStyles,
   ThemeType,
   ThemedComponentProps,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Input,
   Text,
-} from '@kitten/ui';
-import { BookHeader } from '@src/components/ecommerce';
-import { CommentsList1 } from '@src/components/articles';
+} from 'react-native-ui-kitten/ui';
+import { BookHeader } from '../../../../components/ecommerce';
+import { CommentsList1 } from '../../../../components/articles';
 import {
   Book,
   Comment,
-} from '@src/core/model';
+} from '../../../../core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 
 interface ComponentProps {
   book: Book;

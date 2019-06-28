@@ -11,8 +11,8 @@ var __rest = (this && this.__rest) || function (s, e) {
 };
 import React from 'react';
 import { Dimensions, } from 'react-native';
-import { withStyles, } from '../../../../node_modules/react-native-ui-kitten/theme';
-import { List, ListItem, } from '../../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { List, ListItem, } from 'react-native-ui-kitten/ui';
 import { ProfileActivityList3Item, } from './profileActivityList3Item.component';
 const dimensions = Dimensions.get('window');
 class ProfileActivityList3Component extends React.Component {

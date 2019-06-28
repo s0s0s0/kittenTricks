@@ -1,5 +1,5 @@
 import React from 'react';
-import { profile1, profileSocials1, } from '../../../../core/data/profile';
+import { profile1, profileSocials1, } from '@src/core/data/profile';
 import { Profile2 } from './profile2.component';
 export class Profile2Container extends React.Component {
     constructor() {

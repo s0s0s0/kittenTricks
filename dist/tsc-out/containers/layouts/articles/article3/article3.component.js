@@ -1,9 +1,9 @@
 import React from 'react';
 import { ImageBackground, View, } from 'react-native';
-import { withStyles, } from '../../../../../node_modules/react-native-ui-kitten/theme';
-import { Input, Text, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { CommentsList1 } from '../../../../components/articles';
-import { ContainerView, textStyle, } from '../../../../components/common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Input, Text, } from 'react-native-ui-kitten/ui';
+import { CommentsList1 } from '@src/components/articles';
+import { ContainerView, textStyle, } from '@src/components/common';
 class Article3Component extends React.Component {
     constructor() {
         super(...arguments);

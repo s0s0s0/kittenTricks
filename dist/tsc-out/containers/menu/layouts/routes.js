@@ -1,5 +1,5 @@
-import { MenuIconAuth, MenuIconArticles, MenuIconDashboards, MenuIconEcommerce, MenuIconMessaging, MenuIconSocial, MenuIconAuthDark, MenuIconSocialDark, MenuIconArticlesDark, MenuIconMessagingDark, MenuIconDashboardsDark, MenuIconEcommerceDark, } from '../../../assets/icons';
-import { ThemeService, } from '../../../core/themes';
+import { MenuIconAuth, MenuIconArticles, MenuIconDashboards, MenuIconEcommerce, MenuIconMessaging, MenuIconSocial, MenuIconAuthDark, MenuIconSocialDark, MenuIconArticlesDark, MenuIconMessagingDark, MenuIconDashboardsDark, MenuIconEcommerceDark, } from '@src/assets/icons';
+import { ThemeService, } from '@src/core/themes';
 export const routes = [
     {
         title: 'Auth',

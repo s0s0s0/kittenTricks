@@ -9,9 +9,9 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Text } from '@kitten/ui';
-import { HeartIconFill } from '@src/assets/icons';
+} from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { HeartIconFill } from '../../assets/icons';
 
 interface ComponentProps {
   textStyle?: StyleProp<TextStyle>;

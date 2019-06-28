@@ -5,8 +5,8 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Button } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Button } from 'react-native-ui-kitten/ui';
 import {
   ActivityBar,
   ActivityBarProps,
@@ -14,8 +14,8 @@ import {
   ReactionBar,
   ShareButton,
   textStyle,
-} from '@src/components/common';
-import { PlusIconFill } from '@src/assets/icons';
+} from '../../common';
+import { PlusIconFill } from '../../../assets/icons';
 
 interface ComponentProps {
   onSharePress: () => void;

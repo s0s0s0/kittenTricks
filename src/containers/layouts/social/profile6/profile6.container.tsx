@@ -5,14 +5,14 @@ import {
   Post,
   Profile,
   ProfileSocials,
-} from '@src/core/model';
+} from '../../../../core/model';
 import {
   categorisedProfileActivity1,
   profileSocials1,
   profile5,
-} from '@src/core/data/profile';
+} from '../../../../core/data/profile';
 import { Profile6 } from './profile6.component';
-import { posts } from '@src/core/data/post';
+import { posts } from '../../../../core/data/post';
 
 interface State {
   profile: Profile;

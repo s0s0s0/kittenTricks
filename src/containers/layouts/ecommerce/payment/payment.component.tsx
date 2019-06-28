@@ -7,21 +7,21 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
-import { PaymentCard as PaymentCardModel } from '@src/core/model';
+} from '../../../../components/common';
+import { PaymentCard as PaymentCardModel } from '../../../../core/model';
 import {
   PaymentCard,
   PaymentCardProps,
-} from '@src/components/ecommerce';
-import { CreditCardIconFill } from '@src/assets/icons';
+} from '../../../../components/ecommerce';
+import { CreditCardIconFill } from '../../../../assets/icons';
 
 
 interface ComponentProps {

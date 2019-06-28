@@ -7,21 +7,21 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ProfileSetting,
   ProfilePhoto,
-} from '@src/components/social';
-import { CameraIconFill } from '@src/assets/icons';
-import { Profile } from '@src/core/model';
+} from '../../../../components/social';
+import { CameraIconFill } from '../../../../assets/icons';
+import { Profile } from '../../../../core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 
 interface ComponentProps {
   profile: Profile;

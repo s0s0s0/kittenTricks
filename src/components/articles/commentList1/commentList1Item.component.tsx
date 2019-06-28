@@ -9,18 +9,18 @@ import {
   ListItemProps,
   ListProps,
   Text,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   ActivityAuthoring,
   textStyle,
-} from '@src/components/common';
-import { MoreHorizontalIconFill } from '@src/assets/icons';
-import { Comment as CommentModel } from '@src/core/model';
+} from '../../common';
+import { MoreHorizontalIconFill } from '../../../assets/icons';
+import { Comment as CommentModel } from '../../../core/model';
 import { CommentList2 } from '../commentList2';
 import { ArticleActivityBar } from '../articleActivityBar.component';
 

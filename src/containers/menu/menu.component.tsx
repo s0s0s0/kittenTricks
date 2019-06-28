@@ -1,21 +1,21 @@
 import React from 'react';
-import { SafeAreaView } from '@src/core/navigation';
+import { SafeAreaView } from '../../core/navigation';
 import {
   ThemeProvider,
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   BottomNavigation,
   BottomNavigationTab,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   ColorPaletteIconOutline,
   LayoutIconOutline,
   StarIconOutline,
-} from '@src/assets/icons';
-import { themes } from '@src/core/themes';
+} from '../../assets/icons';
+import { themes } from '../../core/themes';
 
 interface ComponentProps {
   selectedIndex: number;

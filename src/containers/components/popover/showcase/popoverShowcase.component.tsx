@@ -4,13 +4,13 @@ import {
   CheckBoxProps,
   Popover,
   PopoverProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 import {
   PopoverContent,
   PopoverContentProps,
 } from './popoverContent.component';
 import { StyleSheet } from 'react-native';
-import { profile1 } from '@src/core/data/profile';
+import { profile1 } from '../../../../core/data/profile';
 
 interface PopoverShowcaseComponentState {
   visible: boolean;

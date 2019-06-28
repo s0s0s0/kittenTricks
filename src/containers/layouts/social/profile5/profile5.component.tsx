@@ -4,15 +4,15 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Text } from '@kitten/ui';
-import { ProfileParameter } from '@src/components/social';
+} from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { ProfileParameter } from '../../../../components/social';
 import {
   ImageOverlay,
   RateBar,
   textStyle,
-} from '@src/components/common';
-import { Profile } from '@src/core/model';
+} from '../../../../components/common';
+import { Profile } from '../../../../core/model';
 
 interface ComponentProps {
   profile: Profile;

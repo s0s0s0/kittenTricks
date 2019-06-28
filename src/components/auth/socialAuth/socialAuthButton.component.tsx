@@ -9,11 +9,11 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
+} from 'react-native-ui-kitten/theme';
 import {
   Button,
   ButtonProps,
-} from '@kitten/ui';
+} from 'react-native-ui-kitten/ui';
 
 interface ComponentProps {
   iconStyle?: StyleProp<ImageStyle>;

@@ -1,7 +1,7 @@
 import React from 'react';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { Text } from '../../../node_modules/react-native-ui-kitten/ui';
-import { textStyle } from '../common';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
+import { textStyle } from '@src/components/common';
 class MessageContentComponent extends React.Component {
     render() {
         const { themedStyle, message, children } = this.props;

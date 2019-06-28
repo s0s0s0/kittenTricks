@@ -6,7 +6,7 @@ import {
 } from 'expo';
 import { Asset } from 'expo-asset';
 import * as Font from 'expo-font';
-import { LoadingAnimationComponent } from '@src/core/appLoader/loadingAnimation.component';
+import { LoadingAnimationComponent } from './loadingAnimation.component';
 
 export interface Assets {
   images: ImageRequireSource[];

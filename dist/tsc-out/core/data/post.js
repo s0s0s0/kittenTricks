@@ -1,5 +1,5 @@
-import { profile2, profile3, } from './profile';
-import { imagePost1Bg, imagePost2Bg, } from '../../assets/images';
+import { profile2, profile3, } from '@src/core/data/profile';
+import { imagePost1Bg, imagePost2Bg, } from '@src/assets/images';
 export const posts = [
     {
         photo: imagePost2Bg,

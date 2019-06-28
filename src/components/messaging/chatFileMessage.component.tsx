@@ -9,8 +9,8 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Text } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
 import {
   ChatMessage,
   ComponentProps,
@@ -21,7 +21,7 @@ import {
   getContentAlignment,
 } from './type';
 import { getFileComponent } from './file.component';
-import { textStyle } from '@src/components/common';
+import { textStyle } from '../common';
 
 interface FileComponentProps {
   appearance: ChatFileMessageAppearance;

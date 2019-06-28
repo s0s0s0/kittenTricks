@@ -4,22 +4,22 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Button } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Button } from 'react-native-ui-kitten/ui';
 import {
   ProfileInfo1,
   ProfileSocials,
   ProfileActivityList1,
-} from '@src/components/social';
+} from '../../../../components/social';
 import {
   Profile as ProfileModel,
   ProfileSocials as ProfileSocialsModel,
   Post as PostModel,
-} from '@src/core/model';
+} from '../../../../core/model';
 import {
   ContainerView,
   textStyle,
-} from '@src/components/common';
+} from '../../../../components/common';
 
 interface ComponentProps {
   profile: ProfileModel;

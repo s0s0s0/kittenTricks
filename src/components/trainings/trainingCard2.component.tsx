@@ -10,17 +10,17 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { Text } from '@kitten/ui';
+} from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
 import {
   Chips,
   textStyle,
-} from '@src/components/common';
+} from '../common';
 import {
   ClockIconOutline,
   ArrowForwardIconOutline,
-} from '@src/assets/icons';
-import { Exercise } from '@src/core/model/exercise.model';
+} from '../../assets/icons';
+import { Exercise } from '../../core/model/exercise.model';
 
 interface ComponentProps {
   training: Exercise;

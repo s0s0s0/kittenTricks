@@ -1,5 +1,5 @@
 import { profile1, profile2, profile3, profile4, } from './profile';
-import { file1, file2, } from './file';
+import { file1, file2, } from '@src/core/data/file';
 export const message1 = {
     author: profile1,
     text: 'Hey! How are you?',

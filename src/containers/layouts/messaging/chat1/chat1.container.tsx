@@ -6,17 +6,17 @@ import {
 import {
   ChatHeader,
   ChatHeaderNavigationStateParams,
-} from '@src/components/messaging';
+} from '../../../../components/messaging';
 import {
   Conversation,
   Message,
   Profile,
-} from '@src/core/model';
-import { conversation5 } from '@src/core/data/conversation';
+} from '../../../../core/model';
+import { conversation5 } from '../../../../core/data/conversation';
 import {
   profile1,
   profile2,
-} from '@src/core/data/profile';
+} from '../../../../core/data/profile';
 import { Chat1 } from './chat1.component';
 
 interface State {

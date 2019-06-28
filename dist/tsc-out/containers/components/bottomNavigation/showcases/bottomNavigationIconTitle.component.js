@@ -1,6 +1,6 @@
 import React from 'react';
-import { BottomNavigation, BottomNavigationTab, } from '../../../../../node_modules/react-native-ui-kitten/ui';
-import { StarIconFill } from '../../../../assets/icons';
+import { BottomNavigation, BottomNavigationTab, } from 'react-native-ui-kitten/ui';
+import { StarIconFill } from '@src/assets/icons';
 export class BottomNavigationIconTitle extends React.Component {
     constructor() {
         super(...arguments);

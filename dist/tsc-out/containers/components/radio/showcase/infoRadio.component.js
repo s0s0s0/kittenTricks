@@ -1,5 +1,5 @@
 import React from 'react';
-import { Radio, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { Radio, } from 'react-native-ui-kitten/ui';
 class RadioShowcaseComponent extends React.Component {
     constructor() {
         super(...arguments);

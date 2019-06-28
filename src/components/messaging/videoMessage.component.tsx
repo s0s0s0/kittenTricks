@@ -8,9 +8,9 @@ import {
   ThemedComponentProps,
   ThemeType,
   withStyles,
-} from '@kitten/theme';
-import { PlayCircleIconFill } from '@src/assets/icons';
-import { Message } from '@src/core/model';
+} from 'react-native-ui-kitten/theme';
+import { PlayCircleIconFill } from '../../assets/icons';
+import { Message } from '../../core/model';
 import { ChatFileMessageAppearance } from './type';
 
 interface ComponentProps {

@@ -10,7 +10,7 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 import React from 'react';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
+import { withStyles, } from 'react-native-ui-kitten/theme';
 import { KeyboardAwareScrollView, } from 'react-native-keyboard-aware-scroll-view';
 class ScrollableAvoidKeyboardComponent extends React.Component {
     render() {

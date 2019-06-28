@@ -1,4 +1,4 @@
-import { imageTraining1Bg, imageTraining2Bg, imageTraining3Bg, } from '../../assets/images';
+import { imageTraining1Bg, imageTraining2Bg, imageTraining3Bg, } from '@src/assets/images';
 /* tslint:disable */
 export const trainings = [
     {

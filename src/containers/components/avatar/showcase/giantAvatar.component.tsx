@@ -2,8 +2,8 @@ import React from 'react';
 import {
   Avatar,
   AvatarProps,
-} from '@kitten/ui';
-import { imageProfile1 } from '@src/assets/images';
+} from 'react-native-ui-kitten/ui';
+import { imageProfile1 } from '../../../../assets/images';
 
 type AvatarElement = React.ReactElement<AvatarProps>;
 

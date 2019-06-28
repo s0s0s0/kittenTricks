@@ -4,7 +4,7 @@ import {
   imageChat2Layout,
   imageChat3Layout,
   imageConversationListLayout,
-} from '@src/assets/images';
+} from '../../../../assets/images';
 import { MessagingContainerData } from './type';
 
 export const routes: MessagingContainerData[] = [

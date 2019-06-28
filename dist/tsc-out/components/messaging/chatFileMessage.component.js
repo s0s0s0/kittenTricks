@@ -1,11 +1,11 @@
 import React from 'react';
 import { View, } from 'react-native';
-import { withStyles, } from '../../../node_modules/react-native-ui-kitten/theme';
-import { Text } from '../../../node_modules/react-native-ui-kitten/ui';
+import { withStyles, } from 'react-native-ui-kitten/theme';
+import { Text } from 'react-native-ui-kitten/ui';
 import { ChatMessage, } from './chatMessage.component';
 import { Alignments, ChatFileMessageAppearance, getContentAlignment, } from './type';
 import { getFileComponent } from './file.component';
-import { textStyle } from '../common';
+import { textStyle } from '@src/components/common';
 class ChatFileMessageComponent extends React.Component {
     constructor() {
         super(...arguments);

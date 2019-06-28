@@ -2,8 +2,8 @@ import React from 'react';
 import {
   Input,
   InputProps,
-} from '@kitten/ui';
-import { StarIconFill } from '@src/assets/icons';
+} from 'react-native-ui-kitten/ui';
+import { StarIconFill } from '../../../../assets/icons';
 
 type InputElement = React.ReactElement<InputProps>;
 
