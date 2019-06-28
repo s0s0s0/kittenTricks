@@ -77,6 +77,7 @@ class Chat2Component extends React.Component<Chat2ComponentProps> {
   }
 
   private onListContentSizeChange = (): void => {
+    // @ts-ignore
     this.scrollToLastMessageTimeout = setTimeout(this.scrollToLastMessage, 0);
   };
 

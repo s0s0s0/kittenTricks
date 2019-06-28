@@ -1,0 +1,9 @@
+import React from 'react';
+import { Text, } from '../../../../../node_modules/react-native-ui-kitten/ui';
+import { textStyle } from '../../../../components/common';
+export const C1Text = () => {
+    return (<Text style={textStyle.caption1} category='c1'>
+      Sample Text
+    </Text>);
+};
+//# sourceMappingURL=c1Text.component.js.map

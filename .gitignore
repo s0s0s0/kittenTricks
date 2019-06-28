@@ -27,4 +27,3 @@ config/index.js
 
 .expo
 .expo-shared/
-dist
